@@ -8,8 +8,8 @@
     $border: $color-grey;
     $color-primary: $color-primary-blue;
 
-    .pool {
-      @include rgba($color-black, .035);
+    .officefootball {
+      @include rgba($color-black, .05);
 
       .holder {
         @include bp(bp-small) {
@@ -37,9 +37,11 @@
         margin-bottom: 1em;
 
         li {
+          @include flexbox;
           margin-bottom: $margin;
-          border-radius: $border-radius $border-radius 0 0;
+          border-radius: $border-radius;
           border: 1px solid $border;
+          background-color: $color-white;
           box-shadow: inset 0 1px 0 white;
         }
 

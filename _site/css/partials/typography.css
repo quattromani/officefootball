@@ -91,7 +91,7 @@ a {
   vertical-align: baseline;
   font-family: inherit;
   font-weight: 700;
-  color: #ef272d;
+  color: #0099ed;
   text-decoration: none;
   cursor: pointer;
   will-change: transition;
@@ -102,7 +102,7 @@ a img {
   text-decoration: none;
 }
 a:hover {
-  color: #d31016;
+  color: #0078ba;
 }
 a.muted, .muted a {
   color: #e6e6e6;

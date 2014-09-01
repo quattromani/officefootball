@@ -636,10 +636,10 @@ nav ul {
 
 .color-link,
 .bg-link {
-  background-color: #ef272d; }
+  background-color: #0099ed; }
 
 .text-link {
-  color: #ef272d; }
+  color: #0099ed; }
 
 .color-info,
 .bg-info {
@@ -921,7 +921,7 @@ a {
   vertical-align: baseline;
   font-family: inherit;
   font-weight: 700;
-  color: #ef272d;
+  color: #0099ed;
   text-decoration: none;
   cursor: pointer;
   will-change: transition;
@@ -931,7 +931,7 @@ a {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: #d31016; }
+    color: #0078ba; }
   a.muted, .muted a {
     color: #e6e6e6; }
 
@@ -2175,7 +2175,7 @@ button,
   font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-align: center;
-  color: #ef272d;
+  color: #0099ed;
   cursor: pointer; }
   .btn:hover,
   .button:hover,
@@ -2998,33 +2998,38 @@ hr {
 /* ==========================================================================
     Pool -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
-.pool {
-  background: rgba(0, 0, 0, 0.035); }
-  .ie .pool {
+.officefootball {
+  background: rgba(0, 0, 0, 0.05); }
+  .ie .officefootball {
     background: transparent;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#09000000, endColorstr=#09000000)";
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#09000000,endColorstr=#09000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0D000000, endColorstr=#0D000000)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0D000000,endColorstr=#0D000000);
     zoom: 1; }
   @media (max-width: 40em) {
-    .pool .holder {
+    .officefootball .holder {
       border: none; } }
-  .pool h1 {
+  .officefootball h1 {
     text-align: center; }
-  .pool .half {
+  .officefootball .half {
     text-align: center; }
-    .pool .half:first-child {
+    .officefootball .half:first-child {
       border-right: 1px solid #cccccc; }
-  .pool .formitem {
+  .officefootball .formitem {
     margin-bottom: .5em; }
-  .pool .matches {
+  .officefootball .matches {
     margin-bottom: 1em; }
-    .pool .matches li {
+    .officefootball .matches li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
       margin-bottom: 1em;
-      border-radius: 5px 5px 0 0;
+      border-radius: 5px;
       border: 1px solid #cccccc;
+      background-color: white;
       -webkit-box-shadow: inset 0 1px 0 white;
       box-shadow: inset 0 1px 0 white; }
-    .pool .matches input ~ label {
+    .officefootball .matches input ~ label {
       display: inline-block;
       *zoom: 1;
       *display: inline;
@@ -3041,34 +3046,34 @@ hr {
       -webkit-transition: all 0.2s ease;
       transition: all 0.2s ease; }
       @media (max-width: 40em) {
-        .pool .matches input ~ label {
+        .officefootball .matches input ~ label {
           line-height: normal; } }
-      .pool .matches input ~ label:before, .pool .matches input ~ label:after {
+      .officefootball .matches input ~ label:before, .officefootball .matches input ~ label:after {
         content: none; }
       @media (max-width: 40em) {
-        .pool .matches input ~ label img {
+        .officefootball .matches input ~ label img {
           display: block;
           float: none !important;
           height: 40px;
           margin: 0 auto; } }
-    .pool .matches input:checked ~ label {
+    .officefootball .matches input:checked ~ label {
       background: rgba(62, 182, 51, 0.25);
       font-weight: 700;
       color: #308e28; }
-      .ie .pool .matches input:checked ~ label {
+      .ie .officefootball .matches input:checked ~ label {
         background: transparent;
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633, endColorstr=#403EB633)";
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633,endColorstr=#403EB633);
         zoom: 1; }
-    .pool .matches input.radio:empty ~ label {
+    .officefootball .matches input.radio:empty ~ label {
       text-indent: 0; }
-    .pool .matches .total_score, .pool .matches input.total_score {
+    .officefootball .matches .total_score, .officefootball .matches input.total_score {
       display: block;
       margin: .5em auto;
       text-align: center; }
-    .pool .matches input.total_score {
+    .officefootball .matches input.total_score {
       width: 100px; }
-    .pool .matches .location {
+    .officefootball .matches .location {
       padding-top: 0.5em;
       padding-right: 0.5em;
       padding-bottom: 0.5em;
