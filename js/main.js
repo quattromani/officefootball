@@ -92,7 +92,7 @@ var week_number = week + plus_one;
 // Get JSON
 $.ajax({
   dataType: 'json',
-  url: '/json/nfl2014.json',
+  url: '/json/nfl2014.min.json',
   success: function(data) {
     // Label the week
     $('<span class="text-center">Week '+week_number+'</span>').appendTo('h1');
