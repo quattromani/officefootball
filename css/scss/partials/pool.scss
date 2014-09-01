@@ -36,6 +36,10 @@
       .matches {
         margin-bottom: 1em;
 
+        .row {
+          @include box-shadow(0 4px 2px -2px $border);
+        }
+
         li {
           @include flexbox;
           margin-bottom: $margin;
@@ -50,12 +54,13 @@
             @include inline-block;
             width: 100%;
             @include padding($padding);
-            background-color: #eaeaea;
             font-weight: bold;
             vertical-align:middle;
-            line-height: 48px; // magic number - height of image
+            color: #666;
+            line-height: 50px; // magic number - height of image
             -webkit-transition: all 0.2s ease;
             transition: all 0.2s ease;
+            text-transform: uppercase;
 
             @include bp(bp-small) {
               line-height: normal;
@@ -67,6 +72,14 @@
             }
 
             img {
+              -webkit-filter: grayscale(90%);
+              -moz-filter: grayscale(90%);
+              -ms-filter: grayscale(90%);
+              -o-filter: grayscale(90%);
+              filter: grayscale(90%);
+              filter: url(grayscale.svg);
+              filter: gray;
+
               @include bp(bp-small) {
                 display: block;
                 float: none !important;
@@ -80,7 +93,15 @@
             & ~ label {
               @include rgba($color-primary-green, .25);
               font-weight: 700;
-              color: $color-secondary-green;
+              color: $color-secondary-blue;
+
+              img {
+                -webkit-filter: grayscale(0);
+                -moz-filter: grayscale(0);
+                -ms-filter: grayscale(0);
+                -o-filter: grayscale(0);
+                filter: grayscale(0);
+              }
             }
           }
 
@@ -103,8 +124,6 @@
         .location {
           @include padding(.5em);
           border-top: 1px solid $border;
-          background-color: $color-primary-blue;
-          color: $color-white;
           text-align: center;
         }
       }

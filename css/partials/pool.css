@@ -30,6 +30,11 @@
 .officefootball .matches {
   margin-bottom: 1em;
 }
+.officefootball .matches .row {
+  -webkit-box-shadow: 0 4px 2px -2px #cccccc;
+  -moz-box-shadow: 0 4px 2px -2px #cccccc;
+  box-shadow: 0 4px 2px -2px #cccccc;
+}
 .officefootball .matches li {
   display: -webkit-box;
   display: -moz-box;
@@ -52,12 +57,13 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  background-color: #eaeaea;
   font-weight: bold;
   vertical-align: middle;
-  line-height: 48px;
+  color: #666;
+  line-height: 50px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  text-transform: uppercase;
 }
 @media (max-width: 40em) {
   .officefootball .matches input ~ label {
@@ -66,6 +72,15 @@
 }
 .officefootball .matches input ~ label:before, .officefootball .matches input ~ label:after {
   content: none;
+}
+.officefootball .matches input ~ label img {
+  -webkit-filter: grayscale(90%);
+  -moz-filter: grayscale(90%);
+  -ms-filter: grayscale(90%);
+  -o-filter: grayscale(90%);
+  filter: grayscale(90%);
+  filter: url(grayscale.svg);
+  filter: gray;
 }
 @media (max-width: 40em) {
   .officefootball .matches input ~ label img {
@@ -78,13 +93,20 @@
 .officefootball .matches input:checked ~ label {
   background: rgba(62, 182, 51, 0.25);
   font-weight: 700;
-  color: #308e28;
+  color: #0078ba;
 }
 .ie .officefootball .matches input:checked ~ label {
   background: transparent;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633, endColorstr=#403EB633)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633,endColorstr=#403EB633);
   zoom: 1;
+}
+.officefootball .matches input:checked ~ label img {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
 }
 .officefootball .matches input.radio:empty ~ label {
   text-indent: 0;
@@ -103,7 +125,5 @@
   padding-bottom: 0.5em;
   padding-left: 0.5em;
   border-top: 1px solid #cccccc;
-  background-color: #0099ed;
-  color: white;
   text-align: center;
 }

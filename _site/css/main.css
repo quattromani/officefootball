@@ -24,7 +24,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html {
   height: 100%;
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -875,7 +875,7 @@ nav ul {
   font-weight: normal;
   font-style: "normal"; }
 .base-font {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; }
 
 .base-font-alt {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
@@ -940,7 +940,7 @@ a {
    ========================== */
 h1,
 .h1 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200; }
@@ -957,7 +957,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200; }
@@ -974,7 +974,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700; }
@@ -991,21 +991,21 @@ h3,
 
 h4,
 .h4 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200; }
 
 h5,
 .h5 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700; }
 
 h6,
 .h6 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100; }
@@ -1044,7 +1044,7 @@ blockquote {
 
 p,
 .p {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   word-wrap: break-word; }
   p:only-child,
   .p:only-child {
@@ -1141,7 +1141,7 @@ samp {
 
 .logo_slash,
 .division {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   color: #ef272d;
@@ -2172,7 +2172,7 @@ button,
   background: none;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: 700;
   text-align: center;
   color: #0099ed;
@@ -2445,7 +2445,7 @@ label + .pill,
   background: #cccccc;
   font-size: 13px;
   font-size: 1.3rem;
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-weight: 700;
@@ -2743,7 +2743,7 @@ input[type="range"] {
     height: 1em; }
 
 input::-webkit-datetime-edit-fields-wrapper {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; }
 
 select,
 datalist,
@@ -3018,6 +3018,9 @@ hr {
     margin-bottom: .5em; }
   .officefootball .matches {
     margin-bottom: 1em; }
+    .officefootball .matches .row {
+      -webkit-box-shadow: 0 4px 2px -2px #cccccc;
+      box-shadow: 0 4px 2px -2px #cccccc; }
     .officefootball .matches li {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3039,32 +3042,49 @@ hr {
       padding-right: 1em;
       padding-bottom: 1em;
       padding-left: 1em;
-      background-color: #eaeaea;
       font-weight: bold;
       vertical-align: middle;
-      line-height: 48px;
+      color: #666;
+      line-height: 50px;
       -webkit-transition: all 0.2s ease;
-      transition: all 0.2s ease; }
+      transition: all 0.2s ease;
+      text-transform: uppercase; }
       @media (max-width: 40em) {
         .officefootball .matches input ~ label {
           line-height: normal; } }
       .officefootball .matches input ~ label:before, .officefootball .matches input ~ label:after {
         content: none; }
-      @media (max-width: 40em) {
-        .officefootball .matches input ~ label img {
-          display: block;
-          float: none !important;
-          height: 40px;
-          margin: 0 auto; } }
+      .officefootball .matches input ~ label img {
+        -webkit-filter: grayscale(90%);
+        -moz-filter: grayscale(90%);
+        -ms-filter: grayscale(90%);
+        -o-filter: grayscale(90%);
+        filter: grayscale(90%);
+        -webkit-filter: url(grayscale.svg);
+        filter: url(grayscale.svg);
+        -webkit-filter: gray;
+        filter: gray; }
+        @media (max-width: 40em) {
+          .officefootball .matches input ~ label img {
+            display: block;
+            float: none !important;
+            height: 40px;
+            margin: 0 auto; } }
     .officefootball .matches input:checked ~ label {
       background: rgba(62, 182, 51, 0.25);
       font-weight: 700;
-      color: #308e28; }
+      color: #0078ba; }
       .ie .officefootball .matches input:checked ~ label {
         background: transparent;
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633, endColorstr=#403EB633)";
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633,endColorstr=#403EB633);
         zoom: 1; }
+      .officefootball .matches input:checked ~ label img {
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        filter: grayscale(0); }
     .officefootball .matches input.radio:empty ~ label {
       text-indent: 0; }
     .officefootball .matches .total_score, .officefootball .matches input.total_score {
@@ -3079,8 +3099,6 @@ hr {
       padding-bottom: 0.5em;
       padding-left: 0.5em;
       border-top: 1px solid #cccccc;
-      background-color: #0099ed;
-      color: white;
       text-align: center; }
 
 /* ==========================================================================
