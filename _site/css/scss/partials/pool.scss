@@ -79,6 +79,7 @@
               filter: grayscale(90%);
               filter: url(grayscale.svg);
               filter: gray;
+              @include opacity(.25);
 
               @include bp(bp-small) {
                 display: block;
@@ -91,7 +92,6 @@
 
           &:checked {
             & ~ label {
-              @include rgba($color-primary-green, .25);
               font-weight: 700;
               color: $color-secondary-blue;
 
@@ -101,6 +101,7 @@
                 -ms-filter: grayscale(0);
                 -o-filter: grayscale(0);
                 filter: grayscale(0);
+                @include opacity(1);
               }
             }
           }

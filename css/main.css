@@ -3063,7 +3063,12 @@ hr {
         -webkit-filter: url(grayscale.svg);
         filter: url(grayscale.svg);
         -webkit-filter: gray;
-        filter: gray; }
+        filter: gray;
+        filter: alpha(opacity=25);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+        -moz-opacity: 0.25;
+        -khtml-opacity: 0.25;
+        opacity: 0.25; }
         @media (max-width: 40em) {
           .officefootball .matches input ~ label img {
             display: block;
@@ -3071,20 +3076,19 @@ hr {
             height: 40px;
             margin: 0 auto; } }
     .officefootball .matches input:checked ~ label {
-      background: rgba(62, 182, 51, 0.25);
       font-weight: 700;
       color: #0078ba; }
-      .ie .officefootball .matches input:checked ~ label {
-        background: transparent;
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633, endColorstr=#403EB633)";
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#403EB633,endColorstr=#403EB633);
-        zoom: 1; }
       .officefootball .matches input:checked ~ label img {
         -webkit-filter: grayscale(0);
         -moz-filter: grayscale(0);
         -ms-filter: grayscale(0);
         -o-filter: grayscale(0);
-        filter: grayscale(0); }
+        filter: grayscale(0);
+        filter: alpha(opacity=100);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1; }
     .officefootball .matches input.radio:empty ~ label {
       text-indent: 0; }
     .officefootball .matches .total_score, .officefootball .matches input.total_score {
