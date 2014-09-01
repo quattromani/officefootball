@@ -1,0 +1,109 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Pool -- Version: 0.2.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    $border: $color-grey;
+    $color-primary: $color-primary-blue;
+
+    .pool {
+      @include rgba($color-black, .035);
+
+      .holder {
+        @include bp(bp-small) {
+          border: none;
+        }
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .half {
+        text-align: center;
+
+        &:first-child {
+          border-right: 1px solid $border;
+        }
+      }
+
+      .formitem {
+        margin-bottom: .5em;
+      }
+
+      .matches {
+        margin-bottom: 1em;
+
+        li {
+          margin-bottom: $margin;
+          border-radius: $border-radius $border-radius 0 0;
+          border: 1px solid $border;
+          box-shadow: inset 0 1px 0 white;
+        }
+
+        input {
+          & ~ label {
+            @include inline-block;
+            width: 100%;
+            @include padding($padding);
+            background-color: #eaeaea;
+            font-weight: bold;
+            vertical-align:middle;
+            line-height: 48px; // magic number - height of image
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+
+            @include bp(bp-small) {
+              line-height: normal;
+            }
+
+            &:before,
+            &:after {
+              content: none;
+            }
+
+            img {
+              @include bp(bp-small) {
+                display: block;
+                float: none !important;
+                height: 40px;
+                margin: 0 auto;
+              }
+            }
+          }
+
+          &:checked {
+            & ~ label {
+              @include rgba($color-primary-green, .25);
+              font-weight: 700;
+              color: $color-secondary-green;
+            }
+          }
+
+          &.radio:empty ~ label {
+            text-indent: 0;
+          }
+        }
+
+        .total_score {
+          display: block;
+          margin: .5em auto;
+          text-align: center;
+        }
+
+        input.total_score {
+          @extend .total_score;
+          width: 100px;
+        }
+
+        .location {
+          @include padding(.5em);
+          border-top: 1px solid $border;
+          background-color: $color-primary-blue;
+          color: $color-white;
+          text-align: center;
+        }
+      }
+    }

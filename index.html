@@ -1,0 +1,47 @@
+---
+layout: default
+title: Pool
+class: pool
+---
+
+<div class="holder">
+  <h1></h1>
+
+  <hr>
+
+  <form action="//forms.brace.io/max@maxquattromani.com" method="post" id="weekly">
+    <div class="hidden"></div>
+    <div class="row">
+      <div class="formitem name">
+        <label for="name" class="required">Name:</label>
+        <input id="name" type="text" name="name" pattern="[a-zA-Z0-9\s]+" autocomplete="name" tabindex="1" required>
+        <span title="Please enter your Name"></span>
+      </div>
+      <div class="formitem email">
+        <label for="email" class="required">Email Address:</label>
+        <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" autocomplete="email" tabindex="2" required>
+        <span title="Please enter your Email Address"></span>
+      </div>
+    </div>
+
+    <div class="row marginless">
+      <div class="half"><h4>Away</h4></div>
+      <div class="half"><h4>Home</h4></div>
+    </div>
+
+    <h4></h4>
+    <fieldset>
+      <ul class="vertical lined matches">
+        <h5></h5>
+      </ul>
+    </fieldset>
+    <!-- /.matches -->
+
+    <button class="btn btn-primary" type="submit" name="submit" value="submit">
+      <span>Submit</span>
+    </button>
+    <button type="reset" name="reset" value="reset">
+      <span>Clear</span>
+    </button>
+  </form>
+</div>
