@@ -2,7 +2,7 @@ name: Office Football
 author: Max Quattromani
 markdown: redcarpet
 highlighter: true
-baseurl: /officefootball
+baseurl:
 google_analytics: false
 google_analytics_id: UA-XXXXXXXX-1
 jquery_version: 1.9.0
