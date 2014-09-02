@@ -221,7 +221,4 @@ $.ajax({
 
 $("#weekly").on("submit", function () {
   $('<fieldset><input type="hidden" name="Week" value="Week '+week_number+'"></fieldset>').appendTo('.hidden');
-  if ($('#fillit').val().length != 0) {
-    retun false;
-  }
 });

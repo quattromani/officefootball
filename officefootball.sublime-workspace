@@ -97,6 +97,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/css/scss/partials/forms.scss",
+		"/Users/Q/Sites/officefootball/_includes/head.html",
+		"/Users/Q/Sites/officefootball/index.html",
 		"/Users/Q/Sites/officefootball/css/scss/partials/pool.scss",
 		"/Users/Q/Sites/officefootball/thanks/index.html",
 		"/Users/Q/Desktop/officefootball/CNAME",
@@ -221,10 +224,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
-		"/Users/Q/Sites/scaffold/_includes/patterns/tables/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
-		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html"
+		"/Users/Q/Sites/scaffold/_includes/patterns/tables/index.html"
 	],
 	"find":
 	{
