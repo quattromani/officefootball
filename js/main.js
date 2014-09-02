@@ -46,42 +46,42 @@ var week18 = new Date('12/23/2014');
 var today = new Date();
 if (week1 > today) {
   var week = 0;
-} if (week1 < today) {
+} if (week1 <= today) {
+  var week = 0;
+} if (week2 <= today) {
   var week = 1;
-} if (week2 < today) {
+} if (week3 <= today) {
   var week = 2;
-} if (week3 < today) {
+} if (week4 <= today) {
   var week = 3;
-} if (week4 < today) {
+} if (week5 <= today) {
   var week = 4;
-} if (week5 < today) {
+} if (week6 <= today) {
   var week = 5;
-} if (week6 < today) {
+} if (week7 <= today) {
   var week = 6;
-} if (week7 < today) {
+} if (week8 <= today) {
   var week = 7;
-} if (week8 < today) {
+} if (week9 <= today) {
   var week = 8;
-} if (week9 < today) {
+} if (week10 <= today) {
   var week = 9;
-} if (week10 < today) {
+} if (week11 <= today) {
   var week = 10;
-} if (week11 < today) {
+} if (week12 <= today) {
   var week = 11;
-} if (week12 < today) {
+} if (week13 <= today) {
   var week = 12;
-} if (week13 < today) {
+} if (week14 <= today) {
   var week = 13;
-} if (week14 < today) {
+} if (week15 <= today) {
   var week = 14;
-} if (week15 < today) {
+} if (week16 <= today) {
   var week = 15;
-} if (week16 < today) {
+} if (week17 <= today) {
   var week = 16;
-} if (week17 < today) {
+} if (week18 <= today) {
   var week = 17;
-} if (week18 < today) {
-  var week = 18;
 } else {
 
 }
