@@ -39,7 +39,7 @@
 
   <hr>
 
-  <form action="http://forms.brace.io/max@maxquattromani.com" method="POST" id="weekly">
+  <form action="//forms.brace.io/max@maxquattromani.com" method="POST" id="weekly">
     <div class="hidden"></div>
     <div class="row">
       <div class="formitem name">
@@ -49,7 +49,7 @@
       </div>
       <div class="formitem email">
         <label for="email" class="required"><i class="fa fa-envelope"></i> Email Address:</label>
-        <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" name="_cc" autocomplete="email" tabindex="2" required>
+        <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" name="_replyto" autocomplete="email" tabindex="2" required>
         <span title="Please enter your Email Address"></span>
       </div>
     </div>
@@ -66,8 +66,13 @@
     </fieldset>
     <!-- /.matches -->
 
+    <div id="fillit">
+      If you see this, leave this form field blank.
+      <input id="improve" type="text" name="confirm" value="">
+    </div>
+
     <p>By submitting your picks, you acknowledge that you will pay into the pool as agreed.</p>
-    <input type="hidden" name="_next" value="http://officefootball.club/thanks">
+    <input type="hidden" name="_next" value="http://officefootball.club/thanks" />
     <button class="btn btn-primary" type="submit" name="submit" value="submit">
       <span>Submit</span>
     </button>
