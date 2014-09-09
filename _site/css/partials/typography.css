@@ -264,7 +264,7 @@ blockquote {
   margin-bottom: 0;
   margin-left: auto;
   border-left: 3px solid currentColor;
-  color: #cccccc;
+  color: #ccc;
   font-style: italic;
   padding-left: 1em;
 }
@@ -367,3 +367,5 @@ samp {
   left: -.1em;
   color: #b3b3b3;
 }
+
+/*# sourceMappingURL=typography.css.map */

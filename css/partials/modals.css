@@ -40,9 +40,9 @@
   z-index: 99999;
 }
 .modal .modal-container > .modal-content {
-  -webkit-box-shadow: 0 0 5px 2px #555555;
-  -moz-box-shadow: 0 0 5px 2px #555555;
-  box-shadow: 0 0 5px 2px #555555;
+  -webkit-box-shadow: 0 0 5px 2px #555;
+  -moz-box-shadow: 0 0 5px 2px #555;
+  box-shadow: 0 0 5px 2px #555;
 }
 .modal .modal-close {
   position: absolute;
@@ -97,3 +97,5 @@
   background-clip: padding-box;
   background: #f0f2f5;
 }
+
+/*# sourceMappingURL=modals.css.map */
