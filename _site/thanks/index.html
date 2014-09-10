@@ -54,13 +54,14 @@
     <div class="row">
       <div class="formitem email">
         <label for="email" class="required"><i class="fa fa-envelope"></i> Email Address:</label>
-        <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" name="_replyto" autocomplete="email" tabindex="1" required>
+        <input id="email" type="email" name="_replyto" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="milk@cereal.com" autocomplete="email" tabindex="1" required>
       </div>
       <div class="formitem">
         <label for="message" class="required"><i class="fa fa-comment"></i> Feedback:</label>
         <textarea name="message" rows="5" required></textarea>
       </div>
       <input type="hidden" name="_next" value="http://officefootball.club/thanks_again/" />
+      <input type="text" name="_gotcha" style="display:none">
       <button class="btn btn-primary" type="submit">Send</button>
     </form>
   </div>
