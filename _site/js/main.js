@@ -171,7 +171,7 @@ $("#weekly").on("submit", function () {
 
 // capture the submitters email and put it in as the _cc value
 $(function() {
-  $('#email').blur(function() {
+  $('#email').change(function() {
     var value = $(this).val();
     $('#copy') .val(value);
   });
