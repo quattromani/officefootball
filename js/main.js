@@ -168,3 +168,11 @@ $.ajax({
 $("#weekly").on("submit", function () {
   $('<fieldset><input type="hidden" name="Week" value="Week '+week_number+'"></fieldset>').appendTo('.hidden');
 });
+
+// capture the submitters email and put it in as the _cc value
+$(function() {
+  $('#email').keyup(function() {
+    var value = $(this).val();
+    $('#copy') .val(value);
+  });
+});
