@@ -97,10 +97,13 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/officefootball/thanks_again/index.html",
 		"/Users/Q/Sites/officefootball/index.html",
-		"/Users/Q/Sites/officefootball/thanks/index.html",
 		"/Users/Q/Sites/officefootball/_includes/footer.html",
+		"/Users/Q/Sites/officefootball/_data/changelog.yml",
+		"/Users/Q/Sites/officefootball/_config.yml",
+		"/Users/Q/Sites/officefootball/js/main.js",
+		"/Users/Q/Sites/officefootball/thanks_again/index.html",
+		"/Users/Q/Sites/officefootball/thanks/index.html",
 		"/Users/Q/Sites/officefootball/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
 		"/Users/Q/Sites/officefootball/css/scss/partials/pool.scss",
@@ -221,14 +224,11 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/audio.scss",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss"
+		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html"
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -248,6 +248,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_cc",
 			"slick",
 			"slcik",
 			"ay){",
@@ -374,8 +375,7 @@
 			"progre",
 			"border: none;",
 			"@import \"../globals/allGlobals\";",
-			"butt",
-			"link"
+			"butt"
 		],
 		"highlight": true,
 		"in_selection": false,

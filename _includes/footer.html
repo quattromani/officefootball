@@ -10,7 +10,7 @@
           <br><br>
           <ul>
             {% for change in site.data.changelog %}
-            <li><span class="pill-success">{{ change.version }}</span> {{ change.description }}</li>
+            <li><span class="pill-success">{{ change.version }}</span> {{ change.description }} ~[{{ change.requestor }}]</li>
             {% endfor %}
           </ul>
         </li>
