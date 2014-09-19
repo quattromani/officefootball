@@ -97,6 +97,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/css/scss/partials/footer.scss",
 		"/Users/Q/Sites/officefootball/index.html",
 		"/Users/Q/Sites/officefootball/_includes/footer.html",
 		"/Users/Q/Sites/officefootball/_data/changelog.yml",
@@ -223,8 +224,7 @@
 		"/Users/Q/Sites/scaffold/sandbox/compliance/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html"
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss"
 	],
 	"find":
 	{
