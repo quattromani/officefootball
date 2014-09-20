@@ -3104,6 +3104,20 @@ hr {
       padding-left: 0.5em;
       border-top: 1px solid #ccc;
       text-align: center; }
+  .officefootball table tr {
+    display: block;
+    margin-bottom: .5em;
+    border-bottom: 1px dashed #ccc; }
+    .officefootball table tr:nth-child(-n+10) {
+      border: none;
+      background: #3eb633;
+      color: #fff;
+      font-weight: bold; }
+  .officefootball table td {
+    display: inline-block;
+    width: 100%; }
+  .officefootball .player {
+    text-transform: uppercase; }
   .officefootball footer {
     margin-bottom: 1em; }
 

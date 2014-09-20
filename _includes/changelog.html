@@ -1,0 +1,19 @@
+
+    <hr>
+
+    <div class="container">
+
+      <h6>CHANGELOG</h6>
+      <ul>
+        <li>
+          <b>Version {{ site.version }}</b>
+          <br><br>
+          <ul>
+            {% for change in site.data.changelog %}
+            <li><span class="pill-success">{{ change.version }}</span> {{ change.description }} ~[{{ change.requestor }}]</li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+
+    </div>
