@@ -1,3 +1,7 @@
 - version: 0.1
   description: "Copy of picks sent to submitter"
   requestor: rhagerty
+
+- version: 0.2
+  description: "Added Season Leaderboard page"
+  requestor: mquattromani

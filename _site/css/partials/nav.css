@@ -1,6 +1,10 @@
 /* ==========================================================================
     Nav -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
+nav {
+  border-botom: 1px solid #ccc;
+  background-color: #fff;
+}
 nav .container {
   display: table;
   width: 100%;
@@ -11,7 +15,12 @@ nav ul {
 }
 nav ul li {
   display: table-cell;
-  width: 20%;
+  width: 50%;
+  padding-top: 2em;
+  padding-right: 0;
+  padding-bottom: 1em;
+  padding-left: 0;
+  text-align: center;
 }
 
 /*# sourceMappingURL=nav.css.map */

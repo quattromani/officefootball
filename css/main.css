@@ -525,16 +525,24 @@ hr {
 /* Modules */
 /* ==========================================================================
     Nav -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
-nav .container {
-  display: table;
-  width: 100%; }
-nav ul {
-  display: table-row;
-  width: 100%; }
-  nav ul li {
-    display: table-cell;
-    width: 20%; }
+    ========================================================================== */
+nav {
+  border-botom: 1px solid #ccc;
+  background-color: #fff; }
+  nav .container {
+    display: table;
+    width: 100%; }
+  nav ul {
+    display: table-row;
+    width: 100%; }
+    nav ul li {
+      display: table-cell;
+      width: 50%;
+      padding-top: 2em;
+      padding-right: 0;
+      padding-bottom: 1em;
+      padding-left: 0;
+      text-align: center; }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
