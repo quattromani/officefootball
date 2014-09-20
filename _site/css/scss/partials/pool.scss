@@ -130,29 +130,46 @@
         }
       }
 
-      table {
+      &.leaderboard {
+        .trophy {
+          width: 72px;
+          height: 72px;
+          margin: 0 auto;
+          background-image: url(/images/trophy.png);
+        }
 
-        tr {
-          display: block;
-          margin-bottom: .5em;
-          border-bottom: 1px dashed $color-grey;
+        h2,
+        .player-count,
+        .season-pot,
+        h4 {
+          display: inline-block;
+          width: 100%;
+          text-align: center;
+        }
 
-          &:nth-child(-n+10) {
-            border: none;
-            background: $color-primary-green;
-            color: $color-white;
-            font-weight: bold;
+        table {
+          tr {
+            display: block;
+            margin-bottom: .5em;
+            border-bottom: 1px dashed $color-grey;
+
+            &:nth-child(-n+10) {
+              border: none;
+              background: $color-primary-green;
+              color: $color-white;
+              font-weight: bold;
+            }
+          }
+
+          td {
+            display: inline-block;
+            width: 100%;
           }
         }
 
-        td {
-          display: inline-block;
-          width: 100%;
+        .player {
+          text-transform: uppercase;
         }
-      }
-
-      .player {
-        text-transform: uppercase;
       }
 
       footer {

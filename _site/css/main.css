@@ -3104,19 +3104,31 @@ hr {
       padding-left: 0.5em;
       border-top: 1px solid #ccc;
       text-align: center; }
-  .officefootball table tr {
+  .officefootball.leaderboard .trophy {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    background-image: url(/images/trophy.png); }
+  .officefootball.leaderboard h2,
+  .officefootball.leaderboard .player-count,
+  .officefootball.leaderboard .season-pot,
+  .officefootball.leaderboard h4 {
+    display: inline-block;
+    width: 100%;
+    text-align: center; }
+  .officefootball.leaderboard table tr {
     display: block;
     margin-bottom: .5em;
     border-bottom: 1px dashed #ccc; }
-    .officefootball table tr:nth-child(-n+10) {
+    .officefootball.leaderboard table tr:nth-child(-n+10) {
       border: none;
       background: #3eb633;
       color: #fff;
       font-weight: bold; }
-  .officefootball table td {
+  .officefootball.leaderboard table td {
     display: inline-block;
     width: 100%; }
-  .officefootball .player {
+  .officefootball.leaderboard .player {
     text-transform: uppercase; }
   .officefootball footer {
     margin-bottom: 1em; }
