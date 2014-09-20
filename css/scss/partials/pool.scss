@@ -153,6 +153,10 @@
             margin-bottom: .5em;
             border-bottom: 1px dashed $color-grey;
 
+            &:last-child {
+              border: none;
+            }
+
             &:nth-child(-n+10) {
               border: none;
               background: $color-primary-green;

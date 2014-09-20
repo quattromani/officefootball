@@ -21,7 +21,7 @@
         li {
           display: table-cell;
           width: (100% / $nav-items);
-          @include padding(2em, 0, 1em);
+          @include padding(1em, 0);
           text-align: center;
         }
       }

@@ -5,3 +5,7 @@
 - version: 0.2
   description: "Added Season Leaderboard page"
   requestor: mquattromani
+
+- version: 0.3
+  description: "Simple Nav to support new pages"
+  requestor: mquattromani

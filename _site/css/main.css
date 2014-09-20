@@ -538,7 +538,7 @@ nav {
     nav ul li {
       display: table-cell;
       width: 50%;
-      padding-top: 2em;
+      padding-top: 1em;
       padding-right: 0;
       padding-bottom: 1em;
       padding-left: 0;
@@ -3128,6 +3128,8 @@ hr {
     display: block;
     margin-bottom: .5em;
     border-bottom: 1px dashed #ccc; }
+    .officefootball.leaderboard table tr:last-child {
+      border: none; }
     .officefootball.leaderboard table tr:nth-child(-n+10) {
       border: none;
       background: #3eb633;
