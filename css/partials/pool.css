@@ -188,7 +188,7 @@
   color: #454545;
 }
 .officefootball.leaderboard table tr.header .rank {
-  border: none;
+  border-right: none;
 }
 .officefootball.leaderboard table tr:last-child {
   border: none;
