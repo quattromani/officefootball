@@ -185,6 +185,20 @@
               overflow: visible;
             }
 
+            &.header {
+              margin: 0;
+              background: none;
+
+              td {
+                background: none;
+                color: $text;
+              }
+
+              .rank {
+                border: none;
+              }
+            }
+
             &:last-child {
               border: none;
             }

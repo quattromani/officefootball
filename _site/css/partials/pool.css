@@ -179,6 +179,17 @@
   white-space: nowrap;
   overflow: visible;
 }
+.officefootball.leaderboard table tr.header {
+  margin: 0;
+  background: none;
+}
+.officefootball.leaderboard table tr.header td {
+  background: none;
+  color: #454545;
+}
+.officefootball.leaderboard table tr.header .rank {
+  border: none;
+}
 .officefootball.leaderboard table tr:last-child {
   border: none;
 }
