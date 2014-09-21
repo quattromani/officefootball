@@ -139,6 +139,20 @@
   margin: 0 auto;
   background-image: url(/images/trophy.png);
 }
+.officefootball.leaderboard .trophy:hover {
+  -webkit-animation: rotate 2s forwards;
+  animation: rotate 2s forwards;
+}
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .officefootball.leaderboard h2,
 .officefootball.leaderboard .player-count,
 .officefootball.leaderboard .season-pot,
@@ -152,19 +166,16 @@
 }
 .officefootball.leaderboard table tr {
   display: block;
+  position: relative;
   margin-bottom: .5em;
-  background-color: #effaee;
+  background-color: #59ce4e;
 }
 .officefootball.leaderboard table tr td {
   display: inline-block;
   width: 100%;
-  min-width: 50%;
   font-weight: bold;
 }
-.officefootball.leaderboard table tr:nth-child(-n+10) {
-  border: none;
-}
-.officefootball.leaderboard table tr:nth-child(-n+10) td {
+.officefootball.leaderboard table tr td {
   border: none;
   background: #3eb633;
   color: #fff;
@@ -172,8 +183,16 @@
 .officefootball.leaderboard table tr:last-child {
   border: none;
 }
+.officefootball.leaderboard .rank {
+  margin-right: 1em;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
 .officefootball.leaderboard .player {
   text-transform: uppercase;
+}
+.officefootball.leaderboard .total {
+  position: absolute;
+  right: 1em;
 }
 .officefootball.leaderboard .total:after {
   content: attr(data-total);

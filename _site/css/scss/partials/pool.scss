@@ -137,6 +137,22 @@
           height: 72px;
           margin: 0 auto;
           background-image: url(/images/trophy.png);
+
+          &:hover {
+            -webkit-animation: rotate 2s forwards;
+            animation: rotate 2s forwards;
+          }
+        }
+
+        @-webkit-keyframes rotate {
+          100% {
+            -webkit-transform: rotate(360deg);
+          }
+        }
+        @keyframes rotate {
+          100% {
+            transform: rotate(360deg);
+          }
         }
 
         h2,
@@ -155,24 +171,20 @@
         table {
           tr {
             display: block;
+            position: relative;
             margin-bottom: .5em;
-            background-color: lighten($color-primary-green, 50%);
+            background-color: lighten($color-primary-green, 10%);
 
             td {
               display: inline-block;
               width: 100%;
-              min-width: 50%;
               font-weight: bold;
             }
 
-            &:nth-child(-n+10) {
+            td {
               border: none;
-
-              td {
-                border: none;
-                background: $color-primary-green;
-                color: $color-white;
-              }
+              background: $color-primary-green;
+              color: $color-white;
             }
 
             &:last-child {
@@ -181,11 +193,19 @@
           }
         }
 
+        .rank {
+          margin-right: 1em;
+          font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+        }
+
         .player {
           text-transform: uppercase;
         }
 
         .total {
+          position: absolute;
+          right: 1em;
+
           &:after {
             content: attr(data-total);
             font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
