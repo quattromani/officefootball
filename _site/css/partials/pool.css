@@ -15,17 +15,14 @@
     border: none;
   }
 }
-.officefootball .btn-primary {
-  width: 95%;
+.officefootball .holder .half {
+  text-align: center;
+}
+.officefootball .holder .half:first-child {
+  border-right: 1px solid #ccc;
 }
 .officefootball h1 {
   text-align: center;
-}
-.officefootball .half {
-  text-align: center;
-}
-.officefootball .half:first-child {
-  border-right: 1px solid #ccc;
 }
 .officefootball .formitem {
   margin-bottom: .5em;
@@ -156,7 +153,7 @@
 .officefootball.leaderboard table tr {
   display: block;
   margin-bottom: .5em;
-  border-bottom: 1px dashed #ccc;
+  background-color: #effaee;
 }
 .officefootball.leaderboard table tr td {
   display: inline-block;
@@ -180,7 +177,10 @@
 }
 .officefootball.leaderboard .total:after {
   content: attr(data-total);
-  font-weight: bold;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.officefootball.leaderboard .total:hover:after {
+  content: attr(data-pct);
 }
 .officefootball footer {
   margin-bottom: 1em;

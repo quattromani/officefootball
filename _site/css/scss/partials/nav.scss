@@ -6,7 +6,8 @@
     ========================================================================== */
 
     nav {
-      border-botom: 1px solid $color-grey;
+      padding: 1em 0;
+      border-bottom: 1px solid $color-grey;
       background-color: $color-white;
 
       .container {
@@ -14,15 +15,9 @@
         width: 100%;
       }
 
-      ul {
-        display: table-row;
-        width: 100%;
-
-        li {
-          display: table-cell;
-          width: (100% / $nav-items);
-          @include padding(1em, 0);
-          text-align: center;
+      @include bp(bp-small) {
+        .second {
+          margin-top: 1em;
         }
       }
     }

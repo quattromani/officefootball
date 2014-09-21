@@ -2,25 +2,18 @@
     Nav -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 nav {
-  border-botom: 1px solid #ccc;
+  padding: 1em 0;
+  border-bottom: 1px solid #ccc;
   background-color: #fff;
 }
 nav .container {
   display: table;
   width: 100%;
 }
-nav ul {
-  display: table-row;
-  width: 100%;
-}
-nav ul li {
-  display: table-cell;
-  width: 50%;
-  padding-top: 1em;
-  padding-right: 0;
-  padding-bottom: 1em;
-  padding-left: 0;
-  text-align: center;
+@media (max-width: 40em) {
+  nav .second {
+    margin-top: 1em;
+  }
 }
 
 /*# sourceMappingURL=nav.css.map */

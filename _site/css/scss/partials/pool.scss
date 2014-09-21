@@ -15,22 +15,18 @@
         @include bp(bp-small) {
           border: none;
         }
-      }
 
-      .btn-primary {
-        width: 95%;
+        .half {
+          text-align: center;
+
+          &:first-child {
+            border-right: 1px solid $border;
+          }
+        }
       }
 
       h1 {
         text-align: center;
-      }
-
-      .half {
-        text-align: center;
-
-        &:first-child {
-          border-right: 1px solid $border;
-        }
       }
 
       .formitem {
@@ -160,7 +156,7 @@
           tr {
             display: block;
             margin-bottom: .5em;
-            border-bottom: 1px dashed $color-grey;
+            background-color: lighten($color-primary-green, 50%);
 
             td {
               display: inline-block;
@@ -189,9 +185,17 @@
           text-transform: uppercase;
         }
 
-        .total:after {
-          content: attr(data-total);
-          font-weight: bold;
+        .total {
+          &:after {
+            content: attr(data-total);
+            font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+          }
+
+          &:hover {
+            &:after {
+              content: attr(data-pct);
+            }
+          }
         }
       }
 

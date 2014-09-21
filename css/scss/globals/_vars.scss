@@ -101,16 +101,15 @@ $font-weight-bold: 900;
 
 // Font Families List
 $font-faces: (
-  'NeueHaasGroteskDisp-Pro-Lt': ('NHaasGroteskDSPro-45Lt', 400),
-  'NeueHaasGroteskDisp-Pro': ('NHaasGroteskDSPro-55Rg', 700),
-  'NeueHaasGroteskDisp-Pro-75': ('NHaasGroteskDSPro-75Bd', 400),
+  'Proxima Nova': ('proximanovasoft-regular-webfont', 400),
   'fontawesome': ('icons/fontawesome-webfont', normal),
   'GLGlyphs': ('icons/GLGlyphs', normal)
 );
+
 $font-path: 'fonts/';
 
 // Font Familes Variables
-$base-font: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+$base-font: 'Proxima Nova', CenturyGothic, AppleGothic, sans-serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-alt: $arial;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;

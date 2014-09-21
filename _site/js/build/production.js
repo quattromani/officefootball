@@ -52,6 +52,48 @@ $('.fonts').each(function(){
     $(this).prepend(fonts);
 });
 
+// add the week number to the form
+$("#weekly").on("submit", function () {
+  $('<fieldset><input type="hidden" name="Week" value="Week '+week_number+'"></fieldset>').appendTo('.hidden');
+});
+
+// capture the submitters email and put it in as the _cc value
+$(function() {
+  $('#email').change(function() {
+    var value = $(this).val();
+    $('#copy') .val(value);
+  });
+});
+
+// Get JSON for Leaderboard
+$.ajax({
+  dataType: 'json',
+  url: '/json/leaderboard.json',
+  success: function(data) {
+
+    // Get the number of players in the pool
+    var playerCount = data.length;
+    $('<span>'+playerCount+'</span>').appendTo('.player-count');
+
+    // Set the end of season pool total
+    var seasonPot = "$105"
+    $('<span>'+seasonPot+' USD</span>').appendTo('.season-pot');
+
+    var tr;
+    data.sort(function(a,b) { return parseFloat(b.total) - parseFloat(a.total) } );
+
+    for (var i = 0; i < data.length; i++) {
+      var gamesWon = data[i].total;
+
+      var tdWidth = ((gamesWon / gamesTotal) *100).toFixed(2) + "%";
+
+      tr = $('<tr/>');
+      tr.append('<td style="width: ' + tdWidth +'"><span class="player left">' + data[i].player + '</span><span class="total right" data-total="' + data[i].total + '" data-pct="' + tdWidth + '"></span></td>');
+      $('table').append(tr);
+    }
+  }
+});
+
 /* ==========================================================================
     Main -- Version: 0.4.0 - Updated: 2/20/2014
     ========================================================================== */
@@ -75,6 +117,7 @@ $(function() {
 }(jQuery));
 
 $('.getYear').getYear();
+
 
 var week1 = new Date('9/2/2014');
 var week2 = new Date('9/9/2014');
@@ -142,6 +185,8 @@ if (week1 > today) {
 
 var plus_one = 1;
 var week_number = week + plus_one;
+
+var gamesTotal = 32;
 
 // Get JSON for schedule
 $.ajax({
@@ -215,48 +260,6 @@ $.ajax({
             </div></li>').appendTo('.matches');
         }
       }
-    }
-  }
-});
-
-$("#weekly").on("submit", function () {
-  $('<fieldset><input type="hidden" name="Week" value="Week '+week_number+'"></fieldset>').appendTo('.hidden');
-});
-
-// capture the submitters email and put it in as the _cc value
-$(function() {
-  $('#email').change(function() {
-    var value = $(this).val();
-    $('#copy') .val(value);
-  });
-});
-
-// Get JSON for Leaderboard
-$.ajax({
-  dataType: 'json',
-  url: '/json/leaderboard.json',
-  success: function(data) {
-
-    // Get the number of players in the pool
-    var playerCount = data.length;
-    $('<span>'+playerCount+'</span>').appendTo('.player-count');
-
-    // Set the end of season pool total
-    var seasonPot = "$105"
-    $('<span>'+seasonPot+'</span>').appendTo('.season-pot');
-
-    var tr;
-    data.sort(function(a,b) { return parseFloat(b.total) - parseFloat(a.total) } );
-
-    for (var i = 0; i < data.length; i++) {
-      var gamesWon = data[i].total;
-      var gamesTotal = 32;
-
-      var tdWidth = ((gamesWon / gamesTotal) *100) + "%";
-
-      tr = $('<tr/>');
-      tr.append('<td style="width: ' + tdWidth +'"><span class="player left">' + data[i].player + '</span><span class="total right" data-total="' + data[i].total + '"></span></td>');
-      $('table').append(tr);
     }
   }
 });

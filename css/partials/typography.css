@@ -2,23 +2,9 @@
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
 @font-face {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt";
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype");
-  font-weight: 400;
-  font-style: "normal";
-}
-@font-face {
-  font-family: "NeueHaasGroteskDisp-Pro";
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype");
-  font-weight: 700;
-  font-style: "normal";
-}
-@font-face {
-  font-family: "NeueHaasGroteskDisp-Pro-75";
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype");
+  font-family: "Proxima Nova";
+  src: url("fonts/proximanovasoft-regular-webfont.eot");
+  src: url("fonts/proximanovasoft-regular-webfont.eot?") format("eot"), url("fonts/proximanovasoft-regular-webfont.woff") format("woff"), url("fonts/proximanovasoft-regular-webfont.ttf") format("truetype");
   font-weight: 400;
   font-style: "normal";
 }
@@ -37,7 +23,7 @@
   font-style: "normal";
 }
 .base-font {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Proxima Nova", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .base-font-alt {
@@ -113,7 +99,7 @@ a.muted, .muted a {
    ========================== */
 h1,
 .h1 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Proxima Nova", CenturyGothic, AppleGothic, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
@@ -135,7 +121,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Proxima Nova", CenturyGothic, AppleGothic, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
@@ -179,7 +165,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Proxima Nova", CenturyGothic, AppleGothic, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200;
@@ -195,7 +181,7 @@ h5,
 
 h6,
 .h6 {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Proxima Nova", CenturyGothic, AppleGothic, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100;
@@ -238,7 +224,7 @@ blockquote {
 
 p,
 .p {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Proxima Nova", CenturyGothic, AppleGothic, sans-serif;
   word-wrap: break-word;
 }
 p:only-child,
@@ -355,7 +341,7 @@ samp {
 
 .logo_slash,
 .division {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif, Arial, Sans-Serif;
+  font-family: "Proxima Nova", CenturyGothic, AppleGothic, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   color: #ef272d;
