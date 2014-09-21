@@ -249,8 +249,13 @@ $.ajax({
     data.sort(function(a,b) { return parseFloat(b.total) - parseFloat(a.total) } );
 
     for (var i = 0; i < data.length; i++) {
+      var gamesWon = data[i].total;
+      var gamesTotal = 32;
+
+      var tdWidth = ((gamesWon / gamesTotal) *100) + "%";
+
       tr = $('<tr/>');
-      tr.append('<td><span class="player left">' + data[i].player + '</span><span class="total right">' + data[i].total + '</span></td>');
+      tr.append('<td style="width: ' + tdWidth +'"><span class="player left">' + data[i].player + '</span><span class="total right" data-total="' + data[i].total + '"></span></td>');
       $('table').append(tr);
     }
   }

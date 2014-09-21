@@ -15,6 +15,9 @@
     border: none;
   }
 }
+.officefootball .btn-primary {
+  width: 95%;
+}
 .officefootball h1 {
   text-align: center;
 }
@@ -147,29 +150,41 @@
   width: 100%;
   text-align: center;
 }
+.officefootball.leaderboard h2 {
+  margin: 0;
+}
 .officefootball.leaderboard table tr {
   display: block;
   margin-bottom: .5em;
   border-bottom: 1px dashed #ccc;
 }
-.officefootball.leaderboard table tr:last-child {
-  border: none;
+.officefootball.leaderboard table tr td {
+  display: inline-block;
+  width: 100%;
+  min-width: 50%;
+  font-weight: bold;
 }
 .officefootball.leaderboard table tr:nth-child(-n+10) {
   border: none;
+}
+.officefootball.leaderboard table tr:nth-child(-n+10) td {
+  border: none;
   background: #3eb633;
   color: #fff;
-  font-weight: bold;
 }
-.officefootball.leaderboard table td {
-  display: inline-block;
-  width: 100%;
+.officefootball.leaderboard table tr:last-child {
+  border: none;
 }
 .officefootball.leaderboard .player {
   text-transform: uppercase;
 }
+.officefootball.leaderboard .total:after {
+  content: attr(data-total);
+  font-weight: bold;
+}
 .officefootball footer {
   margin-bottom: 1em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=pool.css.map */

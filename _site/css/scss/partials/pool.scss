@@ -17,6 +17,10 @@
         }
       }
 
+      .btn-primary {
+        width: 95%;
+      }
+
       h1 {
         text-align: center;
       }
@@ -131,6 +135,7 @@
       }
 
       &.leaderboard {
+
         .trophy {
           width: 72px;
           height: 72px;
@@ -147,36 +152,51 @@
           text-align: center;
         }
 
+        h2 {
+          margin: 0;
+        }
+
         table {
           tr {
             display: block;
             margin-bottom: .5em;
             border-bottom: 1px dashed $color-grey;
 
-            &:last-child {
-              border: none;
+            td {
+              display: inline-block;
+              width: 100%;
+              min-width: 50%;
+              font-weight: bold;
             }
 
             &:nth-child(-n+10) {
               border: none;
-              background: $color-primary-green;
-              color: $color-white;
-              font-weight: bold;
-            }
-          }
 
-          td {
-            display: inline-block;
-            width: 100%;
+              td {
+                border: none;
+                background: $color-primary-green;
+                color: $color-white;
+              }
+            }
+
+            &:last-child {
+              border: none;
+            }
           }
         }
 
         .player {
           text-transform: uppercase;
         }
+
+        .total:after {
+          content: attr(data-total);
+          font-weight: bold;
+        }
       }
 
       footer {
         margin-bottom: $margin;
+        text-align: center;
       }
     }

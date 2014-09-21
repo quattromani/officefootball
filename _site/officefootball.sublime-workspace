@@ -97,9 +97,13 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/officefootball/css/scss/partials/footer.scss",
-		"/Users/Q/Sites/officefootball/index.html",
+		"/Users/Q/Sites/officefootball/js/build/production.js",
+		"/Users/Q/Sites/officefootball/_includes/changelog.html",
+		"/Users/Q/Sites/officefootball/_layouts/default.html",
+		"/Users/Q/Sites/officefootball/_layouts/leaderboard.html",
 		"/Users/Q/Sites/officefootball/_includes/footer.html",
+		"/Users/Q/Sites/officefootball/index.html",
+		"/Users/Q/Sites/officefootball/css/scss/partials/footer.scss",
 		"/Users/Q/Sites/officefootball/_data/changelog.yml",
 		"/Users/Q/Sites/officefootball/_config.yml",
 		"/Users/Q/Sites/officefootball/js/main.js",
@@ -220,11 +224,7 @@
 		"/Users/Q/Sites/scaffold/humans.txt",
 		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/_includes/google_analytics.html",
-		"/Users/Q/Sites/scaffold/js/sandbox.js",
-		"/Users/Q/Sites/scaffold/sandbox/compliance/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss"
+		"/Users/Q/Sites/scaffold/js/sandbox.js"
 	],
 	"find":
 	{
@@ -248,6 +248,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".leng",
+			"user_name",
 			"_cc",
 			"slick",
 			"slcik",
@@ -373,9 +375,7 @@
 			"a {",
 			"transf",
 			"progre",
-			"border: none;",
-			"@import \"../globals/allGlobals\";",
-			"butt"
+			"border: none;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -383,6 +383,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"player",
 			"div",
 			"NY\n",
 			"New York Giant\n",
@@ -448,7 +449,7 @@
 	},
 	"replace":
 	{
-		"height": 62.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
