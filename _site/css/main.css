@@ -3125,11 +3125,11 @@ hr {
     .officefootball.leaderboard table tr td {
       display: inline-block;
       width: 100%;
-      font-weight: bold; }
-    .officefootball.leaderboard table tr td {
-      border: none;
+      font-weight: bold;
       background: #3eb633;
-      color: #fff; }
+      color: #fff;
+      white-space: nowrap;
+      overflow: visible; }
     .officefootball.leaderboard table tr:last-child {
       border: none; }
   .officefootball.leaderboard .rank {

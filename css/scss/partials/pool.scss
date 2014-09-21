@@ -179,12 +179,10 @@
               display: inline-block;
               width: 100%;
               font-weight: bold;
-            }
-
-            td {
-              border: none;
               background: $color-primary-green;
               color: $color-white;
+              white-space: nowrap;
+              overflow: visible;
             }
 
             &:last-child {
