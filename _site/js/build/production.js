@@ -245,26 +245,29 @@ $.ajax({
         if (day_of_game == 'Mon') {
           $('<li>
             <div class="row marginless">
-            <div class="half">
-            <input type="radio" class="radio" id="'+away_id+'" name="'+game_id+'" value="'+away+'" required>
-            <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+'" />'+away+'</label>
-            </div>
-            <div class="half">
-            <input type="radio" class="radio" id="'+home_id+'" name="'+game_id+'" value="'+home+'" required>
-            <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
-            </div>
-            <div class="full location">
-            <strong>'+location+'</strong> - '+time+' MST
-            </div>
-            <div class="full">
-            <label for="'+game_id+'" class="total_score">Game Total:</label>
-            <input type="text" class="total_score" id="'+game_id+'" name="'+game_id+'">
-            </div>
+              <div class="teams">
+                <div class="half">
+                  <input type="radio" class="radio" id="'+away_id+'" name="'+game_id+'" value="'+away+'" required>
+                  <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+'" />'+away+'</label>
+                </div>
+                <div class="half">
+                  <input type="radio" class="radio" id="'+home_id+'" name="'+game_id+'" value="'+home+'" required>
+                  <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
+                </div>
+              </div>
+              <div class="full location">
+                <strong>'+location+'</strong> - '+time+' MST
+              </div>
+              <div class="full">
+                <label for="'+game_id+'" class="total_score">Game Total:</label>
+                <input type="text" class="total_score" id="'+game_id+'" name="'+game_id+'">
+              </div>
             </div>
             </li>').appendTo('.matches');
           } else { // or don't
           $('<li>
             <div class="row marginless">
+            <div class="teams">
             <div class="half">
             <input type="radio" class="radio" id="'+away_id+'" name="'+game_id+'" value="'+away+'" required>
             <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+'" />'+away+'</label>
@@ -272,6 +275,7 @@ $.ajax({
             <div class="half">
             <input type="radio" class="radio" id="'+home_id+'" name="'+game_id+'" value="'+home+'" required>
             <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
+            </div>
             </div>
             <div class="full location">
             <strong>'+location+'</strong> - '+time+' MST
@@ -279,6 +283,55 @@ $.ajax({
             </div></li>').appendTo('.matches');
         }
       }
+    }
+  }
+});
+
+// Get JSON for schedule
+$.ajax({
+  dataType: 'json',
+  url: '/json/test.json',
+  success: function(data) {
+    for (i = 0; i < data.gms.length; i++) {
+
+      away_scores = data.gms[i].vnn;
+
+      if (away_scores == away) {
+        console.log(true);
+      }
+
+      var visitor_score = data.gms[i].vs;
+      var home_score = data.gms[i].hs;
+      var period = data.gms[i].q;
+
+      // Make 'q' a little bit more readable
+      if (period == 'F') {
+        var period = 'Final';
+      } else if (period == '4') {
+        var period = '4th Qtr'
+      } else if (period == '3') {
+        var period = '3rd Qtr'
+      } else if (period == '2') {
+        var period = '2nd Qtr'
+      } else if (period == '1') {
+        var period = '1st Qtr'
+      } else if (period == 'P') {
+        var period = 'Pre-Game'
+      }
+
+      $('<div class="scores">
+        <div class="half">
+        '+visitor_score+'
+        </div>
+        <div class="half">
+        '+home_score+'
+        </div>
+        </div>
+        <div class="period">
+          <div class="full">
+          '+period+'
+          </div>
+        </div>').appendTo('.teams');
     }
   }
 });

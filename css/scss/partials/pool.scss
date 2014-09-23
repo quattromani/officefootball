@@ -123,6 +123,22 @@
           width: 100px;
         }
 
+        .scores {
+          .half {
+            @include padding(.5em);
+            border-top: 1px solid $border;
+            text-align: center;
+            overflow: auto;
+          }
+        }
+
+        .period {
+          @include padding(.5em);
+          border-top: 1px solid $border;
+          text-align: center;
+          overflow: auto;
+        }
+
         .location {
           @include padding(.5em);
           border-top: 1px solid $border;

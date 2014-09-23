@@ -125,6 +125,24 @@
 .officefootball .matches input.total_score {
   width: 100px;
 }
+.officefootball .matches .scores .half {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  overflow: auto;
+}
+.officefootball .matches .period {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  overflow: auto;
+}
 .officefootball .matches .location {
   padding-top: 0.5em;
   padding-right: 0.5em;
