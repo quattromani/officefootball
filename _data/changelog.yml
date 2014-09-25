@@ -9,3 +9,7 @@
 - version: 0.3
   description: "Simple Nav to support new pages"
   requestor: mquattromani
+
+- version: 0.4
+  description: "Better name regex"
+  requestor: mquattromani
