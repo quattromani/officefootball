@@ -294,11 +294,7 @@ $.ajax({
   success: function(data) {
     for (i = 0; i < data.gms.length; i++) {
 
-      away_scores = data.gms[i].vnn;
-
-      if (away_scores == away) {
-        console.log(true);
-      }
+      var away_scores = data.gms[i].vnn;
 
       var visitor_score = data.gms[i].vs;
       var home_score = data.gms[i].hs;
