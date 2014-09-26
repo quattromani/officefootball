@@ -80,7 +80,7 @@ $.ajax({
     $('<span>'+playerCount+'</span>').appendTo('.player-count');
 
     // Set the end of season pool total
-    var seasonPot = "$107";
+    var seasonPot = "$142";
     $('<span>'+seasonPot+' USD</span>').appendTo('.season-pot');
 
     var tr;
