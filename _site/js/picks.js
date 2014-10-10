@@ -74,6 +74,7 @@ $.ajax({
   success: function(data) {
     // Label the week
     $('<span class="text-center">Week '+week_number+'</span>').appendTo('h1');
+    $('#subject').val('Week ' +week_number+ ' Picks');
     // get the number of game days
     for (i = 0; i < data[week].game_days.length; i++) {
 

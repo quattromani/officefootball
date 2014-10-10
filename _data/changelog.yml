@@ -17,3 +17,7 @@
 - version: 0.5
   description: "Route post-submision to leaderboard"
   requestor: mquattromani
+
+- version: 0.6
+  description: "Email Subject includes Week Number"
+  requestor: mquattromani

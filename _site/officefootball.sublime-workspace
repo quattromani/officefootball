@@ -113,6 +113,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/_layouts/default.html",
+		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/_data/changelog.yml",
 		"/Users/Q/Sites/officefootball/thanks/index.html",
 		"/Users/Q/Sites/officefootball/_layouts/thanks.html",
@@ -122,7 +124,6 @@
 		"/Users/Q/Sites/officefootball/index.html",
 		"/Users/Q/Sites/officefootball/js/picks.js",
 		"/Users/Q/Sites/officefootball/js/leaderboard.js",
-		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/leaderboard/index.html",
 		"/Users/Q/Sites/officefootball/js/build/production.js",
 		"/Users/Q/Sites/officefootball/_includes/nav.html",
@@ -135,7 +136,6 @@
 		"/Users/Q/Sites/officefootball/js/main.js",
 		"/Users/Q/Sites/officefootball/css/fonts/NHaasGroteskDSPro-25Th.eot",
 		"/Users/Q/Sites/officefootball/_includes/changelog.html",
-		"/Users/Q/Sites/officefootball/_layouts/default.html",
 		"/Users/Q/Sites/officefootball/_layouts/leaderboard.html",
 		"/Users/Q/Sites/officefootball/css/scss/partials/footer.scss",
 		"/Users/Q/Sites/officefootball/thanks_again/index.html",
