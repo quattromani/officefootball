@@ -113,6 +113,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/js/day_hours.js",
+		"/Users/Q/Sites/officefootball/js/nfl_game_stats-2.0.2.js",
 		"/Users/Q/Sites/officefootball/js/leaderboard.js",
 		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/index.html",
@@ -238,13 +240,11 @@
 		"/Users/Q/Sites/maxquattromani/js/_global_init.js",
 		"/Users/Q/Sites/maxquattromani/_includes/google_analytics.html",
 		"/Users/Q/Sites/maxquattromani/css/scss/partials/nav.scss",
-		"/Users/Q/Sites/maxquattromani/js/nav.js",
-		"/Users/Q/Documents/GLG/compliance/compliance-card/demo.html",
-		"/Users/Q/Desktop/maxquattromani/css/scss/partials/modals.scss"
+		"/Users/Q/Sites/maxquattromani/js/nav.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -426,7 +426,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 41.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -465,7 +465,7 @@
 	},
 	"replace":
 	{
-		"height": 64.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":

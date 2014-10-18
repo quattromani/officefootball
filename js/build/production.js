@@ -1,57 +1,5 @@
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;
-/* ==========================================================================
-    Styleguide -- Version: 0.4.1 - Updated: 2/22/2014
-    ========================================================================== */
-
-// Create Hex color code from color return
-function hexc(colorval) {
-    var parts = colorval.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-    delete(parts[0]);
-    for (var i = 1; i <= 3; ++i) {
-        parts[i] = parseInt(parts[i]).toString(16);
-        if (parts[i].length == 1) parts[i] = '0' + parts[i];
-    }
-    color = '#' + parts.join('');
-}
-
-// Get color value of swatch and print to div
-var color = '';
-$('.swatch').each(function() {
-    var classList = $(this).children('.swatch-color').attr('class').split(' ');
-    for(i=0; i <= classList.length-1; i++){
-     if(classList[i].match(/color-/g)){
-         $(this).children('.swatch-info').prepend('<p>$' + classList[i] + '</p>');
-         break;
-     }
- }
- var x = $(this).children('.swatch-color').css('backgroundColor');
- hexc(x);
- $(this).children('.swatch-info').append('<p>' + color + '</p>');
- $(this).children('.swatch-info').append('<p>' + x + '</p>');
-});
-
-(function($) {
-
-    $.fn.vs = function() {
-        // View source buttons
-        $('.vs').click(function(){
-            $(this).parent().next().find('.prettyprint').toggle();
-            $(this).not('.disabled').toggleClass('js-active');
-            return false;
-        });
-    }
-
-}(jQuery));
-
-$('.vs').vs();
-
-// Get font-family property and return
-$('.fonts').each(function(){
-    var fonts = $(this).css('font-family');
-    $(this).prepend(fonts);
-});
-
 // add the week number to the form
 $("#weekly").on("submit", function () {
   $('<fieldset><input type="hidden" name="Week" value="Week '+week_number+'"></fieldset>').appendTo('.hidden');
@@ -205,7 +153,7 @@ if (week1 > today) {
 var plus_one = 1;
 var week_number = week + plus_one;
 
-var gamesTotal = 48;
+var gamesTotal = 91;
 
 // Get JSON for schedule
 $.ajax({
@@ -288,16 +236,31 @@ $.ajax({
   }
 });
 
-$.ajax({
-  type: "GET",
-  url: "http://www.nfl.com/liveupdate/scorestrip/ss.json",
-  dataType: "jsonp",
-  success: function(data) {
-    for (var i = 0; i < data.gms.length; i++) {
-      document.write("Day: " + data.gms[i][0]);
-      document.write("<br/>");
-      document.write("Time: " + data.gms[i][1]);
-      document.write("<br/><br/>");
-    }
+$.getJSON('https://spreadsheets.google.com/feeds/list/1a3tvBpNte0cWmObkvd7j3wJdADyRvtYHW1IbHefPxX4/od6/public/values?alt=json', function(data) {
+
+  for (i = 0; i < data.feed.entry.length; i++) {
+    var home = data.feed.entry[i]['gsx$hnn']['$t'];
+    var homeScore = data.feed.entry[i]['gsx$hs']['$t'];
+    var visitor = data.feed.entry[i]['gsx$vnn']['$t'];
+    var visitorScore = data.feed.entry[i]['gsx$vs']['$t'];
+
+    $('.scores').append('
+      <div class="row">
+      <div class="half score">
+       <span class="text-left">'+visitor+'</span>
+       <span class="text-right score">'+visitorScore+'</span>
+       <br>
+       <span class="text-right">'+home+'</span>
+       <span class="text-left score">'+homeScore+'</span>
+      </div>
+      </div>
+      ');
   }
+
+  // var timestamp = new Date(data.feed.entry[0]['updated']['$t'].timestamp);
+  // var hours = timestamp.getHours() % 12 || 12;
+  // var minutes = timestamp.getMinutes().pad(2);
+  // var time = +hours+ ':' +minutes;
+  // $('.scores').append('<span>Scores Updated: ' + time + '</span>');
+
 });

@@ -3171,6 +3171,8 @@ hr {
       font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; }
     .officefootball.leaderboard .total:hover:after {
       content: attr(data-pct); }
+  .officefootball .scores {
+    font-weight: bold; }
   .officefootball footer {
     margin-bottom: 1em;
     text-align: center; }
