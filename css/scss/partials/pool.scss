@@ -253,8 +253,42 @@
         font-weight: bold;
       }
 
+      .score {
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: $color-white;
+      }
+
       footer {
         margin-bottom: $margin;
         text-align: center;
+      }
+    }
+
+    .scoreboard {
+      table {
+        display: table;
+        width: 50%;
+        margin: 0 auto .5em;
+        background-color: $color-white;
+
+        @include bp(bp-small) {
+          width: 100%;
+        }
+
+        tr {
+          display: table-row;
+          width: 100%;
+
+          &:first-of-type {
+            border-bottom: 1px solid $color-light-grey;
+          }
+        }
+
+        td {
+          display: inline-block;
+          width: auto;
+          padding: .5em;
+        }
       }
     }

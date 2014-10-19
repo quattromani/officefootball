@@ -6,23 +6,29 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1a3tvBpNte0cWmObkvd7j3wJdA
     var visitor = data.feed.entry[i]['gsx$vnn']['$t'];
     var visitorScore = data.feed.entry[i]['gsx$vs']['$t'];
 
+    var result = Math.max(homeScore,visitorScore);
+    if(result > 0) {
+      $(result).parent().addClass('yourClass');
+    };
+
     $('.scores').append('
-      <div class="row">
-      <div class="half score">
-       <span class="text-left">'+visitor+'</span>
-       <span class="text-right score">'+visitorScore+'</span>
-       <br>
-       <span class="text-right">'+home+'</span>
-       <span class="text-left score">'+homeScore+'</span>
-      </div>
-      </div>
+      <table>
+      <tr>
+        <td colspan="1"><img src="/images/logos/'+visitor+'.png" height="30" width="30" style="float: left;" alt="'+visitor+'" /></td>
+        <td colspan="3">'+visitor+'</td>
+        <td colspan="1" class="right">'+visitorScore+'</td>
+      </tr>
+      <tr>
+        <td colspan="1"><img src="/images/logos/'+home+'.png" height="30" width="30" style="float: left;" alt="'+home+'" /></td>
+        <td colspan="3">'+home+'</td>
+        <td colspan="1" class="right">'+homeScore+'</td>
+      </tr>
+      </table>
       ');
   }
 
-  // var timestamp = new Date(data.feed.entry[0]['updated']['$t'].timestamp);
-  // var hours = timestamp.getHours() % 12 || 12;
-  // var minutes = timestamp.getMinutes().pad(2);
-  // var time = +hours+ ':' +minutes;
-  // $('.scores').append('<span>Scores Updated: ' + time + '</span>');
+  var timestamp = new Date(data.feed.entry[0]['updated']['$t']);
+
+  $('.updated').append('<div class="text-center"><span>Updated: ' + timestamp + '</span></div>');
 
 });

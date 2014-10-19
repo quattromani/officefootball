@@ -234,9 +234,38 @@
 .officefootball .scores {
   font-weight: bold;
 }
+.officefootball .score {
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #fff;
+}
 .officefootball footer {
   margin-bottom: 1em;
   text-align: center;
+}
+
+.scoreboard table {
+  display: table;
+  width: 50%;
+  margin: 0 auto .5em;
+  background-color: #fff;
+}
+@media (max-width: 40em) {
+  .scoreboard table {
+    width: 100%;
+  }
+}
+.scoreboard table tr {
+  display: table-row;
+  width: 100%;
+}
+.scoreboard table tr:first-of-type {
+  border-bottom: 1px solid #e6e6e6;
+}
+.scoreboard table td {
+  display: inline-block;
+  width: auto;
+  padding: .5em;
 }
 
 /*# sourceMappingURL=pool.css.map */
