@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"away",
+				"awayRecord"
+			],
+			[
+				"vis",
+				"visitorScore"
+			],
+			[
 				"ra",
 				"rankGames"
 			],
@@ -113,27 +121,31 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/json/records.json",
+		"/Users/Q/Sites/officefootball/js/picks.js",
+		"/Users/Q/Sites/officefootball/js/updates.js",
+		"/Users/Q/Sites/officefootball/index.html",
+		"/Users/Q/Sites/officefootball/_includes/nav.html",
+		"/Users/Q/Sites/officefootball/scores/index.html",
+		"/Users/Q/Sites/officefootball/css/scss/partials/pool.scss",
+		"/Users/Q/Sites/officefootball/js/_styleguide.js",
 		"/Users/Q/Sites/officefootball/js/day_hours.js",
 		"/Users/Q/Sites/officefootball/js/nfl_game_stats-2.0.2.js",
 		"/Users/Q/Sites/officefootball/js/leaderboard.js",
 		"/Users/Q/Sites/officefootball/json/leaderboard.json",
-		"/Users/Q/Sites/officefootball/index.html",
 		"/Users/Q/Sites/officefootball/_layouts/default.html",
 		"/Users/Q/Sites/officefootball/_config.yml",
 		"/Users/Q/Sites/officefootball/_data/changelog.yml",
-		"/Users/Q/Sites/officefootball/js/picks.js",
 		"/Users/Q/Sites/officefootball/thanks/index.html",
 		"/Users/Q/Sites/officefootball/_layouts/thanks.html",
 		"/Users/Q/Sites/officefootball/js/picks_scores.js",
 		"/Users/Q/Sites/officefootball/json/test.json",
 		"/Users/Q/Sites/officefootball/leaderboard/index.html",
 		"/Users/Q/Sites/officefootball/js/build/production.js",
-		"/Users/Q/Sites/officefootball/_includes/nav.html",
 		"/Users/Q/Sites/officefootball/_includes/footer.html",
 		"/Users/Q/Sites/officefootball/css/partials/typography.css",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/officefootball/css/scss/partials/nav.scss",
-		"/Users/Q/Sites/officefootball/css/scss/partials/pool.scss",
 		"/Users/Q/Sites/officefootball/js/form.js",
 		"/Users/Q/Sites/officefootball/js/main.js",
 		"/Users/Q/Sites/officefootball/css/fonts/NHaasGroteskDSPro-25Th.eot",
@@ -236,11 +248,7 @@
 		"/Users/Q/Sites/maxquattromani/js/main.js",
 		"/Users/Q/Sites/maxquattromani/_includes/nav.html",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
-		"/Users/Q/Sites/maxquattromani/js/build/production.js",
-		"/Users/Q/Sites/maxquattromani/js/_global_init.js",
-		"/Users/Q/Sites/maxquattromani/_includes/google_analytics.html",
-		"/Users/Q/Sites/maxquattromani/css/scss/partials/nav.scss",
-		"/Users/Q/Sites/maxquattromani/js/nav.js"
+		"/Users/Q/Sites/maxquattromani/js/build/production.js"
 	],
 	"find":
 	{
@@ -264,6 +272,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			", \"",
+			", \"l",
 			"total",
 			".leng",
 			"user_name",
@@ -389,9 +399,7 @@
 			"transform",
 			".3",
 			"q",
-			"a {",
-			"transf",
-			"progre"
+			"a {"
 		],
 		"highlight": true,
 		"in_selection": false,

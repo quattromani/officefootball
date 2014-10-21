@@ -106,23 +106,23 @@ $.ajax({
         if (day_of_game == 'Mon') {
           $('<li>
             <div class="row marginless">
-              <div class="teams">
-                <div class="half">
-                  <input type="radio" class="radio" id="'+away_id+'" name="'+game_id+'" value="'+away+'" required>
-                  <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+'" />'+away+'</label>
-                </div>
-                <div class="half">
-                  <input type="radio" class="radio" id="'+home_id+'" name="'+game_id+'" value="'+home+'" required>
-                  <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
-                </div>
-              </div>
-              <div class="full location">
-                <strong>'+location+'</strong> - '+time+' MST
-              </div>
-              <div class="full">
-                <label for="'+game_id+'" class="total_score">Game Total:</label>
-                <input type="text" class="total_score" id="'+game_id+'" name="'+game_id+'">
-              </div>
+            <div class="teams">
+            <div class="half">
+            <input type="radio" class="radio" id="'+away_id+'" name="'+game_id+'" value="'+away+'" required>
+            <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+'" />'+away+'</label>
+            </div>
+            <div class="half">
+            <input type="radio" class="radio" id="'+home_id+'" name="'+game_id+'" value="'+home+'" required>
+            <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
+            </div>
+            </div>
+            <div class="full location">
+            <strong>'+location+'</strong> - '+time+' MST
+            </div>
+            <div class="full">
+            <label for="'+game_id+'" class="total_score">Game Total:</label>
+            <input type="text" class="total_score" id="'+game_id+'" name="'+game_id+'">
+            </div>
             </div>
             </li>').appendTo('.matches');
           } else { // or don't
@@ -147,3 +147,20 @@ $.ajax({
     }
   }
 });
+
+// Get JSON for schedule
+// $.ajax({
+//   dataType: 'json',
+//   url: '/json/records.json',
+//   success: function(data) {
+
+//     for (i = 0; i < data.length; i++) {
+//       var wins = data[i].wins;
+//       var ties = data[i].ties;
+//       var losses = data[i].losses;
+
+//       var teamRecord = (wins+ '-' +ties+ '-' +losses);
+//       $('<div class="row marginless"><div class="half records">'+teamRecord+'</div></div>').appendTo('.teams');
+//     }
+//   }
+// });

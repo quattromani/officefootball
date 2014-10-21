@@ -7,7 +7,7 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1a3tvBpNte0cWmObkvd7j3wJdA
     var visitorScore = data.feed.entry[i]['gsx$vs']['$t'];
 
     var result = Math.max(homeScore,visitorScore);
-    if(result > 0) {
+    if(result >= 0) {
       $(result).parent().addClass('yourClass');
     };
 
