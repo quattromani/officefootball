@@ -121,6 +121,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/js/leaderboard.js",
+		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/json/records.json",
 		"/Users/Q/Sites/officefootball/js/picks.js",
 		"/Users/Q/Sites/officefootball/js/updates.js",
@@ -131,8 +133,6 @@
 		"/Users/Q/Sites/officefootball/js/_styleguide.js",
 		"/Users/Q/Sites/officefootball/js/day_hours.js",
 		"/Users/Q/Sites/officefootball/js/nfl_game_stats-2.0.2.js",
-		"/Users/Q/Sites/officefootball/js/leaderboard.js",
-		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/_layouts/default.html",
 		"/Users/Q/Sites/officefootball/_config.yml",
 		"/Users/Q/Sites/officefootball/_data/changelog.yml",
