@@ -39,7 +39,7 @@ $.ajax({
 
       tr = $('<tr/>');
       tr.append('<td style="width: ' + winPct +'"><span class="rank">' + rank + '</span><span class="player">' + data[i].player + '</span><span class="total right" data-total="' + data[i].total + '" data-pct="' + tdWidth + '"></span></td>');
-      $('table').append(tr);
+      $('#leaderboard').append(tr);
 
       counter++;
     }

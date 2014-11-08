@@ -121,10 +121,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/js/dashboard.js",
+		"/Users/Q/Sites/officefootball/dashboard/index.html",
+		"/Users/Q/Sites/officefootball/js/leaderboard.js",
+		"/Users/Q/Sites/officefootball/leaderboard/index.html",
 		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/picks.js",
 		"/Users/Q/Sites/officefootball/_includes/nav.html",
-		"/Users/Q/Sites/officefootball/js/leaderboard.js",
 		"/Users/Q/Sites/officefootball/json/records.json",
 		"/Users/Q/Sites/officefootball/js/updates.js",
 		"/Users/Q/Sites/officefootball/index.html",
@@ -140,7 +143,6 @@
 		"/Users/Q/Sites/officefootball/_layouts/thanks.html",
 		"/Users/Q/Sites/officefootball/js/picks_scores.js",
 		"/Users/Q/Sites/officefootball/json/test.json",
-		"/Users/Q/Sites/officefootball/leaderboard/index.html",
 		"/Users/Q/Sites/officefootball/js/build/production.js",
 		"/Users/Q/Sites/officefootball/_includes/footer.html",
 		"/Users/Q/Sites/officefootball/css/partials/typography.css",
@@ -246,9 +248,7 @@
 		"/Users/Q/Sites/maxquattromani/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/maxquattromani/css/partials/buttons.css",
 		"/Users/Q/Sites/maxquattromani/js/main.js",
-		"/Users/Q/Sites/maxquattromani/_includes/nav.html",
-		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
-		"/Users/Q/Sites/maxquattromani/js/build/production.js"
+		"/Users/Q/Sites/maxquattromani/_includes/nav.html"
 	],
 	"find":
 	{
