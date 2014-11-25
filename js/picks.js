@@ -65,7 +65,7 @@ if (week1 > today) {
 var plus_one = 1;
 var week_number = week + plus_one;
 
-var gamesTotal = 132;
+var gamesTotal = 160;
 
 // Get JSON for schedule
 $.ajax({
