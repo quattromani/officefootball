@@ -28,7 +28,7 @@ $.ajax({
     $('<span>'+playerCount+'</span>').appendTo('.player-count');
 
     // Set the end of season pool total
-    var seasonPot = "$398";
+    var seasonPot = "$458”;
     $('<span>'+seasonPot+' USD</span>').appendTo('.season-pot');
 
     var tr;
@@ -153,7 +153,7 @@ if (week1 > today) {
 var plus_one = 1;
 var week_number = week + plus_one;
 
-var gamesTotal = 160;
+var gamesTotal = 207;
 
 // Get JSON for schedule
 $.ajax({
