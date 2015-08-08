@@ -86,24 +86,24 @@ $(function() {
 $('.getYear').getYear();
 
 
-var week1 = new Date('9/2/2014');
-var week2 = new Date('9/9/2014');
-var week3 = new Date('9/16/2014');
-var week4 = new Date('9/23/2014');
-var week5 = new Date('9/30/2014');
-var week6 = new Date('10/7/2014');
-var week7 = new Date('10/14/2014');
-var week8 = new Date('10/21/2014');
-var week9 = new Date('10/28/2014');
-var week10 = new Date('11/4/2014');
-var week11 = new Date('11/11/2014');
-var week12 = new Date('11/18/2014');
-var week13 = new Date('11/25/2014');
-var week14 = new Date('12/2/2014');
-var week15 = new Date('12/9/2014');
-var week16 = new Date('12/16/2014');
-var week17 = new Date('12/23/2014');
-var week18 = new Date('12/30/2014');
+var week1 = new Date('9/10/2015');
+var week2 = new Date('9/9/2015');
+var week3 = new Date('9/16/2015');
+var week4 = new Date('9/23/2015');
+var week5 = new Date('9/30/2015');
+var week6 = new Date('10/7/2015');
+var week7 = new Date('10/14/2015');
+var week8 = new Date('10/21/2015');
+var week9 = new Date('10/28/2015');
+var week10 = new Date('11/4/2015');
+var week11 = new Date('11/11/2015');
+var week12 = new Date('11/18/2015');
+var week13 = new Date('11/25/2015');
+var week14 = new Date('12/2/2015');
+var week15 = new Date('12/9/2015');
+var week16 = new Date('12/16/2015');
+var week17 = new Date('12/23/2015');
+var week18 = new Date('12/30/2015');
 
 var today = new Date();
 if (week1 > today) {
@@ -156,7 +156,7 @@ var gamesTotal = 207;
 // Get JSON for schedule
 $.ajax({
   dataType: 'json',
-  url: '/json/nfl2014.min.json',
+  url: '/json/nfl2015.min.json',
   success: function(data) {
     // Label the week
     $('<span class="text-center">Week '+week_number+'</span>').appendTo('h1');
