@@ -2,7 +2,7 @@ name: Office Football
 version: 1.0.6
 author: Max Quattromani
 markdown: redcarpet
-highlighter: true
+highlighter: rouge
 baseurl:
 email: jworthington@statebridgecompany.com
 google_analytics: false
