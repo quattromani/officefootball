@@ -86,24 +86,40 @@ $(function() {
 $('.getYear').getYear();
 
 
+// $.getJSON('/json/nfl2015.min.json', function(data) {
+//   console.log(data);
+// });
+
+$.ajax({
+  dataType: 'json',
+  url: '/json/nfl2015.min.json',
+  type: 'get',
+  cache: false,
+  success: function(data) {
+    $(data.weeks).each(function(index, value) {
+
+    });
+  }
+});
+
 var week1 = new Date('9/10/2015');
-var week2 = new Date('9/9/2015');
-var week3 = new Date('9/16/2015');
-var week4 = new Date('9/23/2015');
-var week5 = new Date('9/30/2015');
-var week6 = new Date('10/7/2015');
-var week7 = new Date('10/14/2015');
-var week8 = new Date('10/21/2015');
-var week9 = new Date('10/28/2015');
-var week10 = new Date('11/4/2015');
-var week11 = new Date('11/11/2015');
-var week12 = new Date('11/18/2015');
-var week13 = new Date('11/25/2015');
-var week14 = new Date('12/2/2015');
-var week15 = new Date('12/9/2015');
-var week16 = new Date('12/16/2015');
-var week17 = new Date('12/23/2015');
-var week18 = new Date('12/30/2015');
+var week2 = new Date('9/17/2015');
+var week3 = new Date('9/24/2015');
+var week4 = new Date('10/1/2015');
+var week5 = new Date('10/8/2015');
+var week6 = new Date('10/15/2015');
+var week7 = new Date('10/22/2015');
+var week8 = new Date('10/29/2015');
+var week9 = new Date('11/5/2015');
+var week10 = new Date('11/12/2015');
+var week11 = new Date('11/19/2015');
+var week12 = new Date('11/26/2015');
+var week13 = new Date('12/3/2015');
+var week14 = new Date('12/10/2015');
+var week15 = new Date('12/17/2015');
+var week16 = new Date('12/24/2015');
+var week17 = new Date('12/31/2015');
+var week18 = new Date('1/7/2016');
 
 var today = new Date();
 if (week1 > today) {
@@ -157,10 +173,14 @@ var gamesTotal = 207;
 $.ajax({
   dataType: 'json',
   url: '/json/nfl2015.min.json',
+  type: 'get',
+  cache: false,
   success: function(data) {
     // Label the week
     $('<span class="text-center">Week '+week_number+'</span>').appendTo('h1');
     $('#subject').val('Week ' +week_number+ ' Picks');
+
+
     // get the number of game days
     for (i = 0; i < data[week].game_days.length; i++) {
 

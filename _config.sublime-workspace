@@ -1,0 +1,539 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"get",
+				"getFilesize"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"inline",
+				"inline-block	compass"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"can",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/src/css/scss/modules/_header.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/css/vars/_nav-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/src/css/scss/modules/_nav.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/includes/kam16/homepage_carousel.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/src/css/scss/features/_logo.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/src/css/scss/pages/_home.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/little_bear/design/src/css/scss/modules/_footer.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/bottomArea.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/little_bear/design/src/css/scss/features/_logo.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/NewEnglandDev/go/design/NEDSplash/src/css/scss/features/_logo.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/about-us.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/media.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/visitor-info.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/faq.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/fact-sheet.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/attractions.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/information.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/kids-program.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/pages/leasing.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/bierstadt/design/src/css/scss/modules/_banner.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-valleysquarePA/css/vars/_selectric-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/vars/_color-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-briargate/css/bierstadt@Poag/main.css",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/culebra/design/src/css/scss/pages/_home.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Steadfast/mall-Everett/css/vars/_color-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Steadfast/mall-Everett/css/vars/_home-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Steadfast/mall-Everett/css/culebra@steadfast/main.css",
+		"/Users/Q/Sites/placewise/CoreWebSites/Steadfast/mall-Everett/css/vars/_vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/pages/_home.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/ColonieMgmt/mall-westoaks/css/vars/_setting-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/src/css/scss/modules/_footer.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/includes/kam16/home_page_cards.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/css/vars/_link-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/includes/kam16/footernav.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/css/vars/_vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/includes/kam16/primarynav.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/css/vars/_header-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/css/vars/_body-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/src/css/scss/modules/_layout.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/includes/kam16/home_page_ad_carousel.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/mall-kamakanaalii/css/vars/_width-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/homepage.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/src/css/scss/_package.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/JonesLang/go/design/kam16/package.json",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-saucon/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-viera/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/bierstadt/design/src/css/scss/features/_logo.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-westcobb/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-evergreen/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-orchardvalley/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-valleysquarePA/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-centerra/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/modules/_footer.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/js/nav.js",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/modules/_header.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/mixins/_article-header.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_article-header-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_body-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_typography-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/modules/_nav.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/includes/pikes@Placewise/primarynav.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/js/production.min.js",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/modules/_footer.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/go/partials/rusty_riley/bottomArea.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/bayer/go/design/bayse15/bottomArea.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/mixins/_lists.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_nav-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_header-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/pages/_home.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/includes/quandary@Poag/pre-footer.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_typography-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_color-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_footer-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_article-header-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/modules/_layout.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/homepage.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/vars/_width-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/modules/_nav.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/modules/_header.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/features/_logo.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/js/production.min.js",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/js/nav.js",
+		"/Users/Q/Sites/placewise/CoreWebSites/ForestCity/go/design/FCE16/src/css/scss/components/_mrec.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_body-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/go/partials/rusty_riley/topArea.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/pages/about-us.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/pages/contact-us.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/pages/leasing.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/_snippets/directions.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/pages/directions.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/humboldt/design/src/css/scss/modules/_nav.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_global-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/components/_social.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-city10/includes/pikes@Placewise/primarynav.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-city10/includes/pikes@Placewise/home_page_cards.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/humboldt/design/src/css/scss/components/_slogan.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/components/_slogan.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_slogan-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-city10/css/vars/_slogan-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/main.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/_package.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/includes/pikes@Placewise/home_page_cards.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_home-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-city10/css/vars/_home-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/pikes/design/src/css/scss/features/_logo.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-cityshoppingcanada/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/PlaceWise/mall-city10/css/vars/_logo-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/NewEnglandDev/go/design/wgmse15/bottomArea.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/pages/leasing.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/base/_typography.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/vars/_typography-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/includes/quandary@Poag/homepage_carousel.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/vars/_article-header-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_slug-vars.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/mixins/_full-width.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/components/_social.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/universal_base/components/_social.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/mimages/carousel-viera.jpg",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/mimages/carousel-westcobb.jpg",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/pages/_trends.scss",
+		"/Users/Q/Sites/placewise/CoreWebSites/universal/quandary/design/src/css/scss/main.scss",
+		"/Users/Q/Downloads/TheAvenue-DesignProposal-FA.pdf",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/includes/quandary@Poag/properties.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/includes/quandary@Poag/seasonal-trends.cfm",
+		"/Users/Q/Sites/placewise/CoreWebSites/Poag/mall-theavenue/css/vars/_width-vars.scss"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"/Users/Q/Sites/placewise/CoreWebSites",
+			"/Users/Q/Sites/maxquattromani",
+			"/Users/Q/Sites",
+			"/Users/Q/Sites/maxquattromani",
+			"<project>",
+			"/Users/Q/Sites/scaffold",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"next",
+			"$icon-angle",
+			"top: ",
+			"$mobile-mall-logo-height",
+			"promos",
+			" ;",
+			"none",
+			"></",
+			" !default",
+			"cards",
+			"footer-li",
+			"254x300",
+			"800",
+			"home",
+			" !default",
+			"top:",
+			"get_our_slug",
+			"14",
+			"n.css",
+			".css",
+			"nova",
+			"proxima",
+			"proxima-nova",
+			"#search-box",
+			"#f89829",
+			" !default",
+			"#request.name#",
+			" !default",
+			"></",
+			"$google-font",
+			"false",
+			"edgewater",
+			"false",
+			"pleas",
+			"'RR'",
+			"RR",
+			"rr",
+			"RR",
+			"- title:",
+			"status: true",
+			"- title: ",
+			"grey",
+			"black",
+			"absol",
+			".container",
+			"blockquote",
+			"hidden",
+			"mobi",
+			"face",
+			"twitter",
+			"></",
+			"true",
+			"'live'",
+			"status: ''",
+			"'\n",
+			"- title",
+			"''\n",
+			"'",
+			"  ",
+			"[e]",
+			"  [site]  ",
+			"APOLLO  janir.thorndike@placewise.com john.clewe@placewise.com",
+			"[site]  UNKNOWN janir.thorndike@placewise.com john.clewe@placewise.com",
+			"    (live)",
+			"Rouse Properties  Rouse Properties  pwr_alpha WiFi",
+			".com",
+			"http://",
+			"http:",
+			"om\">",
+			"/\">",
+			"</a>",
+			"com\">",
+			"</li>\n    <li>\n      <a href=\"",
+			"a></",
+			"><a",
+			"<li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>\n    <li><a href=\"\"></a></li>",
+			"></",
+			"cano",
+			"-",
+			"`",
+			"column",
+			"horizontal-list",
+			"<a href=\"\" class=\"btn btn-primary right\">Continue</a>",
+			" mobile-full",
+			".scss",
+			".sticky",
+			"mobile-full",
+			".scss",
+			".text-center",
+			"-link-color",
+			"twitter-link-color",
+			"font-faces",
+			"overflow: auto",
+			".scss",
+			"vertical",
+			".scss",
+			".vertical",
+			".scss",
+			".vertical",
+			".highlight",
+			"}\n",
+			"></",
+			".",
+			"30px",
+			"30",
+			"24",
+			"envelope",
+			"instagram",
+			"$icon-",
+			"fa-",
+			"portfolio-gallery",
+			"potfolio-gallery",
+			"-icon",
+			"faceb",
+			"before($icon",
+			"article",
+			".heading",
+			"      </div>\n    </article>",
+			"<article>\n      <div class=\"three-fourths\">",
+			" class=\"light\"",
+			"<div class=\"row\">",
+			"</div>\n\n    <hr>",
+			"class=\"h3 ",
+			"theme",
+			"## ",
+			"###",
+			"##",
+			"icon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			">\n",
+			"layout: default",
+			"fa-gears",
+			"@include first;",
+			"first-child",
+			"h3",
+			"border: 0;",
+			"@import '../globals/allGlobals';",
+			"<a",
+			"docs",
+			"nationality",
+			"/SSM/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 152.0
+	},
+	"output.sftp":
+	{
+		"height": 122.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"directions.cfm",
+				"_snippets/directions.cfm"
+			],
+			[
+				"slogan.scss",
+				"universal/humboldt/design/src/css/scss/components/_slogan.scss"
+			],
+			[
+				"font.s",
+				"css/scss/mixins/_font.scss"
+			],
+			[
+				"fonta",
+				"_site/css/partials/font-awesome.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/mustang/mustang.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

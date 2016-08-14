@@ -46,9 +46,14 @@
 		]
 	},
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -121,7 +126,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/json/nfl2014.json",
 		"/Users/Q/Sites/officefootball/index.html",
+		"/Users/Q/Sites/officefootball/json/nfl2014.min.json",
 		"/Users/Q/Sites/officefootball/js/dashboard.js",
 		"/Users/Q/Sites/officefootball/dashboard/index.html",
 		"/Users/Q/Sites/officefootball/js/leaderboard.js",
@@ -246,9 +253,7 @@
 		"/Users/Q/Sites/maxquattromani/404.html",
 		"/Users/Q/Sites/maxquattromani/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/maxquattromani/css/scss/partials/buttons.scss",
-		"/Users/Q/Sites/maxquattromani/css/partials/buttons.css",
-		"/Users/Q/Sites/maxquattromani/js/main.js",
-		"/Users/Q/Sites/maxquattromani/_includes/nav.html"
+		"/Users/Q/Sites/maxquattromani/css/partials/buttons.css"
 	],
 	"find":
 	{
@@ -272,6 +277,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"week",
+			"game_days",
+			"2014",
+			"game_days",
+			"nick",
+			"week",
+			"matches",
+			"2014",
 			", \"",
 			", \"l",
 			"total",
@@ -391,15 +404,7 @@
 			"progress",
 			"@include font-family",
 			"@include font-",
-			"bp",
-			"transition",
-			"%",
-			"fontaw",
-			"progrsss",
-			"transform",
-			".3",
-			"q",
-			"a {"
+			"bp"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -471,6 +476,7 @@
 	{
 		"height": 122.0
 	},
+	"pinned_build_system": "",
 	"replace":
 	{
 		"height": 60.0
@@ -479,6 +485,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -487,6 +494,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -495,6 +503,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
