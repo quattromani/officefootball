@@ -86,7 +86,7 @@ $(function() {
 $('.getYear').getYear();
 
 
-var week1 = new Date('9/8/2016');
+var week1 = new Date();
 var week2 = new Date('9/15/2016');
 var week3 = new Date('9/22/2016');
 var week4 = new Date('9/29/2016');
@@ -251,7 +251,7 @@ $.ajax({
 //   }
 // });
 
-$.getJSON('https://spreadsheets.google.com/feeds/list/1a3tvBpNte0cWmObkvd7j3wJdADyRvtYHW1IbHefPxX4/od6/public/values?alt=json', function(data) {
+ $.getJSON('https://spreadsheets.google.com/feeds/list/1a3tvBpNte0cWmObkvd7j3wJdADyRvtYHW1IbHefPxX4/od6/public/values?alt=json', function(data) {
 
   for (i = 0; i < data.feed.entry.length; i++) {
     var home = data.feed.entry[i]['gsx$hnn']['$t'];

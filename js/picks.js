@@ -1,4 +1,4 @@
-var week1 = new Date('9/8/2016');
+var week1 = new Date();
 var week2 = new Date('9/15/2016');
 var week3 = new Date('9/22/2016');
 var week4 = new Date('9/29/2016');

@@ -10,17 +10,17 @@ class: officefootball
 
   <hr>
 
-  <form action="//formspree.io/{{ site.email }}" method="POST" id="weekly">
+  <form action="//forms.brace.io/{{ site.email }}" method="POST" id="weekly">
     <div class="hidden"></div>
     <div class="row">
       <div class="formitem name">
         <label for="name" class="required"><i class="fa fa-user"></i> Name</label>
-        <input id="name" type="text" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Name" x-autocompletetype="name-full" tabindex="1" required>
+        <input id="name" type="text" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Name" autocomplete="name" tabindex="1" required>
         <span title="Please enter your Name"></span>
       </div>
       <div class="formitem email">
         <label for="email" class="required"><i class="fa fa-envelope"></i> Email Address</label>
-        <input id="email" type="email" name="_replyto" placeholder="milk@cereal.com" x-autocompletetype="email" tabindex="2" required>
+        <input id="email" type="email" name="_replyto" placeholder="milk@cereal.com" autocomplete="email" tabindex="2" required>
       </div>
     </div>
 
@@ -30,11 +30,11 @@ class: officefootball
     </div>
 
     <fieldset>
-      <ul class="games">
+      <ul class="matches">
         <h5></h5>
       </ul>
     </fieldset>
-    <!-- /.games -->
+    <!-- /.matches -->
 
     <p>By submitting your picks, you acknowledge that you will pay into the pool as agreed.</p>
 
