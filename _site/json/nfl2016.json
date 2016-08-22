@@ -1,2565 +1,5458 @@
-{
-currentWeek: "1",
-Schedule: [
-{
-gameId: "1",
-gameWeek: "1",
-gameDate: "2016-09-08",
-awayTeam: "CAR",
-homeTeam: "DEN",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "2",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "GB",
-homeTeam: "JAC",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "3",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "BUF",
-homeTeam: "BAL",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "4",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "CHI",
-homeTeam: "HOU",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "5",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "CLE",
-homeTeam: "PHI",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "6",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "TB",
-homeTeam: "ATL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "7",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "MIN",
-homeTeam: "TEN",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "8",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "CIN",
-homeTeam: "NYJ",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "9",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "OAK",
-homeTeam: "NO",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "10",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "SD",
-homeTeam: "KC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "11",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "MIA",
-homeTeam: "SEA",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "12",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "DET",
-homeTeam: "IND",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "13",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "NYG",
-homeTeam: "DAL",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "14",
-gameWeek: "1",
-gameDate: "2016-09-11",
-awayTeam: "NE",
-homeTeam: "ARI",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "15",
-gameWeek: "1",
-gameDate: "2016-09-12",
-awayTeam: "PIT",
-homeTeam: "WAS",
-gameTimeET: "7:10 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "16",
-gameWeek: "1",
-gameDate: "2016-09-12",
-awayTeam: "LA",
-homeTeam: "SF",
-gameTimeET: "10:20 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "17",
-gameWeek: "2",
-gameDate: "2016-09-15",
-awayTeam: "NYJ",
-homeTeam: "BUF",
-gameTimeET: "8:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "18",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "CIN",
-homeTeam: "PIT",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "19",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "TEN",
-homeTeam: "DET",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "20",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "BAL",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "21",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "DAL",
-homeTeam: "WAS",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "22",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "NO",
-homeTeam: "NYG",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "23",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "SF",
-homeTeam: "CAR",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "24",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "MIA",
-homeTeam: "NE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "25",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "KC",
-homeTeam: "HOU",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "26",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "SEA",
-homeTeam: "LA",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "27",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "TB",
-homeTeam: "ARI",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "28",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "JAC",
-homeTeam: "SD",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "29",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "ATL",
-homeTeam: "OAK",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "30",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "IND",
-homeTeam: "DEN",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "31",
-gameWeek: "2",
-gameDate: "2016-09-18",
-awayTeam: "GB",
-homeTeam: "MIN",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "32",
-gameWeek: "2",
-gameDate: "2016-09-19",
-awayTeam: "PHI",
-homeTeam: "CHI",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "33",
-gameWeek: "3",
-gameDate: "2016-09-22",
-awayTeam: "HOU",
-homeTeam: "NE",
-gameTimeET: "8:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "34",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "ARI",
-homeTeam: "BUF",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "35",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "OAK",
-homeTeam: "TEN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "36",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "CLE",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "37",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "BAL",
-homeTeam: "JAC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "38",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "DET",
-homeTeam: "GB",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "39",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "DEN",
-homeTeam: "CIN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "40",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "MIN",
-homeTeam: "CAR",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "41",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "WAS",
-homeTeam: "NYG",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "42",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "LA",
-homeTeam: "TB",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "43",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "SF",
-homeTeam: "SEA",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "44",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "NYJ",
-homeTeam: "KC",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "45",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "SD",
-homeTeam: "IND",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "46",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "PIT",
-homeTeam: "PHI",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "47",
-gameWeek: "3",
-gameDate: "2016-09-25",
-awayTeam: "CHI",
-homeTeam: "DAL",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "48",
-gameWeek: "3",
-gameDate: "2016-09-26",
-awayTeam: "ATL",
-homeTeam: "NO",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "49",
-gameWeek: "4",
-gameDate: "2016-09-29",
-awayTeam: "MIA",
-homeTeam: "CIN",
-gameTimeET: "8:25 PM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "50",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "IND",
-homeTeam: "JAC",
-gameTimeET: "9:30 AM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "51",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "TEN",
-homeTeam: "HOU",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "52",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "CLE",
-homeTeam: "WAS",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "53",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "SEA",
-homeTeam: "NYJ",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "54",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "BUF",
-homeTeam: "NE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "55",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "CAR",
-homeTeam: "ATL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "56",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "OAK",
-homeTeam: "BAL",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "57",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "DET",
-homeTeam: "CHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "58",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "DEN",
-homeTeam: "TB",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "59",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "LA",
-homeTeam: "ARI",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "60",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "NO",
-homeTeam: "SD",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "61",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "DAL",
-homeTeam: "SF",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "62",
-gameWeek: "4",
-gameDate: "2016-10-02",
-awayTeam: "KC",
-homeTeam: "PIT",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "63",
-gameWeek: "4",
-gameDate: "2016-10-03",
-awayTeam: "NYG",
-homeTeam: "MIN",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "64",
-gameWeek: "5",
-gameDate: "2016-10-06",
-awayTeam: "ARI",
-homeTeam: "SF",
-gameTimeET: "8:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "65",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "NE",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "66",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "PHI",
-homeTeam: "DET",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "67",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "CHI",
-homeTeam: "IND",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "68",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "TEN",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "69",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "WAS",
-homeTeam: "BAL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "70",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "HOU",
-homeTeam: "MIN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "71",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "NYJ",
-homeTeam: "PIT",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "72",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "ATL",
-homeTeam: "DEN",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "73",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "CIN",
-homeTeam: "DAL",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "74",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "BUF",
-homeTeam: "LA",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "75",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "SD",
-homeTeam: "OAK",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "76",
-gameWeek: "5",
-gameDate: "2016-10-09",
-awayTeam: "NYG",
-homeTeam: "GB",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "77",
-gameWeek: "5",
-gameDate: "2016-10-10",
-awayTeam: "TB",
-homeTeam: "CAR",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "78",
-gameWeek: "6",
-gameDate: "2016-10-13",
-awayTeam: "DEN",
-homeTeam: "SD",
-gameTimeET: "8:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "79",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "SF",
-homeTeam: "BUF",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "80",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "PHI",
-homeTeam: "WAS",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "81",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "CLE",
-homeTeam: "TEN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "82",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "BAL",
-homeTeam: "NYG",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "83",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "CAR",
-homeTeam: "NO",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "84",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "JAC",
-homeTeam: "CHI",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "85",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "LA",
-homeTeam: "DET",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "86",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "PIT",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "87",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "CIN",
-homeTeam: "NE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "88",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "KC",
-homeTeam: "OAK",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "89",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "ATL",
-homeTeam: "SEA",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "90",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "DAL",
-homeTeam: "GB",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "91",
-gameWeek: "6",
-gameDate: "2016-10-16",
-awayTeam: "IND",
-homeTeam: "HOU",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "92",
-gameWeek: "6",
-gameDate: "2016-10-17",
-awayTeam: "NYJ",
-homeTeam: "ARI",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "93",
-gameWeek: "7",
-gameDate: "2016-10-20",
-awayTeam: "CHI",
-homeTeam: "GB",
-gameTimeET: "8:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "94",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "NYG",
-homeTeam: "LA",
-gameTimeET: "9:30 AM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "95",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "NO",
-homeTeam: "KC",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "96",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "IND",
-homeTeam: "TEN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "97",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "MIN",
-homeTeam: "PHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "98",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "CLE",
-homeTeam: "CIN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "99",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "WAS",
-homeTeam: "DET",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "100",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "OAK",
-homeTeam: "JAC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "101",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "BUF",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "102",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "BAL",
-homeTeam: "NYJ",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "103",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "TB",
-homeTeam: "SF",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "104",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "SD",
-homeTeam: "ATL",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "105",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "NE",
-homeTeam: "PIT",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "106",
-gameWeek: "7",
-gameDate: "2016-10-23",
-awayTeam: "SEA",
-homeTeam: "ARI",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "107",
-gameWeek: "7",
-gameDate: "2016-10-24",
-awayTeam: "HOU",
-homeTeam: "DEN",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "108",
-gameWeek: "8",
-gameDate: "2016-10-27",
-awayTeam: "JAC",
-homeTeam: "TEN",
-gameTimeET: "8:25 PM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "109",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "WAS",
-homeTeam: "CIN",
-gameTimeET: "9:30 AM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "110",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "KC",
-homeTeam: "IND",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "111",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "OAK",
-homeTeam: "TB",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "112",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "SEA",
-homeTeam: "NO",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "113",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "DET",
-homeTeam: "HOU",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "114",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "NYJ",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "115",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "GB",
-homeTeam: "ATL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "116",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "NE",
-homeTeam: "BUF",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "117",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "SD",
-homeTeam: "DEN",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "118",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "ARI",
-homeTeam: "CAR",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "119",
-gameWeek: "8",
-gameDate: "2016-10-30",
-awayTeam: "PHI",
-homeTeam: "DAL",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "120",
-gameWeek: "8",
-gameDate: "2016-10-31",
-awayTeam: "MIN",
-homeTeam: "CHI",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "121",
-gameWeek: "9",
-gameDate: "2016-11-03",
-awayTeam: "ATL",
-homeTeam: "TB",
-gameTimeET: "8:25 PM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "122",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "PIT",
-homeTeam: "BAL",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "123",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "DAL",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "124",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "JAC",
-homeTeam: "KC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "125",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "NYJ",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "126",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "PHI",
-homeTeam: "NYG",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "127",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "DET",
-homeTeam: "MIN",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "128",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "CAR",
-homeTeam: "LA",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "129",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "NO",
-homeTeam: "SF",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "130",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "TEN",
-homeTeam: "SD",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "131",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "IND",
-homeTeam: "GB",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "132",
-gameWeek: "9",
-gameDate: "2016-11-06",
-awayTeam: "DEN",
-homeTeam: "OAK",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "133",
-gameWeek: "9",
-gameDate: "2016-11-07",
-awayTeam: "BUF",
-homeTeam: "SEA",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "134",
-gameWeek: "10",
-gameDate: "2016-11-10",
-awayTeam: "CLE",
-homeTeam: "BAL",
-gameTimeET: "8:25 PM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "135",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "GB",
-homeTeam: "TEN",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "136",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "MIN",
-homeTeam: "WAS",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "137",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "CHI",
-homeTeam: "TB",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "138",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "KC",
-homeTeam: "CAR",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "139",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "ATL",
-homeTeam: "PHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "140",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "LA",
-homeTeam: "NYJ",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "141",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "DEN",
-homeTeam: "NO",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "142",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "HOU",
-homeTeam: "JAC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "143",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "MIA",
-homeTeam: "SD",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "144",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "DAL",
-homeTeam: "PIT",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "145",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "SF",
-homeTeam: "ARI",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "146",
-gameWeek: "10",
-gameDate: "2016-11-13",
-awayTeam: "SEA",
-homeTeam: "NE",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "147",
-gameWeek: "10",
-gameDate: "2016-11-14",
-awayTeam: "CIN",
-homeTeam: "NYG",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "148",
-gameWeek: "11",
-gameDate: "2016-11-17",
-awayTeam: "NO",
-homeTeam: "CAR",
-gameTimeET: "8:25 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "149",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "PIT",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "150",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "BAL",
-homeTeam: "DAL",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "151",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "JAC",
-homeTeam: "DET",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "152",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "TEN",
-homeTeam: "IND",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "153",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "BUF",
-homeTeam: "CIN",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "154",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "TB",
-homeTeam: "KC",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "155",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "CHI",
-homeTeam: "NYG",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "156",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "ARI",
-homeTeam: "MIN",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "157",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "MIA",
-homeTeam: "LA",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "158",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "NE",
-homeTeam: "SF",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "159",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "PHI",
-homeTeam: "SEA",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "160",
-gameWeek: "11",
-gameDate: "2016-11-20",
-awayTeam: "GB",
-homeTeam: "WAS",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "161",
-gameWeek: "11",
-gameDate: "2016-11-21",
-awayTeam: "HOU",
-homeTeam: "OAK",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "162",
-gameWeek: "12",
-gameDate: "2016-11-24",
-awayTeam: "MIN",
-homeTeam: "DET",
-gameTimeET: "12:30 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "163",
-gameWeek: "12",
-gameDate: "2016-11-24",
-awayTeam: "WAS",
-homeTeam: "DAL",
-gameTimeET: "4:30 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "164",
-gameWeek: "12",
-gameDate: "2016-11-24",
-awayTeam: "PIT",
-homeTeam: "IND",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "165",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "TEN",
-homeTeam: "CHI",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "166",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "JAC",
-homeTeam: "BUF",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "167",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "CIN",
-homeTeam: "BAL",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "168",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "ARI",
-homeTeam: "ATL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "169",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "NYG",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "170",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "LA",
-homeTeam: "NO",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "171",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "SF",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "172",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "SD",
-homeTeam: "HOU",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "173",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "SEA",
-homeTeam: "TB",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "174",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "CAR",
-homeTeam: "OAK",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "175",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "KC",
-homeTeam: "DEN",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "176",
-gameWeek: "12",
-gameDate: "2016-11-27",
-awayTeam: "NE",
-homeTeam: "NYJ",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "177",
-gameWeek: "12",
-gameDate: "2016-11-28",
-awayTeam: "GB",
-homeTeam: "PHI",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "178",
-gameWeek: "13",
-gameDate: "2016-12-01",
-awayTeam: "DAL",
-homeTeam: "MIN",
-gameTimeET: "8:25 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "179",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "KC",
-homeTeam: "ATL",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "180",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "DET",
-homeTeam: "NO",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "181",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "LA",
-homeTeam: "NE",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "182",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "DEN",
-homeTeam: "JAC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "183",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "HOU",
-homeTeam: "GB",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "184",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "PHI",
-homeTeam: "CIN",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "185",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "MIA",
-homeTeam: "BAL",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "186",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "SF",
-homeTeam: "CHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "187",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "BUF",
-homeTeam: "OAK",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "188",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "NYG",
-homeTeam: "PIT",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "189",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "WAS",
-homeTeam: "ARI",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "190",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "TB",
-homeTeam: "SD",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "191",
-gameWeek: "13",
-gameDate: "2016-12-04",
-awayTeam: "CAR",
-homeTeam: "SEA",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "192",
-gameWeek: "13",
-gameDate: "2016-12-05",
-awayTeam: "IND",
-homeTeam: "NYJ",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "193",
-gameWeek: "14",
-gameDate: "2016-12-08",
-awayTeam: "OAK",
-homeTeam: "KC",
-gameTimeET: "8:25 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "194",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "PIT",
-homeTeam: "BUF",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "195",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "DEN",
-homeTeam: "TEN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "196",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "NO",
-homeTeam: "TB",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "197",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "WAS",
-homeTeam: "PHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "198",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "ARI",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "199",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "SD",
-homeTeam: "CAR",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "200",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "CIN",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "201",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "CHI",
-homeTeam: "DET",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "202",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "HOU",
-homeTeam: "IND",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "203",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "MIN",
-homeTeam: "JAC",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "204",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "NYJ",
-homeTeam: "SF",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "205",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "ATL",
-homeTeam: "LA",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "206",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "SEA",
-homeTeam: "GB",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "207",
-gameWeek: "14",
-gameDate: "2016-12-11",
-awayTeam: "DAL",
-homeTeam: "NYG",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "208",
-gameWeek: "14",
-gameDate: "2016-12-12",
-awayTeam: "BAL",
-homeTeam: "NE",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "209",
-gameWeek: "15",
-gameDate: "2016-12-15",
-awayTeam: "LA",
-homeTeam: "SEA",
-gameTimeET: "8:25 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "210",
-gameWeek: "15",
-gameDate: "2016-12-17",
-awayTeam: "MIA",
-homeTeam: "NYJ",
-gameTimeET: "8:25 PM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "211",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "GB",
-homeTeam: "CHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "212",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "TB",
-homeTeam: "DAL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "213",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "JAC",
-homeTeam: "HOU",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "214",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "CLE",
-homeTeam: "BUF",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "215",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "PHI",
-homeTeam: "BAL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "216",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "TEN",
-homeTeam: "KC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "217",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "DET",
-homeTeam: "NYG",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "218",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "IND",
-homeTeam: "MIN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "219",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "NO",
-homeTeam: "ARI",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "220",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "SF",
-homeTeam: "ATL",
-gameTimeET: "4:05 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "221",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "NE",
-homeTeam: "DEN",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "222",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "OAK",
-homeTeam: "SD",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "223",
-gameWeek: "15",
-gameDate: "2016-12-18",
-awayTeam: "PIT",
-homeTeam: "CIN",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "224",
-gameWeek: "15",
-gameDate: "2016-12-19",
-awayTeam: "CAR",
-homeTeam: "WAS",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "225",
-gameWeek: "16",
-gameDate: "2016-12-22",
-awayTeam: "NYG",
-homeTeam: "PHI",
-gameTimeET: "8:25 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "226",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "MIA",
-homeTeam: "BUF",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "227",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "TB",
-homeTeam: "NO",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "228",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "NYJ",
-homeTeam: "NE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "229",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "TEN",
-homeTeam: "JAC",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "230",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "MIN",
-homeTeam: "GB",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "231",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "SD",
-homeTeam: "CLE",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "232",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "WAS",
-homeTeam: "CHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "233",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "ATL",
-homeTeam: "CAR",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "234",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "IND",
-homeTeam: "OAK",
-gameTimeET: "4:05 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "235",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "ARI",
-homeTeam: "SEA",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "236",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "SF",
-homeTeam: "LA",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "237",
-gameWeek: "16",
-gameDate: "2016-12-24",
-awayTeam: "CIN",
-homeTeam: "HOU",
-gameTimeET: "8:25 PM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "238",
-gameWeek: "16",
-gameDate: "2016-12-25",
-awayTeam: "BAL",
-homeTeam: "PIT",
-gameTimeET: "4:30 PM",
-tvStation: "NFL",
-winner: ""
-},
-{
-gameId: "239",
-gameWeek: "16",
-gameDate: "2016-12-25",
-awayTeam: "DEN",
-homeTeam: "KC",
-gameTimeET: "8:30 PM",
-tvStation: "NBC",
-winner: ""
-},
-{
-gameId: "240",
-gameWeek: "16",
-gameDate: "2016-12-26",
-awayTeam: "DET",
-homeTeam: "DAL",
-gameTimeET: "8:30 PM",
-tvStation: "ESPN",
-winner: ""
-},
-{
-gameId: "241",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "NO",
-homeTeam: "ATL",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "242",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "BAL",
-homeTeam: "CIN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "243",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "NYG",
-homeTeam: "WAS",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "244",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "HOU",
-homeTeam: "TEN",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "245",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "CAR",
-homeTeam: "TB",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "246",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "GB",
-homeTeam: "DET",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "247",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "JAC",
-homeTeam: "IND",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "248",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "NE",
-homeTeam: "MIA",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "249",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "CHI",
-homeTeam: "MIN",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "250",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "BUF",
-homeTeam: "NYJ",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "251",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "DAL",
-homeTeam: "PHI",
-gameTimeET: "1:00 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "252",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "CLE",
-homeTeam: "PIT",
-gameTimeET: "1:00 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "253",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "ARI",
-homeTeam: "LA",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
-},
-{
-gameId: "254",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "OAK",
-homeTeam: "DEN",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "255",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "KC",
-homeTeam: "SD",
-gameTimeET: "4:25 PM",
-tvStation: "CBS",
-winner: ""
-},
-{
-gameId: "256",
-gameWeek: "17",
-gameDate: "2017-01-01",
-awayTeam: "SEA",
-homeTeam: "SF",
-gameTimeET: "4:25 PM",
-tvStation: "FOX",
-winner: ""
+[
+  {
+    "week": 1,
+    "game_days": [
+      {
+        "date": "2016-09-08",
+        "matches": [
+          {
+            "id": "1",
+            "timestamp": "Thu, 08 Sep 2016 20:30:00 -0400",
+            "stadium": "Sports Authority Field at Mile High",
+            "tv": "NBC",
+            "away": {
+              "id": "29",
+              "abbr": "car",
+              "slug": "carolina-panthers",
+              "name": "Carolina",
+              "nick": "Panthers"
+            },
+            "home": {
+              "id": "7",
+              "abbr": "den",
+              "slug": "denver-broncos",
+              "name": "Denver",
+              "nick": "Broncos"
+            }
+          }
+        ]
+      },
+      {
+        "date": "2016-09-11",
+        "matches": [
+          {
+            "id": "2",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "EverBank Field",
+            "tv": "FOX",
+            "away": {
+              "id": "9",
+              "abbr": "gb",
+              "slug": "green-bay-packers",
+              "name": "Green Bay",
+              "nick": "Packers"
+            },
+            "home": {
+              "id": "30",
+              "abbr": "jax",
+              "slug": "jacksonville-jaguars",
+              "name": "Jacksonville",
+              "nick": "Jaguars"
+            }
+          },
+          {
+            "id": "3",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "M&T Bank Stadium",
+            "tv": "CBS",
+            "away": {
+              "id": "2",
+              "abbr": "buf",
+              "slug": "buffalo-bills",
+              "name": "Buffalo",
+              "nick": "Bills"
+            },
+            "home": {
+              "id": "31",
+              "abbr": "bal",
+              "slug": "baltimore-ravens",
+              "name": "Baltimore",
+              "nick": "Ravens"
+            }
+          },
+          {
+            "id": "4",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "Reliant Stadium",
+            "tv": "FOX",
+            "away": {
+              "id": "3",
+              "abbr": "chi",
+              "slug": "chicago-bears",
+              "name": "Chicago",
+              "nick": "Bears"
+            },
+            "home": {
+              "id": "32",
+              "abbr": "hou",
+              "slug": "houston-texans",
+              "name": "Houston",
+              "nick": "Texans"
+            }
+          },
+          {
+            "id": "5",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "Lincoln Financial Field",
+            "tv": "CBS",
+            "away": {
+              "id": "5",
+              "abbr": "cle",
+              "slug": "cleveland-browns",
+              "name": "Cleveland",
+              "nick": "Browns"
+            },
+            "home": {
+              "id": "21",
+              "abbr": "phi",
+              "slug": "philadelphia-eagles",
+              "name": "Philadelphia",
+              "nick": "Eagles"
+            }
+          },
+          {
+            "id": "6",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "Georgia Dome",
+            "tv": "FOX",
+            "away": {
+              "id": "27",
+              "abbr": "tb",
+              "slug": "tampa-bay-buccaneers",
+              "name": "Tampa Bay",
+              "nick": "Buccaneers"
+            },
+            "home": {
+              "id": "1",
+              "abbr": "atl",
+              "slug": "atlanta-falcons",
+              "name": "Atlanta",
+              "nick": "Falcons"
+            }
+          },
+          {
+            "id": "7",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "Nissan Stadium",
+            "tv": "FOX",
+            "away": {
+              "id": "16",
+              "abbr": "min",
+              "slug": "minnesota-vikings",
+              "name": "Minnesota",
+              "nick": "Vikings"
+            },
+            "home": {
+              "id": "10",
+              "abbr": "ten",
+              "slug": "tennessee-titans",
+              "name": "Tennessee",
+              "nick": "Titans"
+            }
+          },
+          {
+            "id": "8",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "MetLife Stadium",
+            "tv": "CBS",
+            "away": {
+              "id": "4",
+              "abbr": "cin",
+              "slug": "cincinnati-bengals",
+              "name": "Cincinnati",
+              "nick": "Bengals"
+            },
+            "home": {
+              "id": "20",
+              "abbr": "nyj",
+              "slug": "new-york-jets",
+              "name": "NY Jets",
+              "nick": "NY Jets"
+            }
+          },
+          {
+            "id": "9",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "Mercedes-Benz Superdome",
+            "tv": "FOX",
+            "away": {
+              "id": "13",
+              "abbr": "oak",
+              "slug": "oakland-raiders",
+              "name": "Oakland",
+              "nick": "Raiders"
+
+            },
+            "home": {
+              "id": "18",
+              "abbr": "no",
+              "slug": "new-orleans-saints",
+              "name": "New Orleans",
+              "nick": "Saints"
+            }
+          },
+          {
+            "id": "10",
+            "timestamp": "Sun, 11 Sep 2016 13:00:00 -0400",
+            "stadium": "Arrowhead Stadium",
+            "tv": "CBS",
+            "away": {
+              "id": "24",
+              "abbr": "sd",
+              "slug": "san-diego-chargers",
+              "name": "San Diego",
+              "nick": "Chargers"
+            },
+            "home": {
+              "id": "12",
+              "abbr": "kc",
+              "slug": "kansas-city-chiefs",
+              "name": "Kansas City",
+              "nick": "Chiefs"
+            }
+          },
+          {
+            "id": "11",
+            "timestamp": "Sun, 11 Sep 2016 16:05:00 -0400",
+            "stadium": "CenturyLink Field",
+            "tv": "CBS",
+            "away": {
+              "id": "15",
+              "abbr": "mia",
+              "slug": "miami-dolphins",
+              "name": "Miami",
+              "nick": "Dolphins"
+            },
+            "home": {
+              "id": "26",
+              "abbr": "sea",
+              "slug": "seattle-seahawks",
+              "name": "Seattle",
+              "nick": "Seahawks"
+            }
+          },
+          {
+            "id": "12",
+            "timestamp": "Sun, 11 Sep 2016 16:25:00 -0400",
+            "stadium": "Lucas Oil Stadium",
+            "tv": "FOX",
+            "away": {
+              "id": "8",
+              "abbr": "det",
+              "slug": "detroit-lions",
+              "name": "Detroit",
+              "nick": "Lions"
+            },
+            "home": {
+              "id": "11",
+              "abbr": "ind",
+              "slug": "indianapolis-colts",
+              "name": "Indianapolis",
+              "nick": "Colts"
+            }
+          },
+          {
+            "id": "13",
+            "timestamp": "Sun, 11 Sep 2016 16:25:00 -0400",
+            "stadium": "AT&T Stadium",
+            "tv": "FOX",
+            "away": {
+              "id": "19",
+              "abbr": "nyg",
+              "slug": "new-york-giants",
+              "name": "NY Giants",
+              "nick": "NY Giants"
+            },
+            "home": {
+              "id": "6",
+              "abbr": "dal",
+              "slug": "dallas-cowboys",
+              "name": "Dallas",
+              "nick": "Cowboys"
+            }
+          },
+          {
+            "id": "14",
+            "timestamp": "Sun, 11 Sep 2016 20:30:00 -0400",
+            "stadium": "U of Phoenix Stadium",
+            "tv": "NBC",
+            "away": {
+              "id": "17",
+              "abbr": "ne",
+              "slug": "new-england-patriots",
+              "name": "New England",
+              "nick": "Patriots"
+            },
+            "home": {
+              "id": "22",
+              "abbr": "ari",
+              "slug": "arizona-cardinals",
+              "name": "Arizona",
+              "nick": "Cardinals"
+            }
+          }
+        ]
+},
+{
+  "date": "2016-09-12",
+  "matches": [
+    {
+      "id": "15",
+      "timestamp": "Mon, 12 Sep 2016 19:10:00 -0400",
+      "stadium": "FedEx Field",
+      "tv": "ESPN",
+      "away": {
+        "id": "23",
+        "abbr": "pit",
+        "slug": "pittsburgh-steelers",
+        "name": "Pittsburgh",
+        "nick": "Steelers"
+      },
+      "home": {
+        "id": "28",
+        "abbr": "wsh",
+        "slug": "washington-redskins",
+        "name": "Washington",
+        "nick": "Redskins"
+      }
+    },
+    {
+      "id": "16",
+      "timestamp": "Mon, 12 Sep 2016 22:20:00 -0400",
+      "stadium": "Levi's Stadium",
+      "tv": "ESPN",
+      "away": {
+        "id": "14",
+        "abbr": "stl",
+        "slug": "la-rams",
+        "name": "LA Rams",
+        "nick": "Rams"
+      },
+      "home": {
+        "id": "25",
+        "abbr": "sf",
+        "slug": "san-francisco-49ers",
+        "name": "San Francisco",
+        "nick": "49ers"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 2,
+  "game_days": [
+    {
+      "date": "2016-09-15",
+      "matches": [
+        {
+          "id": "23.33",
+          "timestamp": "Thu, 11 Sep 2016 20:25:00 -0400",
+          "stadium": "M&T Bank Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-09-18",
+      "matches": [
+        {
+          "id": "15.2",
+          "timestamp": "Sun, 14 Sep 2016 13:00:00 -0400",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "30.28",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "FedEx Field",
+          "tv": "NBC",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          },
+          "home": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          }
+        },
+        {
+          "id": "6.10",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "LP Field",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          }
+        },
+        {
+          "id": "22.19",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          }
+        },
+        {
+          "id": "17.16",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "18.5",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "1.4",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "Paul Brown Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          },
+          "home": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          }
+        },
+        {
+          "id": "8.29",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        },
+        {
+          "id": "14.27",
+          "timestamp": "Sun, 18 Sep 2016 16:05:00 -0400",
+          "stadium": "Raymond James Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "26.24",
+          "timestamp": "Sun, 18 Sep 2016 16:05:00 -0400",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        },
+        {
+          "id": "34.13",
+          "timestamp": "Sun, 18 Sep 2016 16:25:00 -0400",
+          "stadium": "O.co Coliseum",
+          "tv": "NBC",
+          "away": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "20.9",
+          "timestamp": "Sun, 18 Sep 2016 16:25:00 -0400",
+          "stadium": "Lambeau Field",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          }
+        },
+        {
+          "id": "12.7",
+          "timestamp": "Sun, 18 Sep 2016 16:25:00 -0400",
+          "stadium": "Sports Authority Field at Mile High",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          }
+        },
+        {
+          "id": "3.25",
+          "timestamp": "Sun, 18 Sep 2016 20:30:00 -0400",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-09-15",
+  "matches": [
+    {
+      "id": "21.11",
+      "timestamp": "Mon, 15 Sep 2016 20:30:00 -0400",
+      "stadium": "Lucas Oil Stadium",
+      "tv": "NBC",
+      "away": {
+        "id": "21",
+        "abbr": "phi",
+        "slug": "philadelphia-eagles",
+        "name": "Philadelphia",
+        "nick": "Eagles"
+      },
+      "home": {
+        "id": "11",
+        "abbr": "ind",
+        "slug": "indianapolis-colts",
+        "name": "Indianapolis",
+        "nick": "Colts"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 3,
+  "game_days": [
+    {
+      "date": "2016-09-18",
+      "matches": [
+        {
+          "id": "27.1",
+          "timestamp": "Thu, 18 Sep 2016 20:25:00 -0400",
+          "stadium": "Georgia Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-09-21",
+      "matches": [
+        {
+          "id": "24.2",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "6.14",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "Edward Jones Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          }
+        },
+        {
+          "id": "28.21",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "Lincoln Financial Field",
+          "tv": "NBC",
+          "away": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          },
+          "home": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          }
+        },
+        {
+          "id": "34.19",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          }
+        },
+        {
+          "id": "16.18",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "NBC",
+          "away": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          },
+          "home": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          }
+        },
+        {
+          "id": "10.4",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "Paul Brown Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          },
+          "home": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          }
+        },
+        {
+          "id": "33.5",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "9.8",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "Ford Field",
+          "tv": "NBC",
+          "away": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          },
+          "home": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "11.30",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "EverBank Field",
+          "tv": "NBC",
+          "away": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        },
+        {
+          "id": "13.17",
+          "timestamp": "Sun, 21 Sep 2016 13:00:00 -0400",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        },
+        {
+          "id": "25.22",
+          "timestamp": "Sun, 21 Sep 2016 16:05:00 -0400",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        },
+        {
+          "id": "7.26",
+          "timestamp": "Sun, 21 Sep 2016 16:25:00 -0400",
+          "stadium": "CenturyLink Field",
+          "tv": "NBC",
+          "away": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          },
+          "home": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          }
+        },
+        {
+          "id": "12.15",
+          "timestamp": "Sun, 21 Sep 2016 16:25:00 -0400",
+          "stadium": "Sun Life Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          }
+        },
+        {
+          "id": "23.29",
+          "timestamp": "Sun, 21 Sep 2016 20:30:00 -0400",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-09-22",
+  "matches": [
+    {
+      "id": "3.20",
+      "timestamp": "Mon, 22 Sep 2016 20:30:00 -0400",
+      "stadium": "MetLife Stadium",
+      "tv": "NBC",
+      "away": {
+        "id": "3",
+        "abbr": "chi",
+        "slug": "chicago-bears",
+        "name": "Chicago",
+        "nick": "Bears"
+      },
+      "home": {
+        "id": "20",
+        "abbr": "nyj",
+        "slug": "new-york-jets",
+        "name": "NY Jets",
+        "nick": "NY Jets"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 4,
+  "game_days": [
+    {
+      "date": "2016-09-25",
+      "matches": [
+        {
+          "id": "19.28",
+          "timestamp": "Thu, 25 Sep 2016 20:25:00 -0400",
+          "stadium": "FedEx Field",
+          "tv": "NBC",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          },
+          "home": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-09-28",
+      "matches": [
+        {
+          "id": "9.3",
+          "timestamp": "Sun, 28 Sep 2016 13:00:00 -0400",
+          "stadium": "Soldier Field",
+          "tv": "NBC",
+          "away": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          },
+          "home": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          }
+        },
+        {
+          "id": "2.34",
+          "timestamp": "Sun, 28 Sep 2016 13:00:00 -0400",
+          "stadium": "Reliant Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          },
+          "home": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "10.11",
+          "timestamp": "Sun, 28 Sep 2016 13:00:00 -0400",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          }
+        },
+        {
+          "id": "29.33",
+          "timestamp": "Sun, 28 Sep 2016 13:00:00 -0400",
+          "stadium": "M&T Bank Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          },
+          "home": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          }
+        },
+        {
+          "id": "8.20",
+          "timestamp": "Sun, 28 Sep 2016 13:00:00 -0400",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          }
+        },
+        {
+          "id": "27.23",
+          "timestamp": "Sun, 28 Sep 2016 13:00:00 -0400",
+          "stadium": "Heinz Field",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          }
+        },
+        {
+          "id": "15.13",
+          "timestamp": "Sun, 28 Sep 2016 13:00:00 -0400",
+          "stadium": "Wembley Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "30.24",
+          "timestamp": "Sun, 28 Sep 2016 16:05:00 -0400",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        },
+        {
+          "id": "1.16",
+          "timestamp": "Sun, 28 Sep 2016 16:25:00 -0400",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "21.25",
+          "timestamp": "Sun, 28 Sep 2016 16:25:00 -0400",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        },
+        {
+          "id": "18.6",
+          "timestamp": "Sun, 28 Sep 2016 20:30:00 -0400",
+          "stadium": "AT&T Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-09-29",
+  "matches": [
+    {
+      "id": "17.12",
+      "timestamp": "Mon, 29 Sep 2016 20:30:00 -0400",
+      "stadium": "Arrowhead Stadium",
+      "tv": "NBC",
+      "away": {
+        "id": "17",
+        "abbr": "ne",
+        "slug": "new-england-patriots",
+        "name": "New England",
+        "nick": "Patriots"
+      },
+      "home": {
+        "id": "12",
+        "abbr": "kc",
+        "slug": "kansas-city-chiefs",
+        "name": "Kansas City",
+        "nick": "Chiefs"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 5,
+  "game_days": [
+    {
+      "date": "2016-10-02",
+      "matches": [
+        {
+          "id": "16.9",
+          "timestamp": "Thu, 02 Oct 2016 20:25:00 -0400",
+          "stadium": "Lambeau Field",
+          "tv": "NBC",
+          "away": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          },
+          "home": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-10-05",
+      "matches": [
+        {
+          "id": "3.29",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        },
+        {
+          "id": "5.10",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "LP Field",
+          "tv": "NBC",
+          "away": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          },
+          "home": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          }
+        },
+        {
+          "id": "14.21",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "Lincoln Financial Field",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          }
+        },
+        {
+          "id": "1.19",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          }
+        },
+        {
+          "id": "27.18",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          }
+        },
+        {
+          "id": "34.6",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "AT&T Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          }
+        },
+        {
+          "id": "2.8",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "Ford Field",
+          "tv": "NBC",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          },
+          "home": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "33.11",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          }
+        },
+        {
+          "id": "23.30",
+          "timestamp": "Sun, 05 Oct 2016 13:00:00 -0400",
+          "stadium": "EverBank Field",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        },
+        {
+          "id": "22.7",
+          "timestamp": "Sun, 05 Oct 2016 16:05:00 -0400",
+          "stadium": "Sports Authority Field at Mile High",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          }
+        },
+        {
+          "id": "12.25",
+          "timestamp": "Sun, 05 Oct 2016 16:25:00 -0400",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        },
+        {
+          "id": "20.24",
+          "timestamp": "Sun, 05 Oct 2016 16:25:00 -0400",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        },
+        {
+          "id": "4.17",
+          "timestamp": "Sun, 05 Oct 2016 20:30:00 -0400",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-10-06",
+  "matches": [
+    {
+      "id": "26.28",
+      "timestamp": "Mon, 06 Oct 2016 20:30:00 -0400",
+      "stadium": "FedEx Field",
+      "tv": "NBC",
+      "away": {
+        "id": "26",
+        "abbr": "sea",
+        "slug": "seattle-seahawks",
+        "name": "Seattle",
+        "nick": "Seahawks"
+      },
+      "home": {
+        "id": "28",
+        "abbr": "wsh",
+        "slug": "washington-redskins",
+        "name": "Washington",
+        "nick": "Redskins"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 6,
+  "game_days": [
+    {
+      "date": "2016-10-09",
+      "matches": [
+        {
+          "id": "11.34",
+          "timestamp": "Thu, 09 Oct 2016 20:25:00 -0400",
+          "stadium": "Reliant Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          },
+          "home": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-10-12",
+      "matches": [
+        {
+          "id": "3.1",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "Georgia Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          }
+        },
+        {
+          "id": "30.10",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "LP Field",
+          "tv": "NBC",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          },
+          "home": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          }
+        },
+        {
+          "id": "33.27",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "Raymond James Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "7.20",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          },
+          "home": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          }
+        },
+        {
+          "id": "8.16",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "17.2",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "29.4",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "Paul Brown Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          },
+          "home": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          }
+        },
+        {
+          "id": "23.5",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "9.15",
+          "timestamp": "Sun, 12 Oct 2016 13:00:00 -0400",
+          "stadium": "Sun Life Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          }
+        },
+        {
+          "id": "24.13",
+          "timestamp": "Sun, 12 Oct 2016 16:05:00 -0400",
+          "stadium": "O.co Coliseum",
+          "tv": "NBC",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "6.26",
+          "timestamp": "Sun, 12 Oct 2016 16:25:00 -0400",
+          "stadium": "CenturyLink Field",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          }
+        },
+        {
+          "id": "28.22",
+          "timestamp": "Sun, 12 Oct 2016 16:25:00 -0400",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        },
+        {
+          "id": "19.21",
+          "timestamp": "Sun, 12 Oct 2016 20:30:00 -0400",
+          "stadium": "Lincoln Financial Field",
+          "tv": "NBC",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          },
+          "home": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-10-13",
+  "matches": [
+    {
+      "id": "25.14",
+      "timestamp": "Mon, 13 Oct 2016 20:30:00 -0400",
+      "stadium": "Edward Jones Dome",
+      "tv": "NBC",
+      "away": {
+        "id": "25",
+        "abbr": "sf",
+        "slug": "san-francisco-49ers",
+        "name": "San Francisco",
+        "nick": "49ers"
+      },
+      "home": {
+        "id": "14",
+        "abbr": "stl",
+        "slug": "st.-louis-rams",
+        "name": "St. Louis",
+        "nick": "Rams"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 7,
+  "game_days": [
+    {
+      "date": "2016-10-16",
+      "matches": [
+        {
+          "id": "20.17",
+          "timestamp": "Thu, 16 Oct 2016 20:25:00 -0400",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-10-19",
+      "matches": [
+        {
+          "id": "1.33",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "M&T Bank Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          },
+          "home": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          }
+        },
+        {
+          "id": "10.28",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "FedEx Field",
+          "tv": "NBC",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          },
+          "home": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          }
+        },
+        {
+          "id": "26.14",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "Edward Jones Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          }
+        },
+        {
+          "id": "5.30",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "EverBank Field",
+          "tv": "NBC",
+          "away": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        },
+        {
+          "id": "4.11",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          }
+        },
+        {
+          "id": "16.2",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "15.3",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "Soldier Field",
+          "tv": "NBC",
+          "away": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          },
+          "home": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          }
+        },
+        {
+          "id": "18.8",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "Ford Field",
+          "tv": "NBC",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          },
+          "home": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "29.9",
+          "timestamp": "Sun, 19 Oct 2016 13:00:00 -0400",
+          "stadium": "Lambeau Field",
+          "tv": "NBC",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          },
+          "home": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          }
+        },
+        {
+          "id": "12.24",
+          "timestamp": "Sun, 19 Oct 2016 16:05:00 -0400",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        },
+        {
+          "id": "22.13",
+          "timestamp": "Sun, 19 Oct 2016 16:25:00 -0400",
+          "stadium": "O.co Coliseum",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "19.6",
+          "timestamp": "Sun, 19 Oct 2016 16:25:00 -0400",
+          "stadium": "AT&T Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          }
+        },
+        {
+          "id": "25.7",
+          "timestamp": "Sun, 19 Oct 2016 20:30:00 -0400",
+          "stadium": "Sports Authority Field at Mile High",
+          "tv": "NBC",
+          "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-10-20",
+  "matches": [
+    {
+      "id": "34.23",
+      "timestamp": "Mon, 20 Oct 2016 20:30:00 -0400",
+      "stadium": "Heinz Field",
+      "tv": "NBC",
+      "away": {
+        "id": "34",
+        "abbr": "hou",
+        "slug": "houston-texans",
+        "name": "Houston",
+        "nick": "Texans"
+      },
+      "home": {
+        "id": "23",
+        "abbr": "pit",
+        "slug": "pittsburgh-steelers",
+        "name": "Pittsburgh",
+        "nick": "Steelers"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 8,
+  "game_days": [
+    {
+      "date": "2016-10-23",
+      "matches": [
+        {
+          "id": "24.7",
+          "timestamp": "Thu, 23 Oct 2016 20:25:00 -0400",
+          "stadium": "Sports Authority Field at Mile High",
+          "tv": "NBC",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-10-26",
+      "matches": [
+        {
+          "id": "8.1",
+          "timestamp": "Sun, 26 Oct 2016 09:30:00 -0400",
+          "stadium": "Wembley Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          }
+        },
+        {
+          "id": "14.12",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "Arrowhead Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          }
+        },
+        {
+          "id": "34.10",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "LP Field",
+          "tv": "NBC",
+          "away": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          },
+          "home": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          }
+        },
+        {
+          "id": "16.27",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "Raymond James Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "26.29",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        },
+        {
+          "id": "33.4",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "Paul Brown Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          },
+          "home": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          }
+        },
+        {
+          "id": "15.30",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "EverBank Field",
+          "tv": "NBC",
+          "away": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        },
+        {
+          "id": "3.17",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        },
+        {
+          "id": "2.20",
+          "timestamp": "Sun, 26 Oct 2016 13:00:00 -0400",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          },
+          "home": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          }
+        },
+        {
+          "id": "21.22",
+          "timestamp": "Sun, 26 Oct 2016 16:05:00 -0400",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        },
+        {
+          "id": "13.5",
+          "timestamp": "Sun, 26 Oct 2016 16:25:00 -0400",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "11.23",
+          "timestamp": "Sun, 26 Oct 2016 16:25:00 -0400",
+          "stadium": "Heinz Field",
+          "tv": "NBC",
+          "away": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          },
+          "home": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          }
+        },
+        {
+          "id": "9.18",
+          "timestamp": "Sun, 26 Oct 2016 20:30:00 -0400",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "NBC",
+          "away": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          },
+          "home": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-10-27",
+  "matches": [
+    {
+      "id": "28.6",
+      "timestamp": "Mon, 27 Oct 2016 20:30:00 -0400",
+      "stadium": "AT&T Stadium",
+      "tv": "NBC",
+      "away": {
+        "id": "28",
+        "abbr": "wsh",
+        "slug": "washington-redskins",
+        "name": "Washington",
+        "nick": "Redskins"
+      },
+      "home": {
+        "id": "6",
+        "abbr": "dal",
+        "slug": "dallas-cowboys",
+        "name": "Dallas",
+        "nick": "Cowboys"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 9,
+  "game_days": [
+    {
+      "date": "2016-10-30",
+      "matches": [
+        {
+          "id": "18.29",
+          "timestamp": "Thu, 30 Oct 2016 20:25:00 -0400",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-11-02",
+      "matches": [
+        {
+          "id": "27.5",
+          "timestamp": "Sun, 02 Nov 2016 13:00:00 -0500",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "22.6",
+          "timestamp": "Sun, 02 Nov 2016 13:00:00 -0500",
+          "stadium": "AT&T Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          }
+        },
+        {
+          "id": "21.34",
+          "timestamp": "Sun, 02 Nov 2016 13:00:00 -0500",
+          "stadium": "Reliant Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          },
+          "home": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "20.12",
+          "timestamp": "Sun, 02 Nov 2016 13:00:00 -0500",
+          "stadium": "Arrowhead Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          }
+        },
+        {
+          "id": "30.4",
+          "timestamp": "Sun, 02 Nov 2016 13:00:00 -0500",
+          "stadium": "Paul Brown Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          },
+          "home": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          }
+        },
+        {
+          "id": "24.15",
+          "timestamp": "Sun, 02 Nov 2016 13:00:00 -0500",
+          "stadium": "Sun Life Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          }
+        },
+        {
+          "id": "28.16",
+          "timestamp": "Sun, 02 Nov 2016 13:00:00 -0500",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "14.25",
+          "timestamp": "Sun, 02 Nov 2016 16:05:00 -0500",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        },
+        {
+          "id": "7.17",
+          "timestamp": "Sun, 02 Nov 2016 16:25:00 -0500",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        },
+        {
+          "id": "13.26",
+          "timestamp": "Sun, 02 Nov 2016 16:25:00 -0500",
+          "stadium": "CenturyLink Field",
+          "tv": "NBC",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          },
+          "home": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          }
+        },
+        {
+          "id": "33.23",
+          "timestamp": "Sun, 02 Nov 2016 20:30:00 -0500",
+          "stadium": "Heinz Field",
+          "tv": "NBC",
+          "away": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          },
+          "home": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-11-03",
+  "matches": [
+    {
+      "id": "11.19",
+      "timestamp": "Mon, 03 Nov 2016 20:30:00 -0500",
+      "stadium": "MetLife Stadium",
+      "tv": "NBC",
+      "away": {
+        "id": "11",
+        "abbr": "ind",
+        "slug": "indianapolis-colts",
+        "name": "Indianapolis",
+        "nick": "Colts"
+      },
+      "home": {
+        "id": "19",
+        "abbr": "nyg",
+        "slug": "new-york-giants",
+        "name": "NY Giants",
+        "nick": "NY Giants"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 10,
+  "game_days": [
+    {
+      "date": "2016-11-06",
+      "matches": [
+        {
+          "id": "5.4",
+          "timestamp": "Thu, 06 Nov 2016 20:25:00 -0500",
+          "stadium": "Paul Brown Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          },
+          "home": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-11-09",
+      "matches": [
+        {
+          "id": "12.2",
+          "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "15.8",
+          "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
+          "stadium": "Ford Field",
+          "tv": "NBC",
+          "away": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          },
+          "home": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "6.30",
+          "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
+          "stadium": "Wembley Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        },
+        {
+          "id": "25.18",
+          "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "NBC",
+          "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          },
+          "home": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          }
+        },
+        {
+          "id": "10.33",
+          "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
+          "stadium": "M&T Bank Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          },
+          "home": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          }
+        },
+        {
+          "id": "23.20",
+          "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          }
+        },
+        {
+          "id": "1.27",
+          "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
+          "stadium": "Raymond James Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "7.13",
+          "timestamp": "Sun, 09 Nov 2016 16:05:00 -0500",
+          "stadium": "O.co Coliseum",
+          "tv": "NBC",
+          "away": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "14.22",
+          "timestamp": "Sun, 09 Nov 2016 16:25:00 -0500",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        },
+        {
+          "id": "19.26",
+          "timestamp": "Sun, 09 Nov 2016 16:25:00 -0500",
+          "stadium": "CenturyLink Field",
+          "tv": "NBC",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          },
+          "home": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          }
+        },
+        {
+          "id": "3.9",
+          "timestamp": "Sun, 09 Nov 2016 20:30:00 -0500",
+          "stadium": "Lambeau Field",
+          "tv": "NBC",
+          "away": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          },
+          "home": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-11-10",
+  "matches": [
+    {
+      "id": "29.21",
+      "timestamp": "Mon, 10 Nov 2016 20:30:00 -0500",
+      "stadium": "Lincoln Financial Field",
+      "tv": "NBC",
+      "away": {
+        "id": "29",
+        "abbr": "car",
+        "slug": "carolina-panthers",
+        "name": "Carolina",
+        "nick": "Panthers"
+      },
+      "home": {
+        "id": "21",
+        "abbr": "phi",
+        "slug": "philadelphia-eagles",
+        "name": "Philadelphia",
+        "nick": "Eagles"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 11,
+  "game_days": [
+    {
+      "date": "2016-11-13",
+      "matches": [
+        {
+          "id": "2.15",
+          "timestamp": "Thu, 13 Nov 2016 20:25:00 -0500",
+          "stadium": "Sun Life Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-11-16",
+      "matches": [
+        {
+          "id": "16.3",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "Soldier Field",
+          "tv": "NBC",
+          "away": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          },
+          "home": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          }
+        },
+        {
+          "id": "34.5",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "21.9",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "Lambeau Field",
+          "tv": "NBC",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          },
+          "home": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          }
+        },
+        {
+          "id": "26.12",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "Arrowhead Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          }
+        },
+        {
+          "id": "1.29",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        },
+        {
+          "id": "4.18",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "NBC",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          },
+          "home": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          }
+        },
+        {
+          "id": "27.28",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "FedEx Field",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          }
+        },
+        {
+          "id": "7.14",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "Edward Jones Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          },
+          "home": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          }
+        },
+        {
+          "id": "25.19",
+          "timestamp": "Sun, 16 Nov 2016 13:00:00 -0500",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          }
+        },
+        {
+          "id": "13.24",
+          "timestamp": "Sun, 16 Nov 2016 16:05:00 -0500",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        },
+        {
+          "id": "8.22",
+          "timestamp": "Sun, 16 Nov 2016 16:25:00 -0500",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        },
+        {
+          "id": "17.11",
+          "timestamp": "Sun, 16 Nov 2016 20:30:00 -0500",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-11-17",
+  "matches": [
+    {
+      "id": "23.10",
+      "timestamp": "Mon, 17 Nov 2016 20:30:00 -0500",
+      "stadium": "LP Field",
+      "tv": "NBC",
+      "away": {
+        "id": "23",
+        "abbr": "pit",
+        "slug": "pittsburgh-steelers",
+        "name": "Pittsburgh",
+        "nick": "Steelers"
+      },
+      "home": {
+        "id": "10",
+        "abbr": "ten",
+        "slug": "tennessee-titans",
+        "name": "Tennessee",
+        "nick": "Titans"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 12,
+  "game_days": [
+    {
+      "date": "2016-11-20",
+      "matches": [
+        {
+          "id": "12.13",
+          "timestamp": "Thu, 20 Nov 2016 20:25:00 -0500",
+          "stadium": "O.co Coliseum",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-11-23",
+      "matches": [
+        {
+          "id": "5.1",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Georgia Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          }
+        },
+        {
+          "id": "10.21",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Lincoln Financial Field",
+          "tv": "NBC",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          },
+          "home": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          }
+        },
+        {
+          "id": "8.17",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        },
+        {
+          "id": "9.16",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "30.11",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          }
+        },
+        {
+          "id": "4.34",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Reliant Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          },
+          "home": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "20.2",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "27.3",
+          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "stadium": "Soldier Field",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          }
+        },
+        {
+          "id": "22.26",
+          "timestamp": "Sun, 23 Nov 2016 16:05:00 -0500",
+          "stadium": "CenturyLink Field",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          }
+        },
+        {
+          "id": "14.24",
+          "timestamp": "Sun, 23 Nov 2016 16:05:00 -0500",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        },
+        {
+          "id": "15.7",
+          "timestamp": "Sun, 23 Nov 2016 16:25:00 -0500",
+          "stadium": "Sports Authority Field at Mile High",
+          "tv": "NBC",
+          "away": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          }
+        },
+        {
+          "id": "28.25",
+          "timestamp": "Sun, 23 Nov 2016 16:25:00 -0500",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        },
+        {
+          "id": "6.19",
+          "timestamp": "Sun, 23 Nov 2016 20:30:00 -0500",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-11-24",
+  "matches": [
+    {
+      "id": "33.18",
+      "timestamp": "Mon, 24 Nov 2016 20:30:00 -0500",
+      "stadium": "Mercedes-Benz Superdome",
+      "tv": "NBC",
+      "away": {
+        "id": "33",
+        "abbr": "bal",
+        "slug": "baltimore-ravens",
+        "name": "Baltimore",
+        "nick": "Ravens"
+      },
+      "home": {
+        "id": "18",
+        "abbr": "no",
+        "slug": "new-orleans-saints",
+        "name": "New Orleans",
+        "nick": "Saints"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 13,
+  "game_days": [
+    {
+      "date": "2016-11-27",
+      "matches": [
+        {
+          "id": "3.8",
+          "timestamp": "Thu, 27 Nov 2016 12:30:00 -0500",
+          "stadium": "Ford Field",
+          "tv": "NBC",
+          "away": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          },
+          "home": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "21.6",
+          "timestamp": "Thu, 27 Nov 2016 16:30:00 -0500",
+          "stadium": "AT&T Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          }
+        },
+        {
+          "id": "26.25",
+          "timestamp": "Thu, 27 Nov 2016 20:30:00 -0500",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-11-30",
+      "matches": [
+        {
+          "id": "28.11",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          }
+        },
+        {
+          "id": "10.34",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "Reliant Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          },
+          "home": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "5.2",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "24.33",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "M&T Bank Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          }
+        },
+        {
+          "id": "19.30",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "EverBank Field",
+          "tv": "NBC",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        },
+        {
+          "id": "4.27",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "Raymond James Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "13.14",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "Edward Jones Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          },
+          "home": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          }
+        },
+        {
+          "id": "18.23",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "Heinz Field",
+          "tv": "NBC",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          },
+          "home": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          }
+        },
+        {
+          "id": "29.16",
+          "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "22.1",
+          "timestamp": "Sun, 30 Nov 2016 16:05:00 -0500",
+          "stadium": "Georgia Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          }
+        },
+        {
+          "id": "17.9",
+          "timestamp": "Sun, 30 Nov 2016 16:25:00 -0500",
+          "stadium": "Lambeau Field",
+          "tv": "NBC",
+          "away": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          },
+          "home": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          }
+        },
+        {
+          "id": "7.12",
+          "timestamp": "Sun, 30 Nov 2016 20:30:00 -0500",
+          "stadium": "Arrowhead Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          },
+          "home": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-12-01",
+  "matches": [
+    {
+      "id": "15.20",
+      "timestamp": "Mon, 01 Dec 2016 20:30:00 -0500",
+      "stadium": "MetLife Stadium",
+      "tv": "NBC",
+      "away": {
+        "id": "15",
+        "abbr": "mia",
+        "slug": "miami-dolphins",
+        "name": "Miami",
+        "nick": "Dolphins"
+      },
+      "home": {
+        "id": "20",
+        "abbr": "nyj",
+        "slug": "new-york-jets",
+        "name": "NY Jets",
+        "nick": "NY Jets"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 14,
+  "game_days": [
+    {
+      "date": "2016-12-04",
+      "matches": [
+        {
+          "id": "6.3",
+          "timestamp": "Thu, 04 Dec 2016 20:25:00 -0500",
+          "stadium": "Soldier Field",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-12-07",
+      "matches": [
+        {
+          "id": "23.4",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "Paul Brown Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          }
+        },
+        {
+          "id": "14.28",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "FedEx Field",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          }
+        },
+        {
+          "id": "19.10",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "LP Field",
+          "tv": "NBC",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          },
+          "home": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          }
+        },
+        {
+          "id": "29.18",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "NBC",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          },
+          "home": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          }
+        },
+        {
+          "id": "20.16",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "33.15",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "Sun Life Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          }
+        },
+        {
+          "id": "11.5",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "27.8",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "Ford Field",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "34.30",
+          "timestamp": "Sun, 07 Dec 2016 13:00:00 -0500",
+          "stadium": "EverBank Field",
+          "tv": "NBC",
+          "away": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        },
+        {
+          "id": "2.7",
+          "timestamp": "Sun, 07 Dec 2016 16:05:00 -0500",
+          "stadium": "Sports Authority Field at Mile High",
+          "tv": "NBC",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          }
+        },
+        {
+          "id": "12.22",
+          "timestamp": "Sun, 07 Dec 2016 16:05:00 -0500",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        },
+        {
+          "id": "26.21",
+          "timestamp": "Sun, 07 Dec 2016 16:25:00 -0500",
+          "stadium": "Lincoln Financial Field",
+          "tv": "NBC",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          }
+        },
+        {
+          "id": "25.13",
+          "timestamp": "Sun, 07 Dec 2016 16:25:00 -0500",
+          "stadium": "O.co Coliseum",
+          "tv": "NBC",
+          "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "17.24",
+          "timestamp": "Sun, 07 Dec 2016 20:30:00 -0500",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-12-08",
+  "matches": [
+    {
+      "id": "1.9",
+      "timestamp": "Mon, 08 Dec 2016 20:30:00 -0500",
+      "stadium": "Lambeau Field",
+      "tv": "NBC",
+      "away": {
+        "id": "1",
+        "abbr": "atl",
+        "slug": "atlanta-falcons",
+        "name": "Atlanta",
+        "nick": "Falcons"
+      },
+      "home": {
+        "id": "9",
+        "abbr": "gb",
+        "slug": "green-bay-packers",
+        "name": "Green Bay",
+        "nick": "Packers"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 15,
+  "game_days": [
+    {
+      "date": "2016-12-11",
+      "matches": [
+        {
+          "id": "22.14",
+          "timestamp": "Thu, 11 Dec 2016 20:25:00 -0500",
+          "stadium": "Edward Jones Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-12-14",
+      "matches": [
+        {
+          "id": "23.1",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "Georgia Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          }
+        },
+        {
+          "id": "28.19",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          }
+        },
+        {
+          "id": "15.17",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        },
+        {
+          "id": "13.12",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "Arrowhead Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          },
+          "home": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          }
+        },
+        {
+          "id": "34.11",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          }
+        },
+        {
+          "id": "30.33",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "M&T Bank Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          },
+          "home": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          }
+        },
+        {
+          "id": "9.2",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "Ralph Wilson Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          },
+          "home": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          }
+        },
+        {
+          "id": "27.29",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        },
+        {
+          "id": "4.5",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "16.8",
+          "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
+          "stadium": "Ford Field",
+          "tv": "NBC",
+          "away": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          },
+          "home": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "20.10",
+          "timestamp": "Sun, 14 Dec 2016 16:05:00 -0500",
+          "stadium": "LP Field",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          }
+        },
+        {
+          "id": "7.24",
+          "timestamp": "Sun, 14 Dec 2016 16:05:00 -0500",
+          "stadium": "Qualcomm Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          },
+          "home": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          }
+        },
+        {
+          "id": "25.26",
+          "timestamp": "Sun, 14 Dec 2016 16:25:00 -0500",
+          "stadium": "CenturyLink Field",
+          "tv": "NBC",
+          "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          },
+          "home": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          }
+        },
+        {
+          "id": "6.21",
+          "timestamp": "Sun, 14 Dec 2016 20:30:00 -0500",
+          "stadium": "Lincoln Financial Field",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-12-15",
+  "matches": [
+    {
+      "id": "18.3",
+      "timestamp": "Mon, 15 Dec 2016 20:30:00 -0500",
+      "stadium": "Soldier Field",
+      "tv": "NBC",
+      "away": {
+        "id": "18",
+        "abbr": "no",
+        "slug": "new-orleans-saints",
+        "name": "New Orleans",
+        "nick": "Saints"
+      },
+      "home": {
+        "id": "3",
+        "abbr": "chi",
+        "slug": "chicago-bears",
+        "name": "Chicago",
+        "nick": "Bears"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 16,
+  "game_days": [
+    {
+      "date": "2016-12-18",
+      "matches": [
+        {
+          "id": "10.30",
+          "timestamp": "Thu, 18 Dec 2016 20:25:00 -0500",
+          "stadium": "EverBank Field",
+          "tv": "NBC",
+          "away": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          },
+          "home": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-12-20",
+      "matches": [
+        {
+          "id": "24.25",
+          "timestamp": "Sat, 20 Dec 2016 16:30:00 -0500",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        },
+        {
+          "id": "21.28",
+          "timestamp": "Sat, 20 Dec 2016 16:30:00 -0500",
+          "stadium": "FedEx Field",
+          "tv": "NBC",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          },
+          "home": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2016-12-21",
+      "matches": [
+        {
+          "id": "16.15",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "Sun Life Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          }
+        },
+        {
+          "id": "33.34",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "Reliant Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          },
+          "home": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "8.3",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "Soldier Field",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          }
+        },
+        {
+          "id": "5.29",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "Bank of America Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          },
+          "home": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          }
+        },
+        {
+          "id": "1.18",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "NBC",
+          "away": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          },
+          "home": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          }
+        },
+        {
+          "id": "9.27",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "Raymond James Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "12.23",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "Heinz Field",
+          "tv": "NBC",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          }
+        },
+        {
+          "id": "17.20",
+          "timestamp": "Sun, 21 Dec 2016 13:00:00 -0500",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          },
+          "home": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          }
+        },
+        {
+          "id": "19.14",
+          "timestamp": "Sun, 21 Dec 2016 16:05:00 -0500",
+          "stadium": "Edward Jones Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          },
+          "home": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          }
+        },
+        {
+          "id": "2.13",
+          "timestamp": "Sun, 21 Dec 2016 16:25:00 -0500",
+          "stadium": "O.co Coliseum",
+          "tv": "NBC",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "11.6",
+          "timestamp": "Sun, 21 Dec 2016 16:25:00 -0500",
+          "stadium": "AT&T Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          }
+        },
+        {
+          "id": "26.22",
+          "timestamp": "Sun, 21 Dec 2016 20:30:00 -0500",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        }
+      ]
+},
+{
+  "date": "2016-12-22",
+  "matches": [
+    {
+      "id": "7.4",
+      "timestamp": "Mon, 22 Dec 2016 20:30:00 -0500",
+      "stadium": "Paul Brown Stadium",
+      "tv": "NBC",
+      "away": {
+        "id": "7",
+        "abbr": "den",
+        "slug": "denver-broncos",
+        "name": "Denver",
+        "nick": "Broncos"
+      },
+      "home": {
+        "id": "4",
+        "abbr": "cin",
+        "slug": "cincinnati-bengals",
+        "name": "Cincinnati",
+        "nick": "Bengals"
+      }
+    }
+  ]
+}
+]
+},
+{
+  "week": 17,
+  "game_days": [
+    {
+      "date": "2016-12-28",
+      "matches": [
+        {
+          "id": "29.1",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Georgia Dome",
+          "tv": "NBC",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          },
+          "home": {
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
+          }
+        },
+        {
+          "id": "5.33",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "M&T Bank Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          },
+          "home": {
+            "id": "33",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
+          }
+        },
+        {
+          "id": "6.28",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "FedEx Field",
+          "tv": "NBC",
+          "away": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          },
+          "home": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          }
+        },
+        {
+          "id": "11.10",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "LP Field",
+          "tv": "NBC",
+          "away": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
+          },
+          "home": {
+            "id": "10",
+            "abbr": "ten",
+            "slug": "tennessee-titans",
+            "name": "Tennessee",
+            "nick": "Titans"
+          }
+        },
+        {
+          "id": "8.9",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Lambeau Field",
+          "tv": "NBC",
+          "away": {
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          },
+          "home": {
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
+          }
+        },
+        {
+          "id": "30.34",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Reliant Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
+          },
+          "home": {
+            "id": "34",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "24.12",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Arrowhead Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          }
+        },
+        {
+          "id": "20.15",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Sun Life Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "NY Jets"
+          },
+          "home": {
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
+          }
+        },
+        {
+          "id": "3.16",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Mall of America Field",
+          "tv": "NBC",
+          "away": {
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
+          },
+          "home": {
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
+          }
+        },
+        {
+          "id": "2.17",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Gillette Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
+          },
+          "home": {
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
+          }
+        },
+        {
+          "id": "21.19",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "MetLife Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "21",
+            "abbr": "phi",
+            "slug": "philadelphia-eagles",
+            "name": "Philadelphia",
+            "nick": "Eagles"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "NY Giants"
+          }
+        },
+        {
+          "id": "4.23",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Heinz Field",
+          "tv": "NBC",
+          "away": {
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
+          },
+          "home": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          }
+        },
+        {
+          "id": "18.27",
+          "timestamp": "Sun, 28 Dec 2016 13:00:00 -0500",
+          "stadium": "Raymond James Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "13.7",
+          "timestamp": "Sun, 28 Dec 2016 16:25:00 -0500",
+          "stadium": "Sports Authority Field at Mile High",
+          "tv": "NBC",
+          "away": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          },
+          "home": {
+            "id": "7",
+            "abbr": "den",
+            "slug": "denver-broncos",
+            "name": "Denver",
+            "nick": "Broncos"
+          }
+        },
+        {
+          "id": "22.25",
+          "timestamp": "Sun, 28 Dec 2016 16:25:00 -0500",
+          "stadium": "Levi's Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          },
+          "home": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          }
+        },
+        {
+          "id": "14.26",
+          "timestamp": "Sun, 28 Dec 2016 16:25:00 -0500",
+          "stadium": "CenturyLink Field",
+          "tv": "NBC",
+          "away": {
+            "id": "14",
+            "abbr": "stl",
+            "slug": "st.-louis-rams",
+            "name": "St. Louis",
+            "nick": "Rams"
+          },
+          "home": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          }
+        }
+      ]
 }
 ]
 }
+]
