@@ -70,7 +70,7 @@ var gamesTotal = 132;
 // Get JSON for schedule
 $.ajax({
   dataType: 'json',
-  url: '/json/nfl2014.min.json',
+  url: '/json/nfl2016.json',
   success: function(data) {
     // Label the week
     $('<span class="text-center">Week '+week_number+'</span>').appendTo('h1');
