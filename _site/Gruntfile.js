@@ -1,82 +1,89 @@
 module.exports = function(grunt) {
 
-    // load all grunt tasks matching the `grunt-*` pattern
-    require('load-grunt-tasks')(grunt);
+  require('load-grunt-tasks')(grunt);
 
-    grunt.initConfig({
-      pkg: grunt.file.readJSON('package.json'),
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
 
-      concat: {
-        dist: {
-          src: [
-          'js/*.js'
-          ],
-          dest: 'js/build/production.js',
-        }
-      },
+    concat: {
+      dist: {
+        src: [
+        'js/*.js'
+        ],
+        dest: 'js/production.js',
+      }
+    },
 
-      uglify: {
-        build: {
-          src: 'js/build/production.js',
-          dest: 'js/build/production.min.js'
-        }
-      },
+    uglify: {
+      build: {
+        src: 'js/production.js',
+        dest: 'js/production.min.js'
+      }
+    },
 
-      sass: {
-        dist: {
-          options: {
-            style: 'expanded'
-          },
-          files: [{
-            expand: true,
-            cwd: 'css/scss/partials',
-            src: ['*.scss'],
-            dest: 'css/partials',
-            ext: '.css'
-          }], 'main.css': 'main.scss',
-        },
-        dev: {
-          files: [{'css/main.css': 'css/scss/main.scss'}]
-        }
-      },
-
-      autoprefixer: {
-        prefix: {
-          src: 'css/main.css',
-          dest: 'css/main.css'
-        },
-      },
-
-      cssmin: {
-        combine: {
-          files: {
-            'css/main.min.css': [ 'css/main.css' ]
-          }
-        }
-      },
-
-      watch: {
-        options: {
-          livereload: true
-        },
-        scripts: {
-          files: ['js/*.js'],
-          tasks: ['concat', 'uglify'],
-        },
-        css: {
-          files: ['css/scss/globals/*.scss','css/scss/partials/*.scss','css/scss/theme/*.scss'],
-          tasks: ['sass', 'cssmin', 'autoprefixer'],
+    sass: {
+      dist: {
+        files: {
+          'css/main.css' : 'css/scss/main.scss'
         }
       }
+    },
 
-    });
+    watch: {
+      assemble: {
+        files: ['{content,data,templates,css/scss,js}/{,*/}*.{md,hbs,yml,scss,js}'],
+        tasks: ['build']
+      }
+    },
 
-grunt.loadNpmTasks('grunt-contrib');
+    postcss: {
+      options: {
+        map: {
+          inline: false
+        },
 
-grunt.registerTask('build', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'watch']);
-grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'watch']);
-grunt.registerTask('js', ['concat', 'uglify', 'watch']);
-grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin', 'watch']);
-grunt.registerTask('default', ['watch']);
+        processors: [
+          require('pixrem')(),
+          require('autoprefixer')({browsers: 'last 2 versions'}),
+          require('cssnano')()
+        ]
+      },
+      dist: {
+        files: {
+          'css/main.css': ['css/main.css']
+        }
+      }
+    },
+
+    copy: {
+      scripts: {
+        files: [{
+          expand: true,
+          cwd: 'js/vendor',
+          src: ['**/*.js'],
+          dest:'js/vendor/'
+        }]
+      }
+    }
+  });
+
+  grunt.loadNpmTasks('grunt-contrib');
+
+  grunt.registerTask('server', [
+    'build',
+    'watch'
+  ]);
+
+  grunt.registerTask('build', [
+    'concat',
+    'uglify',
+    'sass',
+    'postcss',
+    'copy'
+  ]);
+
+  grunt.registerTask('default', [
+    'build'
+  ]);
 
 };

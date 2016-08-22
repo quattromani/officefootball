@@ -1,37 +1,25 @@
-// $.getJSON('/json/nfl2015.min.json', function(data) {
-//   console.log(data);
-// });
-
-$.ajax({
-  dataType: 'json',
-  url: '/json/nfl2015.min.json',
-  type: 'get',
-  cache: false,
-  success: function(data) {
-    $(data.weeks).each(function(index, value) {
-
-    });
-  }
+$.getJSON('http://www.fantasyfootballnerd.com/service/schedule/json/ci96cfatdg5k/', function(data) {
+  console.log(data);
 });
 
-var week1 = new Date('9/10/2015');
-var week2 = new Date('9/17/2015');
-var week3 = new Date('9/24/2015');
-var week4 = new Date('10/1/2015');
-var week5 = new Date('10/8/2015');
-var week6 = new Date('10/15/2015');
-var week7 = new Date('10/22/2015');
-var week8 = new Date('10/29/2015');
-var week9 = new Date('11/5/2015');
-var week10 = new Date('11/12/2015');
-var week11 = new Date('11/19/2015');
-var week12 = new Date('11/26/2015');
-var week13 = new Date('12/3/2015');
-var week14 = new Date('12/10/2015');
-var week15 = new Date('12/17/2015');
-var week16 = new Date('12/24/2015');
-var week17 = new Date('12/31/2015');
-var week18 = new Date('1/7/2016');
+var week1 = new Date('9/5/2016');
+var week2 = new Date('9/12/2016');
+var week3 = new Date('9/19/2016');
+var week4 = new Date('9/26/2016');
+var week5 = new Date('10/3/2016');
+var week6 = new Date('10/10/2016');
+var week7 = new Date('10/17/2016');
+var week8 = new Date('10/24/2016');
+var week9 = new Date('10/31/2016');
+var week10 = new Date('11/7/2016');
+var week11 = new Date('11/14/2016');
+var week12 = new Date('11/21/2016');
+var week13 = new Date('11/28/2016');
+var week14 = new Date('12/5/2016');
+var week15 = new Date('12/12/2016');
+var week16 = new Date('12/19/2016');
+var week17 = new Date('1/2/2016');
+var week18 = new Date('1/9/2017');
 
 var today = new Date();
 if (week1 > today) {
@@ -84,7 +72,7 @@ var gamesTotal = 207;
 // Get JSON for schedule
 $.ajax({
   dataType: 'json',
-  url: '/json/nfl2015.min.json',
+  url: 'http://www.fantasyfootballnerd.com/service/schedule/json/ci96cfatdg5k/',
   type: 'get',
   cache: false,
   success: function(data) {
