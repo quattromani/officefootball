@@ -1,23 +1,20 @@
-var week1 = new Date('9/2/2016');
-var week2 = new Date('9/9/2016');
-var week3 = new Date('9/16/2016');
-var week4 = new Date('9/23/2016');
-var week5 = new Date('9/30/2016');
-var week6 = new Date('10/7/2016');
-var week7 = new Date('10/14/2016');
-var week8 = new Date('10/21/2016');
-var week9 = new Date('10/28/2016');
-var week10 = new Date('11/4/2016');
-var week11 = new Date('11/11/2016');
-var week12 = new Date('11/18/2016');
-var week13 = new Date('11/25/2016');
-var week14 = new Date('12/2/2016');
-var week15 = new Date('12/9/2016');
-var week16 = new Date('12/16/2016');
-var week17 = new Date('12/2/2016');
-var week16 = new Date('12/9/2016');
-var week17 = new Date('12/16/2016');
-var week18 = new Date('12/23/2016');
+var week1 = new Date('9/8/2016');
+var week2 = new Date('9/15/2016');
+var week3 = new Date('9/22/2016');
+var week4 = new Date('9/29/2016');
+var week5 = new Date('10/6/2016');
+var week6 = new Date('10/13/2016');
+var week7 = new Date('10/20/2016');
+var week8 = new Date('10/27/2016');
+var week9 = new Date('11/3/2016');
+var week10 = new Date('11/10/2016');
+var week11 = new Date('11/17/2016');
+var week12 = new Date('11/24/2016');
+var week13 = new Date('12/1/2016');
+var week14 = new Date('12/8/2016');
+var week15 = new Date('12/15/2016');
+var week16 = new Date('12/22/2016');
+var week17 = new Date('12/29/2016');
 
 var today = new Date();
 if (week1 > today) {
@@ -65,7 +62,7 @@ if (week1 > today) {
 var plus_one = 1;
 var week_number = week + plus_one;
 
-var gamesTotal = 132;
+var gamesTotal = 207;
 
 // Get JSON for schedule
 $.ajax({
