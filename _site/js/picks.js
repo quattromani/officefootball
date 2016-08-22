@@ -1,25 +1,23 @@
-$.getJSON('http://www.fantasyfootballnerd.com/service/schedule/json/ci96cfatdg5k/', function(data) {
-  console.log(data);
-});
-
-var week1 = new Date('9/5/2016');
-var week2 = new Date('9/12/2016');
-var week3 = new Date('9/19/2016');
-var week4 = new Date('9/26/2016');
-var week5 = new Date('10/3/2016');
-var week6 = new Date('10/10/2016');
-var week7 = new Date('10/17/2016');
-var week8 = new Date('10/24/2016');
-var week9 = new Date('10/31/2016');
-var week10 = new Date('11/7/2016');
-var week11 = new Date('11/14/2016');
-var week12 = new Date('11/21/2016');
-var week13 = new Date('11/28/2016');
-var week14 = new Date('12/5/2016');
-var week15 = new Date('12/12/2016');
-var week16 = new Date('12/19/2016');
-var week17 = new Date('1/2/2016');
-var week18 = new Date('1/9/2017');
+var week1 = new Date('9/2/2016');
+var week2 = new Date('9/9/2016');
+var week3 = new Date('9/16/2016');
+var week4 = new Date('9/23/2016');
+var week5 = new Date('9/30/2016');
+var week6 = new Date('10/7/2016');
+var week7 = new Date('10/14/2016');
+var week8 = new Date('10/21/2016');
+var week9 = new Date('10/28/2016');
+var week10 = new Date('11/4/2016');
+var week11 = new Date('11/11/2016');
+var week12 = new Date('11/18/2016');
+var week13 = new Date('11/25/2016');
+var week14 = new Date('12/2/2016');
+var week15 = new Date('12/9/2016');
+var week16 = new Date('12/16/2016');
+var week17 = new Date('12/2/2016');
+var week16 = new Date('12/9/2016');
+var week17 = new Date('12/16/2016');
+var week18 = new Date('12/23/2016');
 
 var today = new Date();
 if (week1 > today) {
@@ -67,20 +65,16 @@ if (week1 > today) {
 var plus_one = 1;
 var week_number = week + plus_one;
 
-var gamesTotal = 207;
+var gamesTotal = 132;
 
 // Get JSON for schedule
 $.ajax({
   dataType: 'json',
-  url: 'http://www.fantasyfootballnerd.com/service/schedule/json/ci96cfatdg5k/',
-  type: 'get',
-  cache: false,
+  url: '/json/nfl2014.min.json',
   success: function(data) {
     // Label the week
     $('<span class="text-center">Week '+week_number+'</span>').appendTo('h1');
     $('#subject').val('Week ' +week_number+ ' Picks');
-
-
     // get the number of game days
     for (i = 0; i < data[week].game_days.length; i++) {
 
