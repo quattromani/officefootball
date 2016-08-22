@@ -323,7 +323,7 @@
       "tv": "ESPN",
       "away": {
         "id": "14",
-        "abbr": "stl",
+        "abbr": "lar",
         "slug": "la-rams",
         "name": "LA Rams",
         "nick": "Rams"
@@ -347,41 +347,16 @@
       "date": "2016-09-15",
       "matches": [
         {
-          "id": "23.33",
-          "timestamp": "Thu, 11 Sep 2016 20:25:00 -0400",
-          "stadium": "M&T Bank Stadium",
-          "tv": "NBC",
-          "away": {
-            "id": "23",
-            "abbr": "pit",
-            "slug": "pittsburgh-steelers",
-            "name": "Pittsburgh",
-            "nick": "Steelers"
-          },
-          "home": {
-            "id": "33",
-            "abbr": "bal",
-            "slug": "baltimore-ravens",
-            "name": "Baltimore",
-            "nick": "Ravens"
-          }
-        }
-      ]
-    },
-    {
-      "date": "2016-09-18",
-      "matches": [
-        {
-          "id": "15.2",
-          "timestamp": "Sun, 14 Sep 2016 13:00:00 -0400",
+          "id": "17",
+          "timestamp": "Thu, 15 Sep 2016 20:25:00 -0400",
           "stadium": "Ralph Wilson Stadium",
-          "tv": "NBC",
+          "tv": "CBS",
           "away": {
-            "id": "15",
-            "abbr": "mia",
-            "slug": "miami-dolphins",
-            "name": "Miami",
-            "nick": "Dolphins"
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "Jets",
+            "nick": "Jets"
           },
           "home": {
             "id": "2",
@@ -390,98 +365,63 @@
             "name": "Buffalo",
             "nick": "Bills"
           }
-        },
+        }
+      ]
+    },
+    {
+      "date": "2016-09-18",
+      "matches": [
         {
-          "id": "30.28",
+          "id": "18",
           "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
-          "stadium": "FedEx Field",
-          "tv": "NBC",
+          "stadium": "Heinz Field",
+          "tv": "CBS",
           "away": {
-            "id": "30",
-            "abbr": "jax",
-            "slug": "jacksonville-jaguars",
-            "name": "Jacksonville",
-            "nick": "Jaguars"
+            "id": "4",
+            "abbr": "cin",
+            "slug": "cincinnati-bengals",
+            "name": "Cincinnati",
+            "nick": "Bengals"
           },
           "home": {
-            "id": "28",
-            "abbr": "wsh",
-            "slug": "washington-redskins",
-            "name": "Washington",
-            "nick": "Redskins"
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
           }
         },
         {
-          "id": "6.10",
+          "id": "19",
           "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
-          "stadium": "LP Field",
-          "tv": "NBC",
+          "stadium": "Ford Field",
+          "tv": "CBS",
           "away": {
-            "id": "6",
-            "abbr": "dal",
-            "slug": "dallas-cowboys",
-            "name": "Dallas",
-            "nick": "Cowboys"
-          },
-          "home": {
             "id": "10",
             "abbr": "ten",
             "slug": "tennessee-titans",
             "name": "Tennessee",
             "nick": "Titans"
-          }
-        },
-        {
-          "id": "22.19",
-          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
-          "stadium": "MetLife Stadium",
-          "tv": "NBC",
-          "away": {
-            "id": "22",
-            "abbr": "ari",
-            "slug": "arizona-cardinals",
-            "name": "Arizona",
-            "nick": "Cardinals"
           },
           "home": {
-            "id": "19",
-            "abbr": "nyg",
-            "slug": "new-york-giants",
-            "name": "Giants",
-            "nick": "Giants"
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
           }
         },
         {
-          "id": "17.16",
-          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
-          "stadium": "Mall of America Field",
-          "tv": "NBC",
-          "away": {
-            "id": "17",
-            "abbr": "ne",
-            "slug": "new-england-patriots",
-            "name": "New England",
-            "nick": "Patriots"
-          },
-          "home": {
-            "id": "16",
-            "abbr": "min",
-            "slug": "minnesota-vikings",
-            "name": "Minnesota",
-            "nick": "Vikings"
-          }
-        },
-        {
-          "id": "18.5",
+          "id": "20",
           "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
           "stadium": "FirstEnergy Stadium",
-          "tv": "NBC",
+          "tv": "CBS",
           "away": {
-            "id": "18",
-            "abbr": "no",
-            "slug": "new-orleans-saints",
-            "name": "New Orleans",
-            "nick": "Saints"
+            "id": "31",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
           },
           "home": {
             "id": "5",
@@ -492,36 +432,56 @@
           }
         },
         {
-          "id": "1.4",
+          "id": "21",
           "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
-          "stadium": "Paul Brown Stadium",
-          "tv": "NBC",
+          "stadium": "FedEx Field",
+          "tv": "FOX",
           "away": {
-            "id": "1",
-            "abbr": "atl",
-            "slug": "atlanta-falcons",
-            "name": "Atlanta",
-            "nick": "Falcons"
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
           },
           "home": {
-            "id": "4",
-            "abbr": "cin",
-            "slug": "cincinnati-bengals",
-            "name": "Cincinnati",
-            "nick": "Bengals"
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
           }
         },
         {
-          "id": "8.29",
+          "id": "22",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "MetLife Stadium",
+          "tv": "FOX",
+          "away": {
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
+          },
+          "home": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "Giants"
+          }
+        },
+        {
+          "id": "23",
           "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
           "stadium": "Bank of America Stadium",
-          "tv": "NBC",
+          "tv": "FOX",
           "away": {
-            "id": "8",
-            "abbr": "det",
-            "slug": "detroit-lions",
-            "name": "Detroit",
-            "nick": "Lions"
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
           },
           "home": {
             "id": "29",
@@ -532,36 +492,96 @@
           }
         },
         {
-          "id": "14.27",
-          "timestamp": "Sun, 18 Sep 2016 16:05:00 -0400",
-          "stadium": "Raymond James Stadium",
-          "tv": "NBC",
+          "id": "24",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "Gillette Stadium",
+          "tv": "CBS",
           "away": {
-            "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
-            "nick": "Rams"
+            "id": "15",
+            "abbr": "mia",
+            "slug": "miami-dolphins",
+            "name": "Miami",
+            "nick": "Dolphins"
           },
           "home": {
-            "id": "27",
-            "abbr": "tb",
-            "slug": "tampa-bay-buccaneers",
-            "name": "Tampa Bay",
-            "nick": "Buccaneers"
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
           }
         },
         {
-          "id": "26.24",
+          "id": "25",
+          "timestamp": "Sun, 18 Sep 2016 13:00:00 -0400",
+          "stadium": "NRG Stadium",
+          "tv": "CBS",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
+          },
+          "home": {
+            "id": "32",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "26",
           "timestamp": "Sun, 18 Sep 2016 16:05:00 -0400",
-          "stadium": "Qualcomm Stadium",
-          "tv": "NBC",
+          "stadium": "Los Angeles Memorial Coliseum",
+          "tv": "FOX",
           "away": {
             "id": "26",
             "abbr": "sea",
             "slug": "seattle-seahawks",
             "name": "Seattle",
             "nick": "Seahawks"
+          },
+          "home": {
+            "id": "14",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
+            "nick": "Rams"
+          }
+        },
+        {
+          "id": "27",
+          "timestamp": "Sun, 18 Sep 2016 16:05:00 -0400",
+          "stadium": "U of Phoenix Stadium",
+          "tv": "FOX",
+          "away": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          },
+          "home": {
+            "id": "22",
+            "abbr": "ari",
+            "slug": "arizona-cardinals",
+            "name": "Arizona",
+            "nick": "Cardinals"
+          }
+        },
+        {
+          "id": "28",
+          "timestamp": "Sun, 18 Sep 2016 16:25:00 -0400",
+          "stadium": "Qualcomm Stadium",
+          "tv": "CBS",
+          "away": {
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
           },
           "home": {
             "id": "24",
@@ -572,56 +592,36 @@
           }
         },
         {
-          "id": "34.13",
+          "id": "29",
           "timestamp": "Sun, 18 Sep 2016 16:25:00 -0400",
           "stadium": "O.co Coliseum",
-          "tv": "NBC",
+          "tv": "CBS",
           "away": {
-            "id": "34",
-            "abbr": "hou",
-            "slug": "houston-texans",
-            "name": "Houston",
-            "nick": "Texans"
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
           },
           "home": {
             "id": "13",
             "abbr": "oak",
             "slug": "oakland-raiders",
             "name": "Oakland",
-            "nick": "Raiders"
+            "nick": "Raiders"v
           }
         },
         {
-          "id": "20.9",
-          "timestamp": "Sun, 18 Sep 2016 16:25:00 -0400",
-          "stadium": "Lambeau Field",
-          "tv": "NBC",
-          "away": {
-            "id": "20",
-            "abbr": "nyj",
-            "slug": "new-york-jets",
-            "name": "Jets",
-            "nick": "Jets"
-          },
-          "home": {
-            "id": "9",
-            "abbr": "gb",
-            "slug": "green-bay-packers",
-            "name": "Green Bay",
-            "nick": "Packers"
-          }
-        },
-        {
-          "id": "12.7",
+          "id": "30",
           "timestamp": "Sun, 18 Sep 2016 16:25:00 -0400",
           "stadium": "Sports Authority Field at Mile High",
-          "tv": "NBC",
+          "tv": "CBS",
           "away": {
-            "id": "12",
-            "abbr": "kc",
-            "slug": "kansas-city-chiefs",
-            "name": "Kansas City",
-            "nick": "Chiefs"
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
           },
           "home": {
             "id": "7",
@@ -632,35 +632,35 @@
           }
         },
         {
-          "id": "3.25",
+          "id": "31",
           "timestamp": "Sun, 18 Sep 2016 20:30:00 -0400",
-          "stadium": "Levi's Stadium",
+          "stadium": "U.S. Bank Stadium",
           "tv": "NBC",
           "away": {
-            "id": "3",
-            "abbr": "chi",
-            "slug": "chicago-bears",
-            "name": "Chicago",
-            "nick": "Bears"
+            "id": "9",
+            "abbr": "gb",
+            "slug": "green-bay-packers",
+            "name": "Green Bay",
+            "nick": "Packers"
           },
           "home": {
-            "id": "25",
-            "abbr": "sf",
-            "slug": "san-francisco-49ers",
-            "name": "San Francisco",
-            "nick": "49ers"
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
           }
         }
       ]
 },
 {
-  "date": "2016-09-15",
+  "date": "2016-09-19",
   "matches": [
     {
-      "id": "21.11",
-      "timestamp": "Mon, 15 Sep 2016 20:30:00 -0400",
-      "stadium": "Lucas Oil Stadium",
-      "tv": "NBC",
+      "id": "32",
+      "timestamp": "Mon, 19 Sep 2016 20:30:00 -0400",
+      "stadium": "Soldier Field",
+      "tv": "ESPN",
       "away": {
         "id": "21",
         "abbr": "phi",
@@ -669,11 +669,11 @@
         "nick": "Eagles"
       },
       "home": {
-        "id": "11",
-        "abbr": "ind",
-        "slug": "indianapolis-colts",
-        "name": "Indianapolis",
-        "nick": "Colts"
+        "id": "3",
+        "abbr": "chi",
+        "slug": "chicago-bears",
+        "name": "Chicago",
+        "nick": "Bears"
       }
     }
   ]
@@ -745,9 +745,9 @@
           },
           "home": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           }
         },
@@ -1378,9 +1378,9 @@
           "tv": "NBC",
           "away": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           },
           "home": {
@@ -1930,7 +1930,7 @@
       },
       "home": {
         "id": "14",
-        "abbr": "stl",
+        "abbr": "lar",
         "slug": "st.-louis-rams",
         "name": "St. Louis",
         "nick": "Rams"
@@ -2025,9 +2025,9 @@
           },
           "home": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           }
         },
@@ -2318,9 +2318,9 @@
           "tv": "NBC",
           "away": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           },
           "home": {
@@ -2758,9 +2758,9 @@
           "tv": "NBC",
           "away": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           },
           "home": {
@@ -3058,9 +3058,9 @@
           "tv": "NBC",
           "away": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           },
           "home": {
@@ -3325,9 +3325,9 @@
           },
           "home": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           }
         },
@@ -3658,9 +3658,9 @@
           "tv": "NBC",
           "away": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           },
           "home": {
@@ -3965,9 +3965,9 @@
           },
           "home": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           }
         },
@@ -4158,9 +4158,9 @@
           "tv": "NBC",
           "away": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           },
           "home": {
@@ -4460,9 +4460,9 @@
           },
           "home": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           }
         }
@@ -5030,9 +5030,9 @@
           },
           "home": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           }
         },
@@ -5438,9 +5438,9 @@
           "tv": "NBC",
           "away": {
             "id": "14",
-            "abbr": "stl",
-            "slug": "st.-louis-rams",
-            "name": "St. Louis",
+            "abbr": "lar",
+            "slug": "la-rams",
+            "name": "LA Rams",
             "nick": "Rams"
           },
           "home": {
