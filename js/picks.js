@@ -82,8 +82,9 @@ $.ajax({
         // variabilize the games
         var game_id = data[week].game_days[i].matches[m].id;
         var location = data[week].game_days[i].matches[m].stadium;
-        var away_id = data[week].game_days[i].matches[m].away.id;
-        var home_id = data[week].game_days[i].matches[m].home.id;
+        var station = data[week].game_days[i].matches[m].tv;
+        var away_id = data[week].game_days[i].matches[m].away.nick;
+        var home_id = data[week].game_days[i].matches[m].home.nick;
 
         // let's get the game time and format it
         Number.prototype.pad = function (len) {
@@ -100,6 +101,14 @@ $.ajax({
 
         var day_of_game = data[week].game_days[i].matches[m].timestamp.slice(0,3);
 
+        // Color the chosen label with team color
+        var labelID;
+
+        $('label').click(function() {
+         labelID = $(this).attr('for');
+         console.log(labelID);
+       });
+
         // If Monday add game total inputs
         if (day_of_game == 'Mon') {
           $('<li>
@@ -114,8 +123,8 @@ $.ajax({
             <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
             </div>
             </div>
-            <div class="full location">
-            <strong>'+location+'</strong> - '+time+' MST
+            <div class="full location mon">
+            '+location+' - <strong>'+time+' MST on '+station+'</strong>
             </div>
             <div class="full">
             <label for="'+game_id+'" class="total_score">Game Total:</label>
@@ -137,7 +146,7 @@ $.ajax({
             </div>
             </div>
             <div class="full location">
-            <strong>'+location+'</strong> - '+time+' MST
+            '+location+' - <strong>'+time+' MST on '+station+'</strong>
             </div>
             </div></li>').appendTo('.matches');
         }
@@ -146,7 +155,7 @@ $.ajax({
   }
 });
 
-// Get JSON for schedule
+// Get JSON for team records
 // $.ajax({
 //   dataType: 'json',
 //   url: '/json/records.json',
@@ -157,7 +166,7 @@ $.ajax({
 //       var ties = data[i].ties;
 //       var losses = data[i].losses;
 
-//       var teamRecord = (wins+ '-' +ties+ '-' +losses);
+//       var teamRecord = +away_id+(wins+ '-' +ties+ '-' +losses);
 //       $('<div class="row marginless"><div class="half records">'+teamRecord+'</div></div>').appendTo('.teams');
 //     }
 //   }

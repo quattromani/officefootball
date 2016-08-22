@@ -104,7 +104,7 @@ $font-faces: (
   'Proxima Nova': ('proximanovasoft-regular-webfont', 400),
   'fontawesome': ('icons/fontawesome-webfont', normal),
   'GLGlyphs': ('icons/GLGlyphs', normal)
-);
+  );
 
 $font-path: 'fonts/';
 
@@ -126,7 +126,7 @@ $heading-list: (
   h4   24   200   $heading-font,
   h5   18   700   $heading-font-alt,
   h6   18   100   $heading-font
-);
+  );
 
 $lede-text: ($base-font-size * 1.375);
 $body-text: $base-font-size;
@@ -140,3 +140,40 @@ $find-mistakes: false;
 
 // If you have to support IE8
 $support-legacy: true;
+
+
+// Colors
+$teams: (
+  Falcons: #a71930,
+  Bills: #00338d,
+  Bears: #c83803,
+  Bengals: #fb4f14,
+  Browns: #fb4f14,
+  Cowboys: #024,
+  Broncos: #fb4f14,
+  Lions: #005a8b,
+  Packers: #203731,
+  Titans: #4b92db,
+  Colts: #002c5f,
+  Chiefs: #e31837,
+  Raiders: #a5acaf,
+  Rams: #b3995d,
+  Dolphins: #008e97,
+  Vikings: #4f2683,
+  Patriots: #024,
+  Saints: #9f8958,
+  Giants: #0b2265,
+  Jets: #203731,
+  Eagles: #004953,
+  Cardinals: #97233f,
+  Steelers: #ffb612,
+  Chargers: #024,
+  '49ers': #a00,
+  Seahawks: #69be28,
+  Buccaneers: #d50a0a,
+  Redskins: #773141,
+  Panthers: #0085ca,
+  Jaguars: #006778,
+  Ravens: #241773,
+  Texans: #a71930
+  );
