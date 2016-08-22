@@ -1,23 +1,28 @@
-- version: 0.1
+- version: 1.0.1
   description: "Copy of picks sent to submitter"
   requestor: rhagerty
 
-- version: 0.2
+- version: 1.0.2
   description: "Added Season Leaderboard page"
   requestor: mquattromani
 
-- version: 0.3
+- version: 1.0.3
   description: "Simple Nav to support new pages"
   requestor: mquattromani
 
-- version: 0.4
+- version: 1.0.4
   description: "Better name regex"
   requestor: mquattromani
 
-- version: 0.5
+- version: 1.0.5
   description: "Route post-submision to leaderboard"
   requestor: mquattromani
 
-- version: 0.6
+- version: 1.0.6
   description: "Email Subject includes Week Number"
   requestor: mquattromani
+
+- version: 1.1.0
+  description: "Added TV Station lisitng"
+  requestor: mquattromani
+
