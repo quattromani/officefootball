@@ -16,6 +16,18 @@
           border: none;
         }
 
+        .teams {
+          position: relative;
+          display: table;
+          width: 100%;
+
+          &:after {
+            @include center(both);
+            content: 'AT';
+            background-color: $color-white;
+          }
+        }
+
         .half {
           text-align: center;
 
@@ -53,7 +65,7 @@
           & ~ label {
             @include inline-block;
             width: 100%;
-            @include padding($padding);
+            @include padding($padding ($padding * 2));
             font-weight: bold;
             vertical-align:middle;
             color: #666;

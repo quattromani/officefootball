@@ -168,6 +168,7 @@ $.ajax({
       for (m = 0; m < data[week].game_days[i].matches.length; m++) {
 
         // variabilize the games
+        var game_date = data[week].game_days[i].date;
         var game_id = data[week].game_days[i].matches[m].id;
         var location = data[week].game_days[i].matches[m].stadium;
         var station = data[week].game_days[i].matches[m].tv;
@@ -179,6 +180,7 @@ $.ajax({
           return (new Array(len+1).join("0") + this).slice(-len);
         }
         var timestamp = new Date(data[week].game_days[i].matches[m].timestamp);
+        var day_of_game = data[week].game_days[i].matches[m].timestamp.slice(0,3);
         var hours = timestamp.getHours() % 12 || 12;
         var minutes = timestamp.getMinutes().pad(2);
         var time = +hours+ ':' +minutes;
@@ -186,8 +188,6 @@ $.ajax({
         //variabilize the teams
         var away = data[week].game_days[i].matches[m].away.nick;
         var home = data[week].game_days[i].matches[m].home.nick;
-
-        var day_of_game = data[week].game_days[i].matches[m].timestamp.slice(0,3);
 
         // Color the chosen label with team color
         var labelID;
@@ -212,7 +212,7 @@ $.ajax({
             </div>
             </div>
             <div class="full location mon">
-            '+location+' - <strong>'+time+' MST on '+station+'</strong>
+            <strong> '+day_of_game+' '+time+' MST on '+station+'</strong> <span class="mobile-hidden"> - </span> <br class="rwd-break">'+location+'
             </div>
             <div class="full">
             <label for="'+game_id+'" class="total_score">Game Total:</label>
@@ -234,7 +234,7 @@ $.ajax({
             </div>
             </div>
             <div class="full location">
-            '+location+' - <strong>'+time+' MST on '+station+'</strong>
+            <strong> '+day_of_game+' '+time+' MST on '+station+'</strong> <span class="mobile-hidden"> - </span> <br class="rwd-break">'+location+'
             </div>
             </div></li>').appendTo('.matches');
         }

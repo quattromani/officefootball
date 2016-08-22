@@ -216,17 +216,33 @@ $marginless-col-width: $width / $site-column-count;
   transform: translateY(-50%);
 }
 
-// Horizontal Align
-@mixin center {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+// Centering
+@mixin center($position) {
+  @if $position == 'vertical' {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-// placeholder from Horizontal Align
-%center {
-  @include center;
+  @else if $position == 'horizontal' {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  @else if $position == 'both' {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @else if $position == 'reset' {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
 }
 
 // Transform

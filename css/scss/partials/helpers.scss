@@ -3,29 +3,29 @@
 
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.clear {
-  clear: both;
-}
+    .clear {
+      clear: both;
+    }
 
-.relative {
-  position: relative;
-}
+    .relative {
+      position: relative;
+    }
 
-.center {
-  @include center;
-}
+    .center {
+      @include center(both);
+    }
 
-.left {
-  float: left;
-  left: 0;
-}
+    .left {
+      float: left;
+      left: 0;
+    }
 
-.right {
-  float: right;
-  right: 0;
-}
+    .right {
+      float: right;
+      right: 0;
+    }
 
 // Font Size Helpers
 @for $i from 10 through 60 {
@@ -238,5 +238,13 @@ $widths: 5;
   .column-count-3,
   .column-count-4 {
     @include columns(1, 0)
+  }
+}
+
+.rwd-break {
+  display: none;
+
+  @media (max-width: $bp-small) {
+    display: block;
   }
 }
