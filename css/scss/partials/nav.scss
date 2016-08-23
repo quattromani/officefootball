@@ -15,6 +15,10 @@
         width: 100%;
       }
 
+      .logo {
+        margin-bottom: $padding;
+      }
+
       @include bp(bp-small) {
         .second {
           margin-top: 1em;
