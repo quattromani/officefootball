@@ -232,7 +232,7 @@ $.ajax({
             </div>
             <div class="full">
             <label for="'+game_id+'" class="total_score">Game Total:</label>
-            <input type="text" class="total_score" id="'+game_id+'" name="'+game_id+'">
+            <input type="number" class="total_score" id="'+game_id+'" name="'+game_id+'" value="0">
             </div>
             </div>
             </li>').appendTo('.matches');
