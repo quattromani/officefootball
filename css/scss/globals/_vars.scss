@@ -33,9 +33,9 @@ $color-dark-grey: darken($color-grey, 10%);
 $color-light-grey: lighten($color-grey, 10%);
 $color-light-light-grey: lighten($color-grey, 45%);
 
-$color-primary-red: #ef272d;
+$color-primary-red: #f00;
 $color-primary-green: #3eb633;
-$color-primary-blue: #0099ed;
+$color-primary-blue: #003399;
 $color-primary-orange: #f62;
 $color-primary-yellow: #ffda21;
 $color-primary-indigo: #583c9c;
@@ -141,39 +141,42 @@ $find-mistakes: false;
 // If you have to support IE8
 $support-legacy: true;
 
+// Transition
+$transition-time: .3s;
+$transition: all $transition-time ease-in-out;
 
 // Colors
 $teams: (
-  Falcons: #a71930,
-  Bills: #00338d,
-  Bears: #c83803,
-  Bengals: #fb4f14,
-  Browns: #fb4f14,
-  Cowboys: #024,
-  Broncos: #fb4f14,
-  Lions: #005a8b,
+  Falcons: #BD0D18,
+  Bills: #00338D,
+  Bears: #DD4814,
+  Bengals: #FB4F14,
+  Browns: #FE3C00,
+  Cowboys: #0D254C,
+  Broncos: #FB4F14,
+  Lions: #006DB0,
   Packers: #203731,
-  Titans: #4b92db,
-  Colts: #002c5f,
-  Chiefs: #e31837,
+  Titans: #648FCC,
+  Colts: #003B7B,
+  Chiefs: #B20032,
   Raiders: #000,
-  Rams: #b3995d,
-  Dolphins: #008e97,
-  Vikings: #4f2683,
-  Patriots: #024,
-  Saints: #9f8958,
-  Giants: #0b2265,
-  Jets: #203731,
-  Eagles: #004953,
+  Rams: #13264B,
+  Dolphins: #008D97,
+  Vikings: #3B0160,
+  Patriots: #0D254C,
+  Saints: #D2B887,
+  Giants: #192F6B,
+  Jets: #0C371D,
+  Eagles: #003B48,
   Cardinals: #97233f,
-  Steelers: #ffb612,
-  Chargers: #024,
-  '49ers': #a00,
-  Seahawks: #69be28,
-  Buccaneers: #d50a0a,
+  Steelers: #FFB612,
+  Chargers: #0C2340,
+  '49ers': #AF1E2C,
+  Seahawks: #69BE28,
+  Buccaneers: #D60A0B,
   Redskins: #773141,
-  Panthers: #0085ca,
+  Panthers: #0088CE,
   Jaguars: #006778,
-  Ravens: #241773,
-  Texans: #a71930
+  Ravens: #280353,
+  Texans: #02253A
   );

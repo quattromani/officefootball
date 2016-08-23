@@ -260,6 +260,22 @@ $marginless-col-width: $width / $site-column-count;
   transition: $what $length $easing;
 }
 
+// Sizing
+@mixin size($w, $h: $w) {
+  @if is-length($w) {
+    width: $w;
+  } @else {
+    width: $w + px;
+  }
+
+  @if is-length($h) {
+    height: $h;
+  } @else {
+    height: $h + px;
+  }
+}
+
+
 // Column Count
 @mixin columns($count, $gap) {
   column-count: $count;
@@ -271,4 +287,19 @@ $marginless-col-width: $width / $site-column-count;
   :-moz-placeholder           {@content}
   ::-moz-placeholder          {@content}
   :-ms-input-placeholder      {@content}
+}
+
+@mixin grayscale($grayscale-percentage: 100%) {
+  @include opacity(.75);
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale($grayscale-percentage);
+  transition: all $transition-time ease-in-out;
+
+  &:hover {
+    @include opacity(1);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+    transition: all $transition-time ease-in-out;
+  }
 }

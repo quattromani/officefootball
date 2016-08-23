@@ -23,8 +23,13 @@
 
           &:after {
             @include center(both);
+            @include size(48px);
+            @include border-radius(50%);
+            @include box-shadow(inset 1px 1px 3px 0 $color-grey);
             content: 'AT';
             background-color: $color-white;
+            line-height: 48px; // font size * 3
+
           }
         }
 
@@ -64,6 +69,7 @@
         input {
           & ~ label {
             @include inline-block;
+            @include grayscale;
             width: 100%;
             @include padding($padding ($padding * 2));
             font-weight: bold;
@@ -84,15 +90,6 @@
             }
 
             img {
-              -webkit-filter: grayscale(90%);
-              -moz-filter: grayscale(90%);
-              -ms-filter: grayscale(90%);
-              -o-filter: grayscale(90%);
-              filter: grayscale(90%);
-              filter: url(grayscale.svg);
-              filter: gray;
-              @include opacity(.25);
-
               @include bp(bp-small) {
                 display: block;
                 float: none !important;
@@ -104,10 +101,12 @@
 
           &:checked {
             & ~ label {
+              @include grayscale(0);
+              @include opacity(1);
               @each $team, $color-value in $teams {
                 &[for='#{$team}'] {
-                  @include box-shadow(inset 0 -8px 0 0 $color-value);
-                  color: $color-value;
+                  @include box-shadow(inset 0 100px 0 0 $color-value);
+                  color: $color-white;
                 }
               }
               font-weight: 700;
