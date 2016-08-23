@@ -11,20 +11,18 @@ $(function() {
   });
 });
 
-
-
-$(function () {
-  function init() {
-    if (localStorage["name"]) {
-      $('#name').val(localStorage["name"]);
-    }
-    if (localStorage["email"]) {
-      $('#email').val(localStorage["email"]);
-    }
-  }
-  init();
+// Use localstorage to keep form fields completed
+$(function() {
+  $(window).unload(saveSettings);
+  loadSettings();
 });
 
-$('#weekly').submit(function() {
-  localStorage[$(this).attr('name')] = $(this).val();
-});
+function loadSettings() {
+  $('#name').val(localStorage.name);
+  $('#email').val(localStorage.email);
+}
+
+function saveSettings() {
+  localStorage.name = $('#name').val();
+  localStorage.email = $('#email').val();
+}
