@@ -25,6 +25,6 @@ $(function () {
   init();
 });
 
-$('.stored').keyup(function () {
+$('#weekly').submit(function() {
   localStorage[$(this).attr('name')] = $(this).val();
 });
