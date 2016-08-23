@@ -277,6 +277,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"row",
+			"hover",
+			"size",
+			"90",
 			"></",
 			"version: ",
 			"\"abbr\": \"stl\",",
@@ -400,11 +404,7 @@
 			"primary",
 			"gray",
 			"color-",
-			"background: $",
-			"primary",
-			"third",
-			"primary",
-			"secondary"
+			"background: $"
 		],
 		"highlight": true,
 		"in_selection": false,
