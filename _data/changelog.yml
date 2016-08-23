@@ -26,3 +26,6 @@
   description: "Added TV Station lisitng"
   requestor: mquattromani
 
+- version: 1.1.1
+  description: "Added localstorage for name and email address"
+  requestor: mquattromani
