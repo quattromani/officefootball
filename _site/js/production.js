@@ -13,6 +13,24 @@ $(function() {
   });
 });
 
+
+
+$(function () {
+  function init() {
+    if (localStorage["name"]) {
+      $('#name').val(localStorage["name"]);
+    }
+    if (localStorage["email"]) {
+      $('#email').val(localStorage["email"]);
+    }
+  }
+  init();
+});
+
+$('.stored').keyup(function () {
+  localStorage[$(this).attr('name')] = $(this).val();
+});
+
 // Get JSON for Leaderboard
 $.ajax({
   dataType: 'json',
