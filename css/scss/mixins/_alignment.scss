@@ -27,32 +27,3 @@
   }
 }
 
-// These are going to be deprecated
-// Remove them in favor of Center mixin syntax above
-
-// Vertical Align
-@mixin vertical-align($position: relative) {
-  @if $position == reset {
-    position: relative;
-    top: 0;
-    transform: none;
-  } @else {
-    position: $position;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
-
-// Center an element vertically and horizontally
-@mixin centerer($position: absolute) {
-  position: $position;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@mixin horizontal-center($position: relative) {
-  position: $position;
-  left: 50%;
-  transform: translate(-50%);
-}

@@ -23,15 +23,3 @@
 .pull {
   @include pull;
 }
-
-.tablet-push {
-  @include media($tablet) {
-    @include push;
-  }
-}
-
-.tablet-pull {
-  @include media($tablet) {
-    @include pull;
-  }
-}

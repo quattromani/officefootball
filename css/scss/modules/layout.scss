@@ -19,27 +19,6 @@ section {
   @include outer-container;
 }
 
-// Secondary page layouts - home layout below
-article {
-  @include span-columns(9);
-  min-height: 1px;
-
-  @include media($mobile) {
-    @include span-columns(4);
-    margin-bottom: $base-spacing;
-  }
-}
-
-aside {
-  @include span-columns(3);
-  min-height: 1px;
-
-  @include media($mobile) {
-    @include span-columns(4);
-    margin-left: 0;
-  }
-}
-
 .row {
   @include outer-container;
   margin-bottom: $base-spacing;
