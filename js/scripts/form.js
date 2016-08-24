@@ -1,6 +1,6 @@
 // add the week number to the form
 $("#weekly").on("submit", function () {
-  $('<fieldset><input type="hidden" name="Week" value="Week '+parseFloat(week + 1)+'"></fieldset>').appendTo('.hidden');
+  $('<fieldset><input type="hidden" id="week" name="Week" value="Week '+parseFloat(week + 1)+'"></fieldset>').appendTo('.hidden');
 });
 
 // capture the submitters email and put it in as the _cc value

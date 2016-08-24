@@ -130,6 +130,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/getJson.php",
 		"/Users/Q/Sites/officefootball/css/scss/pages/leaderboard.scss",
 		"/Users/Q/Sites/officefootball/css/scss/pages/pool.scss",
 		"/Users/Q/Sites/officefootball/css/scss/elements/_tables.scss",
@@ -256,8 +257,7 @@
 		"/Users/Q/Sites/maxquattromani/js/_prototype.js",
 		"/Users/Q/Sites/maxquattromani/css/main.min.css",
 		"/Users/Q/Sites/maxquattromani/_includes/portfolio/index.html",
-		"/Users/Q/Sites/maxquattromani/_data/modals.yml",
-		"/Users/Q/Sites/maxquattromani/css/scss/partials/modals.scss"
+		"/Users/Q/Sites/maxquattromani/_data/modals.yml"
 	],
 	"find":
 	{
@@ -281,6 +281,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data[week]",
 			"var ",
 			"></",
 			"Phoenix Stadium\"",
@@ -407,8 +408,7 @@
 			"h2",
 			"vert",
 			"pre",
-			"compliance",
-			"Disabled"
+			"compliance"
 		],
 		"highlight": true,
 		"in_selection": false,
