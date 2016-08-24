@@ -47,11 +47,4 @@ $("#weekly").submit(function(event){
         );
     });
 
-    // Callback handler that will be called regardless
-    // if the request failed or succeeded
-    request.always(function () {
-        // Reenable the inputs
-        $inputs.prop("disabled", false);
-    });
-
 });
