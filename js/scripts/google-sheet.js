@@ -17,11 +17,6 @@ $(document).on('submit', '#weekly', function () {
     // Serialize the data in the form
     var serializedData = $form.serialize();
 
-    // Let's disable the inputs for the duration of the Ajax request.
-    // Note: we disable elements AFTER the form data has been serialized.
-    // Disabled form elements will not be serialized.
-    $inputs.prop("disabled", true);
-
     // Fire off the request to /form.php
     request = $.ajax({
         url: "https://script.google.com/macros/s/AKfycby7D7lSIU3gBfX7m7jgRC5HcGj402jOHbDosFYUamBRWEX-PZE9/exec",
