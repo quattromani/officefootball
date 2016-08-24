@@ -1,6 +1,5 @@
 // Variable to hold request
 var request;
-var SHEET_NAME = "Week '+parseFloat(week + 1)+'";
 
 // Bind to the submit event of our form
 $("#weekly").submit(function(event){
@@ -45,7 +44,7 @@ $("#weekly").submit(function(event){
         console.error(
             "The following error occurred: "+
             textStatus, errorThrown
-            );
+        );
     });
 
     // Callback handler that will be called regardless
@@ -54,4 +53,5 @@ $("#weekly").submit(function(event){
         // Reenable the inputs
         $inputs.prop("disabled", false);
     });
+
 });
