@@ -2,7 +2,7 @@
 var request;
 
 // Bind to the submit event of our form
-$("#weekly").submit(function(event){
+$(document).on('submit', '#weekly', function () {
 
     // Abort any pending request
     if (request) {
