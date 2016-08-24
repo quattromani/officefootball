@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.leaderboard {
+
+  .trophy {
+    @include size(72);
+    margin: 0 auto;
+    background-image: url(/images/trophy.png);
+  }
+
+  h2,
+  .player-count,
+  .season-pot,
+  h4 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  #leaderboard {
+    tr {
+      display: block;
+      position: relative;
+      margin-bottom: $half-spacing;
+
+      td {
+        display: inline-block;
+        width: 100%;
+        font-weight: bold;
+        background: none;
+        color: $color-brand-secondary;
+        white-space: nowrap;
+        overflow: visible;
+      }
+    }
+  }
+
+  .rank {
+    padding-right: 1em;
+    margin-right: 1em;
+    border-right: 1px solid darkseagreen;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  }
+
+  .player {
+    text-transform: uppercase;
+  }
+
+  .total {
+    position: absolute;
+    right: 1em;
+
+    &:after {
+      content: attr(data-total);
+      font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    }
+
+    &:hover {
+      &:after {
+        content: attr(data-pct);
+      }
+    }
+  }
+}
+
+.scores {
+  font-weight: bold;
+}
+
+.score {
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: $color-white;
+}
+
+form {
+  text-align: center;
+}
