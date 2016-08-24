@@ -281,6 +281,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"score",
+			" class=\"right\"",
+			"name=\"'+game_",
+			"week",
+			"id",
 			"data[week]",
 			"var ",
 			"></",
@@ -403,12 +408,7 @@
 			"section",
 			"head",
 			"}\n",
-			"h2",
-			"h2	",
-			"h2",
-			"vert",
-			"pre",
-			"compliance"
+			"h2"
 		],
 		"highlight": true,
 		"in_selection": false,
