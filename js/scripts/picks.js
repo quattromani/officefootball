@@ -88,7 +88,7 @@ $.ajax({
     } else if (week == 16) {
       $('.next').hide();
     }
-    $('#subject').val('Week ' +week_number+ ' Picks');
+    $('#subject').val('Week '+parseFloat(week + 1)+' Picks');
     // get the number of game days
     for (i = 0; i < data[week].game_days.length; i++) {
 
