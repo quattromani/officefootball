@@ -22,6 +22,14 @@
     text-align: center;
   }
 
+  .prev {
+    @include icon-before($icon-chevron-circle-left);
+  }
+
+  .next {
+    @include icon-after($icon-chevron-circle-right);
+  }
+
   .matches {
     @include outer-container;
     margin-bottom: 1em;
@@ -110,16 +118,16 @@
           @include opacity(1);
           @each $team, $color-value in $teams {
             &[for='#{$team}'] {
-              @include box-shadow(inset 0 120px 0 0 $color-value);
+              background-color: $color-value;
               color: $color-white;
             }
           }
           font-weight: 700;
 
-          img {
-            @include grayscale(0);
-            @include opacity(1);
-          }
+          // img {
+          //   @include grayscale(0);
+          //   @include opacity(1);
+          // }
         }
       }
 

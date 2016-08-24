@@ -65,13 +65,29 @@ var week_number = week + plus_one;
 
 var gamesTotal = 207;
 
-// Get JSON for schedule
+getData(week);
+
+$(document).on('click','.pag',function() {
+  $('.matches').html('');
+  getData($(this).data('week'));
+  console.log($(this).data('week'));
+});
+
+function getData(week) {
+  // Get JSON for schedule
+  $('.week-nav').html('');
 $.ajax({
   dataType: 'json',
   url: '/json/nfl2016.json',
   success: function(data) {
+    console.log(data);
     // Label the week
-    $('<span class="text-center">Week '+week_number+'</span>').appendTo('h1');
+    $('<span class="text-center week-nav"><span class="pag prev" data-week="'+parseFloat(week - 1)+'"></span> Week '+parseFloat(week + 1)+' <span class="pag next" data-week="'+parseFloat(week + 1)+'"></span> </span>').appendTo('h1');
+    if (week == 0) {
+      $('.prev').hide();
+    } else if (week == 16) {
+      $('.next').hide();
+    }
     $('#subject').val('Week ' +week_number+ ' Picks');
     // get the number of game days
     for (i = 0; i < data[week].game_days.length; i++) {
@@ -150,6 +166,8 @@ $.ajax({
     }
   }
 });
+}
+
 
 
 // Get JSON for team records
