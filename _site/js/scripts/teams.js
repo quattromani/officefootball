@@ -10,7 +10,15 @@
 
   $(entry).each(function(){
     // Column names are name, age, etc.
-    $('.results').prepend('<h2>'+this.gsx$name.$t+'</h2><p>'+this.gsx$game1.$t+'</p><p>'+this.gsx$game2.$t+'</p>');
+    $('.results').prepend('<strong>'+this.gsx$name.$t+'</strong><p>'+this.gsx$game1.$t+'</p><p>'+this.gsx$game2.$t+'</p>');
   });
+
+var playerCount = entry.length;
+
+var seasonPot = playerCount * 5;
+
+$('.player-count').append("<span>"+playerCount+"</span>");
+
+  $('.season-pot').append("<span> $"+seasonPot+"</span>");
 
  });

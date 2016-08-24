@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.scoreboard {
+  table {
+    display: table;
+    width: 100%;
+
+     table {
+      @include margin;
+      @include padding;
+    }
+
+    @include media($mobile) {
+      width: 100%;
+    }
+
+    tr {
+      display: table-row;
+      width: 100%;
+      vertical-align: middle;
+
+      tr {
+        @include padding($half-spacing);
+      }
+    }
+
+    td {
+      @include margin;
+      @include padding;
+      @include font-size(20);
+      display: table-cell;
+      width: auto;
+      min-height: 90px;
+      @each $team, $color-value in $teams {
+        &[data-team='#{$team}'] {
+          background-color: $color-value;
+          color: $color-white;
+        }
+      }
+      text-align: center;
+      color: $color-white;
+      text-transform: uppercase;
+      vertical-align: text-top;
+
+      img {
+        @include padding($half-spacing);
+      }
+
+      .score {
+        @include font-size(40);
+      }
+    }
+  }
+}

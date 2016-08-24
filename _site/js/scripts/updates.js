@@ -1,4 +1,4 @@
- $.getJSON('https://spreadsheets.google.com/feeds/list/1_w6b0iUDaUbKD6qLD52BcRG1pIMh90P-Av4o0w5TAB8/1/public/values?alt=json', function(data) {
+ $.getJSON('https://spreadsheets.google.com/feeds/list/1a3tvBpNte0cWmObkvd7j3wJdADyRvtYHW1IbHefPxX4/1/public/values?alt=json', function(data) {
 
   for (i = 0; i < data.feed.entry.length; i++) {
     var home = data.feed.entry[i]['gsx$hnn']['$t'];
@@ -12,17 +12,27 @@
     };
 
     $('.scores').append('
-      <table>
-      <tr>
-        <td colspan="1"><img src="/images/logos/'+visitor+'.png" height="30" width="30" style="float: left;" alt="'+visitor+'" /></td>
-        <td colspan="3">'+visitor+'</td>
-        <td colspan="1" class="right">'+visitorScore+'</td>
-      </tr>
-      <tr>
-        <td colspan="1"><img src="/images/logos/'+home+'.png" height="30" width="30" style="float: left;" alt="'+home+'" /></td>
-        <td colspan="3">'+home+'</td>
-        <td colspan="1" class="right">'+homeScore+'</td>
-      </tr>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td data-team="'+visitor+'">
+            <table>
+              <tr>
+                <td colspan="1.5"><img src="/images/logos/'+visitor+'.png" alt="'+visitor+'" /></td>
+                <td colspan="2">'+visitor+'</td>
+                <td colspan="1" class="score">'+visitorScore+'</td>
+              </tr>
+            </table>
+          </td>
+          <td data-team="'+home+'">
+            <table>
+              <tr>
+                <td colspan="1.5" class="score">'+homeScore+'</td>
+                <td colspan="2">'+home+'</td>
+                <td colspan="1"><img src="/images/logos/'+home+'.png" alt="'+home+'" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
       </table>
       ');
   }
@@ -32,3 +42,5 @@
   $('.updated').append('<div class="text-center"><span>Updated: ' + timestamp + '</span></div>');
 
 });
+
+

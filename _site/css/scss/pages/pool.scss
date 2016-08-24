@@ -181,30 +181,4 @@
   }
 }
 
-.scoreboard {
-  table {
-    display: table;
-    width: 50%;
-    margin: 0 auto .5em;
-    background-color: $color-white;
 
-    @include media($mobile) {
-      width: 100%;
-    }
-
-    tr {
-      display: table-row;
-      width: 100%;
-
-      &:first-of-type {
-        border-bottom: 1px solid $color-light-grey;
-      }
-    }
-
-    td {
-      display: inline-block;
-      width: auto;
-      padding: .5em;
-    }
-  }
-}
