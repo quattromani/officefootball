@@ -67,7 +67,7 @@ var gamesTotal = 207;
 
 getData(week);
 
-$(document).on('click','.pag',function() {
+$(document).on('click touchstart', '.pag', function () {
   $('.matches').html('');
   getData($(this).data('week'));
   console.log($(this).data('week'));
