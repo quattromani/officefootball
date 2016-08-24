@@ -2,7 +2,7 @@
 
 .container {
   @include outer-container;
-  @include padding($base-spacing);
+  @include padding($base-spacing 0);
   position: relative;
 
   @include media($mobile) {
