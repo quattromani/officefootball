@@ -1,0 +1,12 @@
+@mixin full-width($max-width: auto) {
+  @if $full-width-elements == true {
+    width: calc(100% +  #{$double-spacing});
+    max-width: $max-width;
+    margin-left: -$base-spacing;
+  }
+}
+
+@mixin extra-wide($side: null) {
+  width: calc(100% +  #{$side * 2});
+  margin-left: -$side;
+}

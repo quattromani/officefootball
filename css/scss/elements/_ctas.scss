@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+// CTA's
+.cta {
+  @include padding($half-spacing $base-spacing);
+  @include border-radius($cta-border-radius);
+  @include font-family($cta-font-family);
+  @include font-size($cta-font-size);
+  background: none;
+  box-shadow: inset 0 0 0 2px $cta-border-color;
+  color: $cta-link-color;
+  font-weight: $cta-font-weight;
+
+  &:hover {
+    background: none;
+    box-shadow: inset 0 0 0 2px $cta-border-color;
+    color: $cta-link-color;
+  }
+}

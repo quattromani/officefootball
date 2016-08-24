@@ -1,0 +1,49 @@
+// This file contains all the very common settings among sites.
+// These are purely defaults and should not be reset unless
+// a change is requested across all sites.
+
+@import "vars/spacing-vars",
+
+        "vars/width-vars",
+
+        "vars/global-vars",
+
+				"vars/color-vars",
+
+        "vars/team-colors-vars",
+
+        "vars/social-vars",
+
+				"vars/container-vars",
+
+				"vars/typography-vars",
+
+        "vars/heading-vars",
+
+        "vars/body-vars",
+
+        "vars/link-vars",
+
+        "vars/border-vars",
+
+        "vars/button-vars",
+
+				"vars/icon-vars",
+
+				"vars/form-vars",
+
+				"vars/animation-vars",
+
+				"vars/transition-vars",
+
+				"vars/header-vars",
+
+				"vars/footer-vars",
+
+				"vars/hr-vars",
+
+        "vars/column-control-vars",
+
+				"vars/setting-vars";
+
+

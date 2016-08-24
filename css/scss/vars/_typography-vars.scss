@@ -1,0 +1,35 @@
+// Typography Basics
+$base-font-reset: 10px;
+$base-font-size: 16;
+$base-font-weight: 200;
+$base-line-height: 1.443;
+$lede-font-size: $base-font-size * 1.125;
+$body-text: $base-font-size;
+$small-body-text: $base-font-size * .875;
+$disclaimer-text: $base-font-size * .75;
+$legal-text: $small-body-text;
+$sup-font-size: 75%;
+
+// Modular Scale
+$modular-scale-ratio: 1.61803398875;
+
+// Font Families List
+$font-faces: (
+  'Proxima Nova': ('proximanovasoft-regular-webfont', 400),
+  'fontawesome': ('icons/fontawesome-webfont', normal),
+  'GLGlyphs': ('icons/GLGlyphs', normal)
+  );
+
+$font-path: 'fonts/';
+
+// Font Families
+$base-font-family: 'Proxima Nova', sans-serif;
+$base-font-family-alt: $base-font-family;
+$fontawesome: 'fontawesome';
+$pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
+
+// Inline Text Elements
+$em-color: $base-font-color;
+$mark-bg: $info-color;
+$mark-color: $base-font-color;
+

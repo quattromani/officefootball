@@ -1,0 +1,21 @@
+// Accessibility
+@mixin visually-hidden {
+  @include size(1px);
+  @include margin(-$half-spacing);
+  @include padding;
+  position: absolute;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  &.focusable {
+    &:active,
+    &:focus {
+      @include size(auto);
+      @include margin;
+      clip: auto;
+      overflow: visible;
+      position: static;
+    }
+  }
+}

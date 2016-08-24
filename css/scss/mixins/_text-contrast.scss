@@ -1,0 +1,23 @@
+// Text Contrast
+@mixin text-contrast($bg, $color: $color-brand-primary) {
+  $color-value: round((red($bg) * 299) + (green($bg) * 587) + (blue($bg) * 114) / 1000);
+  $color-measure: round((red(#fff) * 299) + (green(#fff) * 587) + (blue(#fff) * 114) / 1000);
+
+  @if abs($color-value) < ($color-measure / 2) {
+    color: white;
+  }
+
+  @else {
+    color: $color;
+  }
+}
+
+// How to use
+// button {
+//   background-color: $button-bg;
+//   @include text-contrast($button-bg);
+// }
+
+// a {
+//   @include text-contrast($body-bg);
+// }

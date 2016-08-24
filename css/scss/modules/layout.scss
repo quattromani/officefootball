@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.container {
+  @include outer-container;
+  @include padding($base-spacing);
+  position: relative;
+
+  @include media($mobile) {
+    @include padding($base-spacing $half-spacing);
+  }
+}
+
+.content {
+  position: relative;
+  background-color: $color-light-grey;
+}
+
+section {
+  @include outer-container;
+}
+
+// Secondary page layouts - home layout below
+article {
+  @include span-columns(9);
+  min-height: 1px;
+
+  @include media($mobile) {
+    @include span-columns(4);
+    margin-bottom: $base-spacing;
+  }
+}
+
+aside {
+  @include span-columns(3);
+  min-height: 1px;
+
+  @include media($mobile) {
+    @include span-columns(4);
+    margin-left: 0;
+  }
+}
+
+.row {
+  @include outer-container;
+  margin-bottom: $base-spacing;
+}

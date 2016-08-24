@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+// Icons
+[class*='fa-facebook'] {
+  color: $facebook-link-color;
+
+  &:hover {
+    color: darken($facebook-link-color, 5%);
+  }
+}
+
+[class*='fa-twitter'] {
+  color: $twitter-link-color;
+
+  &:hover {
+    color: darken($twitter-link-color, 5%);
+  }
+}
+
+[class*='fa-pinterest'] {
+  color: $pinterest-link-color;
+
+  &:hover {
+    color: darken($pinterest-link-color, 5%);
+  }
+}
+
+[class*='fa-instagram'] {
+  color: $instagram-link-color;
+
+  &:hover {
+    color: darken($instagram-link-color, 5%);
+  }
+}
+
+[class*='fa-snapchat'] {
+  color: $snapchat-link-color;
+
+  &:hover {
+    color: darken($snapchat-link-color, 5%);
+  }
+}

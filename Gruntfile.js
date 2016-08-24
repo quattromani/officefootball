@@ -1,22 +1,29 @@
+'use strict';
+
 module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
 
-  grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
+  // Project configuration.
+  var gruntConfig = {
+
+    config: {
+      src: 'src'
+    },
 
     concat: {
+      options: {
+        separator: ';'
+      },
       dist: {
-        src: [
-        'js/*.js'
-        ],
-        dest: 'js/production.js',
+        src: ['js/scripts/*.js'],
+        dest: 'js/production.min.js'
       }
     },
 
     uglify: {
       build: {
-        src: 'js/production.js',
+        src: 'js/production.min.js',
         dest: 'js/production.min.js'
       }
     },
@@ -39,7 +46,8 @@ module.exports = function(grunt) {
     postcss: {
       options: {
         map: {
-          inline: false
+          inline: false, // save all sourcemaps as separate files...
+          annotation: 'css' // ...to the specified directory
         },
 
         processors: [
@@ -53,37 +61,25 @@ module.exports = function(grunt) {
           'css/main.css': ['css/main.css']
         }
       }
-    },
-
-    copy: {
-      scripts: {
-        files: [{
-          expand: true,
-          cwd: 'js/vendor',
-          src: ['**/*.js'],
-          dest:'js/vendor/'
-        }]
-      }
     }
-  });
-
-  grunt.loadNpmTasks('grunt-contrib');
+  }
 
   grunt.registerTask('server', [
     'build',
     'watch'
-  ]);
+    ]);
 
   grunt.registerTask('build', [
     'concat',
     'uglify',
     'sass',
-    'postcss',
-    'copy'
-  ]);
+    'postcss'
+    ]);
 
   grunt.registerTask('default', [
     'build'
-  ]);
+    ]);
+
+  grunt.initConfig(gruntConfig);
 
 };

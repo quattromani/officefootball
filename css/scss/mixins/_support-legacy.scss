@@ -1,0 +1,6 @@
+// IE8 or Older?
+@mixin support-legacy {
+  @if $support-legacy {
+    @content;
+  }
+}

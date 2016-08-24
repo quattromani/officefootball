@@ -1,0 +1,70 @@
+// Card
+@mixin card {
+  position: relative;
+  margin-bottom: $base-spacing;
+  border: 1px solid $color-light-grey;
+  background-color: $color-white;
+  word-wrap: break-word;
+  hyphens: auto;
+
+  figure {
+    border: $half-spacing solid $color-white;
+    background-color: $color-white;
+
+    img {
+      @include responsive-image(top, 100%);
+      margin-bottom: $half-spacing;
+    }
+  }
+
+  .notice {
+    @extend .flag !optional;
+    @include margin(0 0 $half-spacing);
+    @include padding($fourth-spacing
+ $half-spacing);
+    width: 100%;
+  }
+
+  figcaption {
+    bottom: $fourth-spacing
+;
+    margin-bottom: 0;
+
+    h3 {
+      @include font-family($heading-font-family);
+      @include font-size(18);
+      margin-bottom: $half-spacing;
+    }
+
+    h4 {
+      @include font-family($base-font-family);
+      @include font-size(16);
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-weight: 100;
+      color: $base-font-color;
+    }
+
+    span {
+      display: inline-block;
+      width: 100%;
+      margin-top: $half-spacing;
+      color: $color-brand-primary;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  &:hover {
+    img {
+      @include opacity(.8);
+    }
+
+    h3 {
+      color: $color-brand-primary !important;
+    }
+  }
+}

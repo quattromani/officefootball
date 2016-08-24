@@ -1,0 +1,20 @@
+// SVG
+@mixin svg($w: 200px, $h: 20px, $path: $color-white, $polygon: $path, $rect: $path, $stroke: $path) {
+  @include size($w, $h);
+
+  path {
+    fill: $path;
+  }
+
+  polygon {
+    fill: $polygon;
+  }
+
+  rect {
+    fill: $rect;
+  }
+
+  circle {
+    stroke: $stroke;
+  }
+}

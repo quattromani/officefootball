@@ -1,0 +1,4 @@
+@mixin omega-change($old_nth, $new_nth, $new_container_span) {
+  @include omega-reset($old_nth, $new_container_span);
+  @include omega("#{$new_nth}");
+}

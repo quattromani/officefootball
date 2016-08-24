@@ -1,0 +1,31 @@
+// Placeholder
+@mixin placeholder($contents...) {
+  $prefixes: ':-webkit' '-moz' ':-moz' '-ms';
+  @each $prefix in $prefixes {
+    &:#{$prefix}-input-placeholder {
+      @content;
+    }
+  }
+}
+
+// Usage example
+// input {
+//  @include placeholder {
+//    color: red;
+//  };
+//}
+
+[required] {
+  ::-webkit-input-placeholder:after {
+    content: '*';
+  }
+  :-moz-placeholder:after {
+    content: '*';
+  }
+  ::-moz-placeholder:after {
+    content: '*';
+  }
+  :-ms-input-placeholder:after {
+    content: '*';
+  }
+}

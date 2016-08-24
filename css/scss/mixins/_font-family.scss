@@ -1,0 +1,6 @@
+// Font Family
+@mixin font-family($font, $size: $base-font-size, $style: normal, $weight: normal) {
+  font-family: $font, Arial, Sans-Serif;
+  font-style: $style;
+  font-weight: $weight;
+}

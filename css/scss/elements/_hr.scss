@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+// Horizontal Rules
+hr {
+  @include box-sizing(content-box);
+  @include margin($base-spacing 0);
+  clear: both;
+  border: 0;
+  border-top: 1px solid $hr-color-top;
+  border-bottom: 1px solid $hr-color-bottom;
+}
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+
+  > span {
+    @include padding(0 $half-spacing);
+    @include font-family($heading-font-family-alt);
+    @include font-size(20);
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+
+    &:before,
+    &:after {
+      position: absolute;
+      top: 50%;
+      width: 9999px;
+      height: 1px;
+      content: '';
+      background: $strike-stroke;
+    }
+
+    &:before {
+      right: 100%;
+      margin-right: $half-spacing;
+    }
+
+    &:after {
+      left: 100%;
+      margin-left: $half-spacing;
+    }
+  }
+}

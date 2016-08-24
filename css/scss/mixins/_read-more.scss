@@ -1,0 +1,6 @@
+// Read More Links
+@mixin read-more {
+  @include icon-after($icon: $icon-angle-right, $color: currentColor);
+  font-size: inherit;
+  color: $color;
+}

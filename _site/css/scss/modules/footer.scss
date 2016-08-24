@@ -1,0 +1,10 @@
+footer {
+  border-top: 1px solid $footer-border-color;
+  background-color: $footer-bg;
+  text-align: center;
+  color: $footer-text-color;
+
+  a {
+    color: $footer-link-color;
+  }
+}

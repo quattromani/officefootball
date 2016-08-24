@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+// Build Font-Face
+@each $font-face-name, $font-face in $font-faces {
+
+  $font-weight: 'normal';
+  $font-style: 'normal';
+
+  // check if we are passing a list
+  @if (type-of($font-face) == list) {
+    $font-weight: nth($font-face, 2);
+    $font-style: if(length($font-face) == 3, nth($font-face, 3), 'normal');
+  }
+
+  // generate all font faces using their appropriate weights & styles
+  @font-face {
+    font-family: quote($font-face-name);
+    src: url('#{$font-path}#{nth($font-face, 1)}.eot');
+    src: url('webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}#{nth($font-face, 1)}.woff') format('woff'),
+         url('#{$font-path}#{nth($font-face, 1)}.ttf') format('truetype'),
+         url('webfont.svg#svgFontName') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      font-family: $font-face-name;
+      src: url('webfont.svg#svgFontName') format('svg');
+    }
+  }
+
+
+
+  // generate placeholders so we can extend when we need to use a font
+  %#{$font-face-name} {
+    @include font-family($font-face-name, $font-style, $font-weight);
+  }
+}
+
+// when we use a google font(s), import directly into the css so we don't make another request
+@if variable-exists(google-fonts-url) {
+  @import url($google-fonts-url);
+}

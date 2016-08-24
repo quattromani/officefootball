@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+header {
+  border-bottom: 1px solid $header-border-color;
+  background-color: $header-bg;
+
+  .logo {
+    margin-bottom: $half-spacing;
+  }
+}

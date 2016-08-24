@@ -1,0 +1,64 @@
+// Column Count
+@mixin columns($count, $gap) {
+  column-count: $count;
+  column-gap: $gap;
+
+  li {
+    display: inline-block;
+  }
+}
+
+
+[class^='number-of-items-'] {
+  li {
+    @include media($tablet) {
+      @include span-columns(4);
+    }
+
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+  }
+}
+
+.number-of-items-2 {
+  li {
+    @include span-columns(4 of 8);
+  }
+}
+
+.number-of-items-3,
+.number-of-items-6,
+.number-of-items-9 {
+  li {
+    @include span-columns(2.666666667 of 8);
+    @include omega(3n);
+
+    &:nth-child(3n) {
+      border: none;
+    }
+  }
+}
+
+.number-of-items-4,
+.number-of-items-5,
+.number-of-items-7,
+.number-of-items-8 {
+  li {
+    @include span-columns(2 of 8);
+    @include omega(4n);
+
+    &:nth-child(4n) {
+      border: none;
+    }
+
+    @include media($tablet) {
+      @include span-columns(2 of 8);
+      @include omega(4n);
+    }
+
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+  }
+}

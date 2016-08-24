@@ -1,0 +1,44 @@
+// Colors
+$color-white: #fff;
+$color-off-white: #f2f2f2;
+$color-black: #000;
+$color-grey: #ccc;
+$color-dark-grey: darken($color-grey, 15%);
+$color-light-grey: #eceff1;
+
+// Brand Palette
+$color-brand-primary: #1a237e; // NFL Blue
+$color-brand-secondary: #333; // Text
+$color-brand-tertiary: $color-white; // Background
+$color-brand-quaternary: #f1e9b4; // Creme
+$color-brand-quinary: #5d7876; // Aqua
+$color-brand-senary: #daad53; // Gold
+$color-brand-septenary: $color-grey; // Dark Grey
+
+$color-brand-primary-complimentary: #304ffe; // Placewise Orange
+$color-brand-secondary-complimentary: $color-brand-secondary;
+$color-brand-tertiary-complimentary: $color-brand-tertiary;
+$color-brand-quaternary-complimentary: $color-brand-quaternary; // Dark Brown
+$color-brand-quinary-complimentary: $color-brand-quinary;
+$color-brand-senary-complimentary: $color-brand-senary; // Slate
+$color-brand-septenary-complimentary: $color-brand-septenary; // Moss Brown
+
+$color-primary-red: #d50000;
+$color-primary-green: #3eb633;
+$color-primary-blue: #003399;
+$color-primary-orange: #f62;
+$color-primary-yellow: #ffda21;
+$color-primary-indigo: #583c9c;
+$color-primary-violet: #8d25bb;
+
+// Default Text Colors
+$base-font-color: $color-brand-secondary;
+$base-accent-color: $color-brand-tertiary;
+
+// Supplementary Colors
+$alert-bg: #c72626;
+$alert-color: $alert-bg;
+$success-bg: mix($color-primary-green, white, 40%);
+$success-color: $color-primary-green;
+$info-bg: mix($color-primary-blue, white, 40%);
+$info-color: $color-primary-blue;

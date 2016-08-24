@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+nav {
+  .btn-group {
+    @include border-radius($base-border-radius);
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+
+    @include media($mobile) {
+      display: block;
+    }
+
+    .btn {
+      @include border-radius(0);
+      display: table-cell;
+      width: auto;
+      border-left: 1px solid $color-grey;
+
+      &:first-child {
+        @include border-radius($base-border-radius 0 0 $base-border-radius);
+        border-left: none;
+      }
+
+      &:last-child {
+        @include border-radius(0 $base-border-radius $base-border-radius 0);
+      }
+
+      @include media($mobile) {
+        @include border-radius;
+        display: block;
+        margin-bottom: $half-spacing;
+        border-left: none;
+
+        &:first-child {
+          @include border-radius;
+        }
+
+        &:last-child {
+          @include border-radius;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

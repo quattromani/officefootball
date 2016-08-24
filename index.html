@@ -4,47 +4,39 @@ title: Home
 class: officefootball
 ---
 
-<div class="holder text-center">
+<form action="//formspree.io/{{ site.email }}" method="POST" id="weekly">
+  <h1></h1>
 
-  <form action="//formspree.io/{{ site.email }}" method="POST" id="weekly">
-    <h1></h1>
+  <hr>
 
-    <hr>
+  <!-- matches -->
+  <fieldset>
+    <ul class="matches">
+    </ul>
+  </fieldset>
+  <!-- /.matches -->
 
-    <fieldset>
-      <ul class="matches">
-        <h5></h5>
-      </ul>
-    </fieldset>
-    <!-- /.matches -->
-
-    <div class="hidden"></div>
-    <div class="row">
-      <div class="formitem name">
-        <label for="name" class="required"><i class="fa fa-user"></i> Name</label>
-        <input class="stored" id="name" type="text" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Name" x-autocompletetype="name-full" tabindex="1" required>
-        <span title="Please enter your Name"></span>
-      </div>
-      <div class="formitem email">
-        <label for="email" class="required"><i class="fa fa-envelope"></i> Email Address</label>
-        <input class="stored" id="email" type="email" name="_replyto" placeholder="milk@cereal.com" x-autocompletetype="email" tabindex="2" required>
-      </div>
+  <div class="hidden"></div>
+  <div class="row">
+    <div class="formitem name">
+      <label for="name" class="required">Name</label>
+      <input id="name" type="text" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Name" x-autocompletetype="name-full" tabindex="1" required>
     </div>
+    <div class="formitem email">
+      <label for="email" class="required">Email Address</label>
+      <input id="email" type="email" name="_replyto" placeholder="milk@cereal.com" x-autocompletetype="email" tabindex="2" required>
+    </div>
+  </div>
 
-    <p>By submitting your picks, you acknowledge that you will pay into the pool as agreed.</p>
+  <p>By submitting your picks, you acknowledge that you will pay into the pool as agreed.</p>
 
-    <!-- Form Housekeeping -->
-    <input type="hidden" id="copy" name="_cc" value="" />
-    <input id="subject" type="hidden" name="_subject" value="New Picks!" />
-    <input type="hidden" name="_next" value="http://officefootball.club/thanks/" />
-    <input type="text" name="_gotcha" style="display:none">
+  <!-- Form Housekeeping -->
+  <input type="hidden" id="copy" name="_cc" value="" />
+  <input id="subject" type="hidden" name="_subject" value="New Picks!" />
+  <input type="hidden" name="_next" value="http://officefootball.club/thanks/" />
+  <input type="text" name="_gotcha" style="display:none">
 
-    <!-- Submit it -->
-    <button class="btn btn-primary" type="submit" name="submit" value="submit">
-      <span>SUBMIT</span>
-    </button>
-    <button type="reset" name="reset" value="reset">
-      <span>CLEAR</span>
-    </button>
-  </form>
-</div>
+  <!-- Submit it -->
+  <button class="btn" type="submit" name="submit" value="submit">SUBMIT</button>
+  <button type="reset" name="reset" value="reset">RESET</button>
+</form>

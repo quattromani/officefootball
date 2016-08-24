@@ -1,0 +1,15 @@
+// Headings
+$heading-font-family: $base-font-family-alt;
+$heading-font-family-alt: $base-font-family;
+$heading-color-primary: $color-brand-primary;
+$heading-color-secondary: $color-brand-secondary;
+$heading-line-height: 1;
+
+$heading-list: (
+  h1   46   400   $heading-font-family        $heading-color-primary       uppercase,
+  h2   36   700   $heading-font-family        $heading-color-secondary     uppercase,
+  h3   30   700   $heading-font-family        $heading-color-secondary     uppercase,
+  h4   20   400   $heading-font-family-alt    $heading-color-secondary     uppercase,
+  h5   18   400   $heading-font-family-alt    $heading-color-primary       uppercase,
+  h6   16   400   $heading-font-family-alt    $heading-color-secondary     uppercase
+);

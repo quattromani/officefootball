@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;AAOI,GAAI;EACF,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,cAAqB;EACpC,gBAAgB,EC+DJ,IAAY;;AD7DxB,cAAW;EACT,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;;AENf,wBAA+B;EFU3B,WAAQ;IACN,UAAU,EAAE,GAAG",
-"sources": ["../scss/partials/nav.scss","../scss/globals/_vars.scss","../scss/globals/_mixins.scss"],
-"names": [],
-"file": "nav.css"
-}

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+// Base
+:root {
+  background: $root-background-color;
+  box-sizing: $root-box-sizing;
+  color: $root-color;
+  cursor: $root-cursor;
+  font-size: $root-font-size;
+  font-family: $root-font-family;
+  font-weight: $root-font-weight;
+
+  @if $body-gradient {
+    background: linear-gradient(to bottom, $body-gradient-start, $body-gradient-end);
+    background-attachment: $site-background-attachment;
+  }
+}
+
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+
+html {
+  height: $html-height;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  @if variable-exists(html-body-overflow) {
+    overflow-x: ($html-body-overflow);
+  }
+}
+
+body {
+  min-height: 100%;
+  background-color: $site-bg;
+  background-repeat: $body-pattern-repeat;
+  background-image: $body-pattern;
+  background-attachment: $site-background-attachment;
+  background-position: $body-pattern-position;
+
+  @include media($tablet) {
+    overflow-x: ($html-body-overflow);
+  }
+
+  @if $body-gradient {
+    background-image: none !important;
+    background-color: unset;
+
+    &:before {
+      @include size(100%);
+      background-image: $body-pattern;
+      position: fixed;
+      display: table-cell;
+      top: 0;
+      content: '';
+      opacity: .9;
+    }
+  }
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  @include font-size($base-font-size);
+  line-height: $base-line-height;
+}
+
+[hidden], template {
+  display: none;
+}
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+  max-width: 100%;
+  vertical-align: if(variable-exists(media-element-vertical-align), $media-element-vertical-align, middle);
+}
+

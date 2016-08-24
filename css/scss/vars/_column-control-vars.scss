@@ -1,0 +1,11 @@
+// Column / Grid Control
+$width: 100%;   // total with of page
+$site-column-count: 12;    // number of columns
+$site-gutter-width: 2%;  // margin between columns
+$marginless: 0;
+
+// Math magic
+$col-width: (($width - ($site-gutter-width * ($site-column-count - 1))) / $site-column-count);
+$col-total-width: ($col-width + $site-gutter-width);
+
+$marginless-col-width: ($width / $site-column-count);

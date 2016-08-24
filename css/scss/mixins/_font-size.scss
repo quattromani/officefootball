@@ -1,0 +1,19 @@
+// Font Size
+@mixin font-size($value, $lh: false) {
+  @if is-length($value) {
+    font-size: $value;
+  } @else {
+    // if IE8 support is needed, a px value will be generated
+    @if $support-legacy {
+      font-size: $value + px;
+    }
+    // a rem value will always be set
+    font-size: $value * .1rem;
+  }
+  // was a line-height specified?
+  @if ($lh) {
+    line-height: $lh;
+  } else {
+    // do not add line-height property
+  }
+}

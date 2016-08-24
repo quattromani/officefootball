@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+.officefootball {
+  .teams {
+    position: relative;
+    display: table;
+    width: 100%;
+
+    &:after {
+      @include center(both);
+      @include size(48px);
+      @include border-radius(50%);
+      @include box-shadow(inset 1px 1px 3px 0 $color-grey);
+      content: 'AT';
+      background-color: $color-white;
+      line-height: 48px;
+      text-align: center;
+    }
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .matches {
+    @include outer-container;
+    margin-bottom: 1em;
+
+    li {
+      @include fill-parent();
+      @include row();
+      margin-bottom: $base-spacing;
+      border-radius: $base-border-radius;
+      border: 1px solid $base-border-color;
+      background-color: $color-white;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+      .half {
+        @include span-columns(6 of 12, table);
+        @include reset-display;
+        text-align: center;
+
+        &:first-child {
+          @include span-columns(6 of 12, table);
+          border-right: 1px solid $base-border-color;
+
+          label {
+            @include border-radius($base-border-radius 0 0 0);
+          }
+        }
+
+        &:last-child {
+          label {
+            @include border-radius(0 $base-border-radius 0 0);
+          }
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    input {
+      &[type="radio"].radio:empty {
+        @include visually-hidden;
+      }
+
+      & ~ label {
+        @include padding($base-spacing $double-spacing);
+        @include grayscale;
+        dispaly: inline-block;
+        width: 100%;
+        font-weight: bold;
+        vertical-align:middle;
+        color: #666;
+        line-height: 50px;
+        text-align: center;
+        -webkit-transition: all 0.2s ease;
+        transition: all .2s -in-out;
+        text-transform: uppercase;
+
+        @include media($mobile) {
+          @include padding($base-spacing);
+          line-height: normal;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:before,
+        &:after {
+          content: none;
+        }
+
+        img {
+          @include media($mobile) {
+            display: block;
+            float: none !important;
+            height: 40px;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      &:checked {
+        & ~ label {
+          @include grayscale(0);
+          @include opacity(1);
+          @each $team, $color-value in $teams {
+            &[for='#{$team}'] {
+              @include box-shadow(inset 0 120px 0 0 $color-value);
+              color: $color-white;
+            }
+          }
+          font-weight: 700;
+
+          img {
+            @include grayscale(0);
+            @include opacity(1);
+          }
+        }
+      }
+
+      &.radio:empty ~ label {
+        text-indent: 0;
+      }
+    }
+
+    .total_score {
+      display: block;
+      margin: .5em auto;
+      text-align: center;
+    }
+
+    input.total_score {
+      @extend .total_score;
+      width: 100px;
+    }
+
+    .scores {
+      .half {
+        @include padding($half-spacing);
+        border-top: 1px solid $base-border-color;
+        text-align: center;
+        overflow: auto;
+      }
+    }
+
+    .period {
+      @include padding($half-spacing);
+      border-top: 1px solid $base-border-color;
+      text-align: center;
+      overflow: auto;
+    }
+
+    .location {
+      @include padding($half-spacing);
+      border-top: 1px solid $base-border-color;
+      text-align: center;
+
+      .tv {
+        display: inline;
+        height: 25px;
+        vertical-align: middle;
+      }
+
+      &.mon {
+        border-bottom: 1px solid $base-border-color;
+      }
+    }
+  }
+
+  &.leaderboard {
+
+    .trophy {
+      @include size(72);
+      margin: 0 auto;
+      background-image: url(/images/trophy.png);
+
+      &:hover {
+        -webkit-animation: rotate 2s forwards;
+        animation: rotate 2s forwards;
+      }
+    }
+
+    @-webkit-keyframes rotate {
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    h2,
+    .player-count,
+    .season-pot,
+    h4 {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    table {
+      tr {
+        display: block;
+        position: relative;
+        margin-bottom: $half-spacing;
+        background-color: lighten($color-primary-green, 10%);
+
+        td {
+          display: inline-block;
+          width: 100%;
+          font-weight: bold;
+          background: $color-primary-green;
+          color: $color-white;
+          white-space: nowrap;
+          overflow: visible;
+        }
+
+        &.header {
+          margin: 0;
+          background: none;
+
+          td {
+            background: none;
+            color: $color-brand-secondary;
+          }
+
+          .rank {
+            border-right: none;
+          }
+        }
+
+        &:last-child {
+          border: none;
+        }
+      }
+    }
+
+    .rank {
+      padding-right: 1em;
+      margin-right: 1em;
+      border-right: 1px solid darkseagreen;
+      font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    }
+
+    .player {
+      text-transform: uppercase;
+    }
+
+    .total {
+      position: absolute;
+      right: 1em;
+
+      &:after {
+        content: attr(data-total);
+        font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+      }
+
+      &:hover {
+        &:after {
+          content: attr(data-pct);
+        }
+      }
+    }
+  }
+
+  .scores {
+    font-weight: bold;
+  }
+
+  .score {
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: $color-white;
+  }
+
+  form {
+    text-align: center;
+  }
+}
+
+.scoreboard {
+  table {
+    display: table;
+    width: 50%;
+    margin: 0 auto .5em;
+    background-color: $color-white;
+
+    @include media($mobile) {
+      width: 100%;
+    }
+
+    tr {
+      display: table-row;
+      width: 100%;
+
+      &:first-of-type {
+        border-bottom: 1px solid $color-light-grey;
+      }
+    }
+
+    td {
+      display: inline-block;
+      width: auto;
+      padding: .5em;
+    }
+  }
+}

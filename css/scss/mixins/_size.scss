@@ -1,0 +1,14 @@
+// Sizing
+@mixin size($w, $h: $w) {
+  @if is-length($w) {
+    width: $w;
+  } @else {
+    width: $w + px;
+  }
+
+  @if is-length($h) {
+    height: $h;
+  } @else {
+    height: $h + px;
+  }
+}

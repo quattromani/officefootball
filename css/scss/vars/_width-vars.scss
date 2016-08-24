@@ -1,0 +1,12 @@
+// Neat Pad
+$pad: $base-spacing;
+
+// Grid settings
+$gutter: ($base-spacing * 3);
+$grid-columns: 12;
+$max-width: 640px;
+
+// Breakpoints
+$desktop: new-breakpoint(min-width 1400px 12);
+$tablet: new-breakpoint(max-width 1399px 12);
+$mobile: new-breakpoint(max-width 750px 4);

@@ -1,0 +1,41 @@
+@mixin icon($icon) {
+  @include font-family($fontawesome);
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  content: $icon;
+  line-height: normal;
+}
+
+@mixin icon-before($icon, $position: relative, $padding: $half-spacing, $font-size: inherit, $color: inherit, $left: null, $float: none) {
+  &::before {
+    @include icon($icon);
+    @include font-size($font-size);
+    float: $float;
+    position: $position;
+    left: $left;
+    margin-right: $padding;
+    color: $color;
+  }
+}
+
+@mixin icon-after($icon, $position: relative, $padding: $half-spacing, $font-size: inherit, $color: inherit, $right: null, $float: none) {
+  &::after {
+    @include icon($icon);
+    float: $float;
+    position: $position;
+    right: $right;
+    margin-left: $padding;
+    font-size: $font-size;
+    color: $color;
+  }
+}
+
+@mixin icon-insert($icon, $font-size: inherit, $color: inherit) {
+  &::after {
+    @include icon($icon);
+    font-size: $font-size;
+    color: $color;
+  }
+}

@@ -1,0 +1,24 @@
+// Buttons
+$base-button-bg: $color-brand-primary;
+$base-button-bg-hover: $color-primary-red;
+$base-button-color: $color-white;
+$base-button-color-hover: $color-white;
+$base-button-padding-t-b: $half-spacing;
+$base-button-padding-l-r: $base-spacing;
+$base-button-border-radius: $base-border-radius;
+$base-button-font-family: $base-font-family;
+$base-button-font-size: $base-font-size;
+$base-button-font-weight: 700;
+$base-button-text-transform: uppercase;
+$base-button-font-weight: 700;
+$base-button-letter-spacing: initial;
+$base-button-focus-bg: $base-button-bg-hover;
+$base-button-disabled-bg: grey;
+
+// =CTA's
+$cta-border-radius: $base-border-radius;
+$cta-border-color: $base-link-color;
+$cta-link-color: $base-link-color;
+$cta-font-family: $heading-font-family;
+$cta-font-size: $base-font-size;
+$cta-font-weight: 700;

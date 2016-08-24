@@ -1,0 +1,108 @@
+// For Styleguide Demo ONLY!! Don't ever ingest this file...EVER!
+
+.styleguide {
+	header {
+		.follow-me {
+			background-color: $color-primary-blue;
+			border: 2px solid $color-primary-blue;
+
+			a {
+				color: $color-white;
+			}
+		}
+	}
+
+	a {
+    &.logo {
+      color: inherit;
+
+      &:hover {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .colors {
+    @include padding($base-spacing);
+    @include border-radius;
+
+    &.color-white {
+      outline: 1px solid lighten($color-light-grey, 30%);
+    }
+
+    @include media($tablet) {
+      margin-bottom: $half-spacing;
+    }
+  }
+
+  .swatch {
+    @include border-radius;
+    margin-bottom: $base-spacing;
+    overflow: auto;
+  }
+
+  .swatch-color {
+    @include padding(3.5em, $base-spacing);
+    position: relative;
+
+    &.color-white {
+      border: 1px solid $color-light-grey;
+      border-bottom: none;
+    }
+
+    &:before,
+    &:after  {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 2em;
+      height: 100%;
+      padding: 1em;
+      background-color: hsla(100, 100, 100, .1);
+    }
+
+    &:after {
+      right: 0;
+      background-color: hsla(0, 0, 0, .1);
+    }
+
+    @include media($mobile) {
+      @include padding(1em, $base-spacing);
+    }
+  }
+
+  .swatch-info {
+    @include padding($half-spacing);
+    border: 1px solid $color-light-grey;
+    border-top: none;
+    background: $color-white;
+    color: $base-font-color;
+    text-align: center;
+
+    p {
+      margin-bottom: $half-spacing;
+
+      &:first-of-type {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .grid {
+    @extend .colors;
+    @include border-radius;
+    background: $color-brand-quaternary;
+
+    &:nth-of-type(even) {
+      background: $color-brand-quinary;
+    }
+  }
+
+  .prettyprint {
+    display: none;
+  }
+
+  .heading-font-family {
+    @include font-family($heading-font-family);
+  }
+}

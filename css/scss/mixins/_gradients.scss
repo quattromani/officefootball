@@ -1,0 +1,12 @@
+// Background Gradients
+@mixin linear-gradient($startColor: $color-dark-grey, $endColor: $color-light-grey) {
+  background-color: $startColor;
+  background-image: linear-gradient(to bottom, $startColor, $endColor);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', EndColorStr='#{$endColor}')";
+}
+
+@mixin horizontal-gradient($startColor, $to, $endColor: 100%) {
+  /* fallback/image non-cover color */
+  background-color: $startColor;
+  background: linear-gradient(to right, $startColor 0%, $to $endColor);
+}

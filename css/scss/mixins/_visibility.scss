@@ -1,0 +1,81 @@
+// Hide and Show Mixins
+
+// Show
+@mixin desktop-shown {
+  @include media($desktop) {
+    display: initial !important;
+  }
+  @include media($tablet) {
+    display: none !important;
+  }
+  @include media($mobile) {
+    display: none !important;
+  }
+}
+
+@mixin tablet-shown {
+  @include media($desktop) {
+    display: none !important;
+  }
+  @include media($tablet) {
+    display: initial !important;
+  }
+  @include media($mobile) {
+    display: none !important;
+  }
+}
+
+@mixin mobile-shown {
+  @include media($desktop) {
+    display: none !important;
+  }
+  @include media($tablet) {
+    display: none !important;
+  }
+  @include media($mobile) {
+    display: initial !important;
+  }
+}
+
+// Hide
+@mixin desktop-hidden {
+  @include media($desktop) {
+    display: none !important;
+  }
+
+  @include media($tablet) {
+    display: initial !important;
+  }
+
+  @include media($mobile) {
+    display: initial !important;
+  }
+}
+
+@mixin tablet-hidden {
+  @include media($desktop) {
+    display: initial !important;
+  }
+
+  @include media($tablet) {
+    display: none !important;
+  }
+
+  @include media($mobile) {
+    display: initial !important;
+  }
+}
+
+@mixin mobile-hidden {
+  @include media($desktop) {
+    display: initial !important;
+  }
+
+  @include media($tablet) {
+    display: initial !important;
+  }
+
+  @include media($mobile) {
+    display: none !important;
+  }
+}

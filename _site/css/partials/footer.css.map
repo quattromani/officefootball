@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;AAOA,MAAO;EACL,aAAa,ECWN,GAAG",
-"sources": ["../scss/partials/footer.scss","../scss/globals/_vars.scss"],
-"names": [],
-"file": "footer.css"
-}
