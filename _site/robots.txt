@@ -1,5 +1,7 @@
-# robots.txt for http://officefootball.club/
+# www.robotstxt.org/
 
+# Allow crawling of all content
 User-agent: *
-Disallow: /Gruntfile.js
-Disallow: /########.sublime-project
+Disallow:
+
+SITEMAP: http://officefootball.club/sitemap.xml
