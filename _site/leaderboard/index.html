@@ -21,6 +21,18 @@
 	<link rel="stylesheet" href="/css/main.css" >
   <script src="https://use.fontawesome.com/9b6cea433b.js"></script>
 
+  <script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "name": "Office Football",
+  "url": "http://officefootball.club/",
+  "logo": "http://officefootball.club/images/logo.svg",
+  "description": "Office Football club is a simple webapp for managing your company's football pool."
+}
+ </script>
+
+
 </head>
 
 <body class="officefootball leaderboard">
@@ -31,19 +43,28 @@
 
 <header role="banner">
   <div class="container">
-    <nav role="navigation">
-  <img class="logo" src="/images/logo.svg" alt="">
-  <div class="btn-group">
-    <a class="btn" href="/">Picks</a>
-
-    <a class="btn" href="/how-to-play">How to Play</a>
-
-    <a class="btn" href="/leaderboard">Leaderboard</a>
-
-    <a class="btn" href="/scores">Scores</a>
-  </div>
+    <div itemscope itemtype="http://schema.org/Organization">
+      <a itemprop="url" href="/">
+        <img itemprop="logo" class="logo" src="/images/logo.svg" alt="">
+      </a>
+    </div>
+    <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+  <ul>
+    <li>
+      <a itemprop="url" class="btn" href="/"><span itemprop="name">Picks</span></a>
+    </li>
+    <li>
+      <a itemprop="url" class="btn" href="/how-to-play"><span itemprop="name">How to Play</span></a>
+    </li>
+    <li>
+      <a itemprop="url" class="btn" href="/leaderboard"><span itemprop="name">Leaderboard</span></a>
+    </li>
+    <li>
+      <a itemprop="url" class="btn" href="/scores"><span itemprop="name">Scores</span></a>
+    </li>
+  </ul>
 </nav>
-
+<!--/.site-navigation -->
 
   </div>
 </header>
@@ -123,6 +144,14 @@
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 <script src="/js/production.min.js"></script>
 
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXXXXX-1');ga('send','pageview');
+    </script>
 
 
 </body>

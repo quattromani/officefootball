@@ -82,7 +82,7 @@ $.ajax({
   success: function(data) {
     console.log(data);
     // Label the week
-    $('<span class="text-center week-nav"><span class="pag prev" data-week="'+parseFloat(week - 1)+'"></span> Week '+parseFloat(week + 1)+' <span class="pag next" data-week="'+parseFloat(week + 1)+'"></span> </span>').appendTo('h1');
+    $('<span class="text-center week-nav"><span class="pag prev" data-week="'+parseFloat(week - 1)+'"></span> Week '+parseFloat(week + 1)+' <span class="pag next" data-week="'+parseFloat(week + 1)+'"></span> </span>').appendTo('#weekly h1');
     if (week == 0) {
       $('.prev').hide();
     } else if (week == 16) {

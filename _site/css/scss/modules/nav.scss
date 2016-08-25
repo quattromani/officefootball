@@ -1,47 +1,44 @@
 @charset "UTF-8";
 
 nav {
-  .btn-group {
-    @include border-radius($base-border-radius);
-    position: relative;
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    white-space: nowrap;
+  display: table;
+  width: 100%;
 
-    @include media($mobile) {
-      display: block;
+  ul {
+    display: table-row;
+  }
+
+  li {
+    @include border-radius(0);
+    display: table-cell;
+    border-left: 1px solid $color-grey;
+
+    &:first-child {
+      @include border-radius($base-border-radius 0 0 $base-border-radius);
+      border-left: none;
     }
 
-    .btn {
-      @include border-radius(0);
-      display: table-cell;
-      width: auto;
-      border-left: 1px solid $color-grey;
+    &:last-child {
+      @include border-radius(0 $base-border-radius $base-border-radius 0);
+    }
+
+    a {
+      width: 100%;
+    }
+
+    @include media($mobile) {
+      @include border-radius;
+      display: block;
+      margin-bottom: $half-spacing;
+      border-left: none;
 
       &:first-child {
-        @include border-radius($base-border-radius 0 0 $base-border-radius);
-        border-left: none;
+        @include border-radius;
       }
 
       &:last-child {
-        @include border-radius(0 $base-border-radius $base-border-radius 0);
-      }
-
-      @include media($mobile) {
         @include border-radius;
-        display: block;
-        margin-bottom: $half-spacing;
-        border-left: none;
-
-        &:first-child {
-          @include border-radius;
-        }
-
-        &:last-child {
-          @include border-radius;
-          margin-bottom: 0;
-        }
+        margin-bottom: 0;
       }
     }
   }
