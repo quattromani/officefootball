@@ -76,11 +76,11 @@ $(document).on('click touchstart', '.pag', function () {
 function getData(week) {
   // Get JSON for schedule
   $('.week-nav').html('');
-$.ajax({
-  dataType: 'json',
-  url: '/json/nfl2016.json',
-  success: function(data) {
-    console.log(data);
+  $.ajax({
+    dataType: 'json',
+    url: '/json/nfl2016.json',
+    success: function(data) {
+      console.log(data);
     // Label the week
     $('<span class="text-center week-nav"><span class="pag prev" data-week="'+parseFloat(week - 1)+'"></span> Week '+parseFloat(week + 1)+' <span class="pag next" data-week="'+parseFloat(week + 1)+'"></span> </span>').appendTo('#weekly h1');
     if (week == 0) {
@@ -113,11 +113,17 @@ $.ajax({
         var minutes = timestamp.getMinutes().pad(2);
         var time = +hours+ ':' +minutes;
 
-        //variabilize the teams
+        // if a game has started, disable it's selection and do not make it required
+        var now = new Date();
+        if (timestamp < now) {
+          $('input').removeAttr('required').attr('disabled', true);
+        }
+
+        // variabilize the teams
         var away = data[week].game_days[i].matches[m].away.nick;
         var home = data[week].game_days[i].matches[m].home.nick;
 
-        // Color the chosen label with team color
+        // color the chosen label with team color
         var labelID;
 
         $('label').click(function() {
@@ -125,7 +131,7 @@ $.ajax({
          console.log(labelID);
        });
 
-        // If Monday add game total inputs
+        // if Monday add game total inputs
         if (day_of_game == 'Mon') {
           $('<li>
             <div class="teams">
