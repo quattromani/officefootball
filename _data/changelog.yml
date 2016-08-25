@@ -23,9 +23,13 @@
   requestor: mquattromani
 
 - version: 1.1.0
-  description: "Added TV Station lisitng"
+  description: "Added TV Station listing"
   requestor: mquattromani
 
 - version: 1.1.1
   description: "Added localstorage for name and email address"
+  requestor: mquattromani
+
+- version: 1.1.2
+  description: "Disable games at start time"
   requestor: mquattromani
