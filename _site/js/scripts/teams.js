@@ -13,12 +13,14 @@
     $('.results').prepend('<strong>'+this.gsx$name.$t+'</strong><p>'+this.gsx$game1.$t+'</p><p>'+this.gsx$game2.$t+'</p>');
   });
 
-var playerCount = entry.length;
-
-var seasonPot = playerCount * 5;
-
+  // count the players
+  var playerCount = entry.length;
   $('.player-count').append("<span>"+playerCount+"</span>");
 
+  // calculate the pot
+  var weeklyPot = playerCount * 5;
+  var seasonPot = ((playerCount * 5) * .1).toFixed(2);
+  $('.weekly-pot').append("<span> $"+weeklyPot+"</span>");
   $('.season-pot').append("<span> $"+seasonPot+"</span>");
 
- });
+});
