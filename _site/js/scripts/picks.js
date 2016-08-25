@@ -129,13 +129,15 @@ $.ajax({
         if (day_of_game == 'Mon') {
           $('<li>
             <div class="teams">
-            <div class="half">
+            <div class="half away">
             <input type="radio" class="radio" id="'+away_id+'" name="Game'+game_id+'" value="'+away+'" required>
-            <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+'" />'+away+'</label>
+            <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+' logo" />'+away+'</label>
+            <span class="standings">0 - 0</span>
             </div>
-            <div class="half">
+            <div class="half home">
             <input type="radio" class="radio" id="'+home_id+'" name="Game'+game_id+'" value="'+home+'" required>
-            <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
+            <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+' logo" />'+home+'</label>
+            <span class="standings">0 - 0</span>
             </div>
             </div>
             <div class="full location mon">
@@ -149,13 +151,15 @@ $.ajax({
           } else { // or don't
           $('<li>
             <div class="teams">
-            <div class="half">
+            <div class="half away">
             <input type="radio" class="radio" id="'+away_id+'" name="Game'+game_id+'" value="'+away+'" required>
-            <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+'" />'+away+'</label>
+            <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+' logo" />'+away+'</label>
+            <span class="standings">0 - 0</span>
             </div>
-            <div class="half">
+            <div class="half home">
             <input type="radio" class="radio" id="'+home_id+'" name="Game'+game_id+'" value="'+home+'" required>
-            <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+'" />'+home+'</label>
+            <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+' logo" />'+home+'</label>
+            <span class="standings">0 - 0</span>
             </div>
             </div>
             <div class="full location">

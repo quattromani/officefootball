@@ -46,6 +46,7 @@
       .half {
         @include span-columns(6 of 12, table);
         @include reset-display;
+        position: relative;
         text-align: center;
 
         &:first-child {
@@ -60,6 +61,17 @@
         &:last-child {
           label {
             @include border-radius(0 $base-border-radius 0 0);
+          }
+        }
+
+        .standings {
+          @include center(horizontal);
+          bottom: 0;
+        }
+
+        input:checked {
+          ~ .standings {
+            color: $color-white;
           }
         }
       }

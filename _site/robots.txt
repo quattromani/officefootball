@@ -1,4 +1,4 @@
-# robots.txt for http://www.########.com/
+# robots.txt for http://officefootball.club/
 
 User-agent: *
 Disallow: /Gruntfile.js

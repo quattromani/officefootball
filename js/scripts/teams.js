@@ -17,7 +17,7 @@ var playerCount = entry.length;
 
 var seasonPot = playerCount * 5;
 
-$('.player-count').append("<span>"+playerCount+"</span>");
+  $('.player-count').append("<span>"+playerCount+"</span>");
 
   $('.season-pot').append("<span> $"+seasonPot+"</span>");
 
