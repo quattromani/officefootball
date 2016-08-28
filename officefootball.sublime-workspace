@@ -285,6 +285,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"textarea",
 			"hover",
 			"\"losses\": 2",
 			"\"wins\": 5,",
@@ -411,8 +412,7 @@
 			"modal",
 			"a ",
 			"code",
-			"layout: patterns",
-			"layout: styleguide"
+			"layout: patterns"
 		],
 		"highlight": true,
 		"in_selection": false,
