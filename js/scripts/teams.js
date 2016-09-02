@@ -18,7 +18,7 @@
   $('.player-count').append("<span>"+playerCount+"</span>");
 
   // calculate the pot
-  var weeklyPot = playerCount * 5;
+  var weeklyPot = ((playerCount * 5) * .9).toFixed(2);
   var seasonPot = ((playerCount * 5) * .1).toFixed(2);
   $('.weekly-pot').append("<span> $"+weeklyPot+"</span>");
   $('.season-pot').append("<span> $"+seasonPot+"</span>");

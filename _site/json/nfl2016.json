@@ -318,6 +318,7 @@
     },
     {
       "id": "16",
+      "last": true,
       "timestamp": "Mon, 12 Sep 2016 22:20:00 -0400",
       "stadium": "Levi's Stadium",
       "tv": "ESPN",
@@ -658,6 +659,7 @@
   "matches": [
     {
       "id": "32",
+      "last": true,
       "timestamp": "Mon, 19 Sep 2016 20:30:00 -0400",
       "stadium": "Soldier Field",
       "tv": "ESPN",
@@ -999,6 +1001,7 @@
   "matches": [
     {
       "id": "48",
+      "last": true,
       "timestamp": "Mon, 26 Sep 2016 20:30:00 -0400",
       "stadium": "Mercedes-Benz Superdome",
       "tv": "ESPN",
@@ -1321,6 +1324,7 @@
   "matches": [
     {
       "id": "63",
+      "last": true,
       "timestamp": "Mon, 03 Oct 2016 20:30:00 -0400",
       "stadium": "U.S. Bank Stadium",
       "tv": "ESPN",
@@ -1622,6 +1626,7 @@
   "matches": [
     {
       "id": "77",
+      "last": true,
       "timestamp": "Mon, 10 Oct 2016 20:30:00 -0400",
       "stadium": "Bank of America Stadium",
       "tv": "ESPN",
@@ -1943,6 +1948,7 @@
   "matches": [
     {
       "id": "92",
+      "last": true,
       "timestamp": "Mon, 17 Oct 2016 20:30:00 -0400",
       "stadium": "University of Phoenix Stadium",
       "tv": "ESPN",
@@ -2263,6 +2269,7 @@
   "matches": [
     {
       "id": "34.23",
+      "last": true,
       "timestamp": "Mon, 20 Oct 2016 20:30:00 -0400",
       "stadium": "Heinz Field",
       "tv": "NBC",
@@ -2583,6 +2590,7 @@
   "matches": [
     {
       "id": "28.6",
+      "last": true,
       "timestamp": "Mon, 27 Oct 2016 20:30:00 -0400",
       "stadium": "AT&T Stadium",
       "tv": "NBC",
@@ -2863,6 +2871,7 @@
   "matches": [
     {
       "id": "11.19",
+      "last": true,
       "timestamp": "Mon, 03 Nov 2016 20:30:00 -0500",
       "stadium": "MetLife Stadium",
       "tv": "CBS",
@@ -3143,6 +3152,7 @@
   "matches": [
     {
       "id": "29.21",
+      "last": true,
       "timestamp": "Mon, 10 Nov 2016 20:30:00 -0500",
       "stadium": "Lincoln Financial Field",
       "tv": "CBS",
@@ -3443,6 +3453,7 @@
   "matches": [
     {
       "id": "23.10",
+      "last": true,
       "timestamp": "Mon, 17 Nov 2016 20:30:00 -0500",
       "stadium": "LP Field",
       "tv": "CBS",
@@ -3763,6 +3774,7 @@
   "matches": [
     {
       "id": "33.18",
+      "last": true,
       "timestamp": "Mon, 24 Nov 2016 20:30:00 -0500",
       "stadium": "Mercedes-Benz Superdome",
       "tv": "CBS",
@@ -4103,6 +4115,7 @@
   "matches": [
     {
       "id": "15.20",
+      "last": true,
       "timestamp": "Mon, 01 Dec 2016 20:30:00 -0500",
       "stadium": "MetLife Stadium",
       "tv": "CBS",
@@ -4443,6 +4456,7 @@
   "matches": [
     {
       "id": "1.9",
+      "last": true,
       "timestamp": "Mon, 08 Dec 2016 20:30:00 -0500",
       "stadium": "Lambeau Field",
       "tv": "CBS",
@@ -4783,6 +4797,7 @@
   "matches": [
     {
       "id": "18.3",
+      "last": true,
       "timestamp": "Mon, 15 Dec 2016 20:30:00 -0500",
       "stadium": "Soldier Field",
       "tv": "CBS",
@@ -5128,6 +5143,7 @@
   "matches": [
     {
       "id": "7.4",
+      "last": true,
       "timestamp": "Mon, 22 Dec 2016 20:30:00 -0500",
       "stadium": "Paul Brown Stadium",
       "tv": "CBS",

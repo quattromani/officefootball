@@ -98,6 +98,7 @@ function getData(week) {
         // variabilize the games
         var game_date = data[week].game_days[i].date;
         var game_id = data[week].game_days[i].matches[m].id;
+        var last_game = data[week].game_days[i].matches[m].last;
         var location = data[week].game_days[i].matches[m].stadium;
         var station = data[week].game_days[i].matches[m].tv;
         var away_id = data[week].game_days[i].matches[m].away.nick;
@@ -132,8 +133,8 @@ function getData(week) {
        });
 
         // if Monday add game total inputs
-        if (day_of_game == 'Mon') {
-          $('<li>
+        if (last_game == true) {
+          $('<h3> &#9835; BUM BUM BUM BUM bada baDUM...</h3><li>
             <div class="teams">
             <div class="half away">
             <input type="radio" class="radio" id="'+away_id+'" name="Game'+game_id+'" value="'+away+'" required>

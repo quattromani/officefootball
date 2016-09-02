@@ -43,6 +43,15 @@
       background-color: $color-white;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
+      &.not-mnf {
+        color: red;
+        &:last-child {
+          &:after {
+            content: 'Monday Night Football';
+          }
+        }
+      }
+
       .half {
         @include span-columns(6 of 12, table);
         @include reset-display;
@@ -67,6 +76,7 @@
         .standings {
           @include center(horizontal);
           bottom: 0;
+          color: $color-dark-grey;
         }
 
         input:checked {
