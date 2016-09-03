@@ -285,6 +285,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mon",
 			"textarea",
 			"hover",
 			"\"losses\": 2",
@@ -411,8 +412,7 @@
 			"../",
 			"modal",
 			"a ",
-			"code",
-			"layout: patterns"
+			"code"
 		],
 		"highlight": true,
 		"in_selection": false,
