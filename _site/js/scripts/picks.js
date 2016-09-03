@@ -134,7 +134,7 @@ function getData(week) {
 
         // if Monday add game total inputs
         if (last_game == true) {
-          $('<h3> &#9835; BUM BUM BUM BUM bada baDUM...</h3><li>
+          $('<h3>Tie-Breaker Game</h3><li>
             <div class="teams">
             <div class="half away">
             <input type="radio" class="radio" id="'+away_id+'" name="Game'+game_id+'" value="'+away+'" required>

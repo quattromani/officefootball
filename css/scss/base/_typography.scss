@@ -33,6 +33,15 @@ i {
   font-style: normal;
 }
 
+code {
+  @include padding($eighth-spacing $fourth-spacing);
+  @include border-radius(5px);
+  @include font-size(14);
+  background-color: $color-white;
+  color: $color-primary-blue;
+  text-transform: lowercase;
+}
+
 blockquote {
   width: 75%;
   padding-left: $base-spacing;

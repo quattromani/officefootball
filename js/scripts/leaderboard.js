@@ -8,14 +8,6 @@ $.ajax({
     var rankGames = 0;
     var counter = 1;
 
-    // Get the number of players in the pool
-    var playerCount = data.length;
-    $('<span>'+playerCount+'</span>').appendTo('.player-count');
-
-    // Set the end of season pool total
-    var seasonPot = '$515';
-    $('<span>'+seasonPot+' USD</span>').appendTo('.season-pot');
-
     var tr;
     data.sort(function(a,b) { return parseFloat(b.total) - parseFloat(a.total) } );
 
