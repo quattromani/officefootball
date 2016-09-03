@@ -139,12 +139,12 @@ function getData(week) {
             <div class="half away">
             <input type="radio" class="radio" id="'+away_id+'" name="Game'+game_id+'" value="'+away+'" required>
             <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+' logo" />'+away+'</label>
-            <span class="standings">0 - 0</span>
+            <span class="standings"></span>
             </div>
             <div class="half home">
             <input type="radio" class="radio" id="'+home_id+'" name="Game'+game_id+'" value="'+home+'" required>
             <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+' logo" />'+home+'</label>
-            <span class="standings">0 - 0</span>
+            <span class="standings"></span>
             </div>
             </div>
             <div class="full location mon">
@@ -161,12 +161,12 @@ function getData(week) {
             <div class="half away">
             <input type="radio" class="radio" id="'+away_id+'" name="Game'+game_id+'" value="'+away+'" required>
             <label for="'+away_id+'"><img src="images/logos/'+away+'.png" style="float: right;" alt="'+away+' logo" />'+away+'</label>
-            <span class="standings">0 - 0</span>
+            <span class="standings"></span>
             </div>
             <div class="half home">
             <input type="radio" class="radio" id="'+home_id+'" name="Game'+game_id+'" value="'+home+'" required>
             <label for="'+home_id+'"><img src="images/logos/'+home+'.png" style="float: left;" alt="'+home+' logo" />'+home+'</label>
-            <span class="standings">0 - 0</span>
+            <span class="standings"></span>
             </div>
             </div>
             <div class="full location">
@@ -182,18 +182,18 @@ function getData(week) {
 
 
 // Get JSON for team records
-// $.ajax({
-//   dataType: 'json',
-//   url: '/json/records.json',
-//   success: function(data) {
+$.ajax({
+  dataType: 'json',
+  url: '/json/records.json',
+  success: function(data) {
 
-//     for (i = 0; i < data.length; i++) {
-//       var wins = data[i].wins;
-//       var ties = data[i].ties;
-//       var losses = data[i].losses;
+    for (i = 0; i < data.length; i++) {
+      var wins = data[i].wins;
+      var ties = data[i].ties;
+      var losses = data[i].losses;
 
-//       var teamRecord = +away_id+(wins+ '-' +ties+ '-' +losses);
-//       $('<div class="row marginless"><div class="half records">'+teamRecord+'</div></div>').appendTo('.teams');
-//     }
-//   }
-// });
+      var teamRecord = +away_id+(wins+ '-' +ties+ '-' +losses);
+      $('<div class="row marginless"><div class="half records">'+teamRecord+'</div></div>').appendTo('.standings');
+    }
+  }
+});

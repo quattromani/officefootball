@@ -5,7 +5,7 @@
     display: table;
     width: 100%;
 
-     table {
+    table {
       @include margin;
       @include padding;
     }
@@ -44,11 +44,19 @@
 
       img {
         @include padding($half-spacing);
+
+        @include media($mobile) {
+          @include padding($half-spacing $fourth-spacing);
+        }
       }
 
       .score {
         @include font-size(40);
-      }
-    }
-  }
+
+        @include media($mobile) {
+         @include font-size(20);
+       }
+     }
+   }
+ }
 }
