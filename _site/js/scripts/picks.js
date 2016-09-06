@@ -182,18 +182,18 @@ function getData(week) {
 
 
 // Get JSON for team records
-$.ajax({
-  dataType: 'json',
-  url: '/json/records.json',
-  success: function(data) {
+// $.ajax({
+//   dataType: 'json',
+//   url: '/json/records.json',
+//   success: function(data) {
 
-    for (i = 0; i < data.length; i++) {
-      var wins = data[i].wins;
-      var ties = data[i].ties;
-      var losses = data[i].losses;
+//     for (i = 0; i < data.length; i++) {
+//       var wins = data[i].wins;
+//       var ties = data[i].ties;
+//       var losses = data[i].losses;
 
-      var teamRecord = +away_id+(wins+ '-' +ties+ '-' +losses);
-      $('<div class="row marginless"><div class="half records">'+teamRecord+'</div></div>').appendTo('.standings');
-    }
-  }
-});
+//       var teamRecord = +away_id+(wins+ '-' +ties+ '-' +losses);
+//       $('<div class="row marginless"><div class="half records">'+teamRecord+'</div></div>').appendTo('.standings');
+//     }
+//   }
+// });
