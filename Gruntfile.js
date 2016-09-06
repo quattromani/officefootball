@@ -46,8 +46,8 @@ module.exports = function(grunt) {
     postcss: {
       options: {
         map: {
-          inline: false, // save all sourcemaps as separate files...
-          annotation: 'css' // ...to the specified directory
+          inline: true, // save all sourcemaps as separate files...
+          annotation: 'css/' // ...to the specified directory
         },
 
         processors: [

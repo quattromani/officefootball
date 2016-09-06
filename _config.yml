@@ -7,6 +7,6 @@ baseurl:
 email: pquattromani@citywidehomeloans.com
 google_analytics: true
 google_analytics_id: UA-50387096-9
-jquery_version: 1.9.0
+jquery_version: 1.12.4
 
 exclude: ['node_modules', 'scss']
