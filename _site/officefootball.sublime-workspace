@@ -289,6 +289,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src=\"images",
+			"cons",
 			"code {",
 			"Sun Life Stadium",
 			"19 Oct",
@@ -414,9 +416,7 @@
 			"New York",
 			"New york giant",
 			"New york giants",
-			"New york jets",
-			".block",
-			"block"
+			"New york jets"
 		],
 		"highlight": true,
 		"in_selection": false,

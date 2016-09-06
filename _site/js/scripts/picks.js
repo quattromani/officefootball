@@ -149,7 +149,7 @@ function getData(week) {
             </div>
             <div class="full">
             <label for="'+game_id+'" class="total_score">Game Total:</label>
-            <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" class="total_score" id="'+game_id+'" name="Score'+game_id+'" placeholder="0">
+            <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" class="total_score" id="'+game_id+'" name="Score'+game_id+'" placeholder="0" required>
             </div>
             </li>').appendTo('.matches');
           } else { // or don't
