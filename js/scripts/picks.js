@@ -70,7 +70,6 @@ getData(week);
 $(document).on('click touchstart', '.pag', function () {
   $('.matches').html('');
   getData($(this).data('week'));
-  console.log($(this).data('week'));
 });
 
 function getData(week) {
