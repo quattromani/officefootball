@@ -138,6 +138,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/_config.yml",
+		"/Users/Q/Sites/officefootball/js/scripts/form.js",
 		"/Users/Q/Sites/officefootball/js/scripts/updates.js",
 		"/Users/Q/Sites/officefootball/how-to-play/index.html",
 		"/Users/Q/Sites/officefootball/css/scss/pages/scores.scss",
@@ -221,7 +223,6 @@
 		"/Users/Q/Sites/officefootball/css/scss/mixins/_radial-out.scss",
 		"/Users/Q/Sites/officefootball/css/scss/vars/_body-vars.scss",
 		"/Users/Q/Sites/officefootball/Gruntfile.js",
-		"/Users/Q/Sites/officefootball/_config.yml",
 		"/Users/Q/Sites/officefootball/thanks_again/index.html",
 		"/Users/Q/Sites/officefootball/js/scripts/main.js",
 		"/Users/Q/Sites/officefootball/index.html",
@@ -264,8 +265,7 @@
 		"/Users/Q/Sites/officefootball/dashboard/index.html",
 		"/Users/Q/Sites/officefootball/js/leaderboard.js",
 		"/Users/Q/Sites/officefootball/json/leaderboard.json",
-		"/Users/Q/Sites/officefootball/js/_styleguide.js",
-		"/Users/Q/Sites/officefootball/js/day_hours.js"
+		"/Users/Q/Sites/officefootball/js/_styleguide.js"
 	],
 	"find":
 	{
@@ -468,18 +468,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
