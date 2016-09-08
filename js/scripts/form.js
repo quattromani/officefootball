@@ -7,8 +7,7 @@ $("#weekly").on("submit", function () {
 $(function() {
   $('#email').change(function() {
     var value = $(this).val();
-    $('#copy').val(value);
-
+    $('#copy').val('max@maxquattromani.com,' + value);
   });
 });
 
