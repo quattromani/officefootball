@@ -11,6 +11,8 @@
   $(entry).each(function(){
     // Column names are name, age, etc.
     $('.results').prepend('<strong>'+this.gsx$name.$t+'</strong><p>'+this.gsx$game1.$t+'</p><p>'+this.gsx$game2.$t+'</p>');
+
+    console.log(this.content.$t);
   });
 
   // count the players
@@ -23,4 +25,9 @@
   $('.weekly-pot').append("<span> $"+weeklyPot+"</span>");
   $('.season-pot').append("<span> $"+seasonPot+"</span>");
 
+  // Pick trends
+
+
 });
+
+
