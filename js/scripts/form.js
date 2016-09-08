@@ -8,6 +8,7 @@ $(function() {
   $('#email').change(function() {
     var value = $(this).val();
     $('#copy').val(value);
+
   });
 });
 
