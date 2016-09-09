@@ -168,7 +168,7 @@ function getData(week) {
         // if a game has started, disable it's selection and do not make it required
         var now = new Date();
         if (now > timestamp) {
-          $('input').removeAttr('required').attr('disabled', true);
+          $('input[type=radio]').removeAttr('required').attr('disabled', true);
           console.log(now);
           console.log(timestamp);
         }
