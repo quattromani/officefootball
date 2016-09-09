@@ -26,23 +26,42 @@
     tr {
       display: block;
       position: relative;
-      margin-bottom: $half-spacing;
+      margin-bottom: $fourth-spacing;
+      background-color: lighten($color-primary-green, 10%);
 
       td {
         display: inline-block;
         width: 100%;
         font-weight: bold;
-        background: none;
-        color: $color-brand-secondary;
+        background: $color-primary-green;
+        color: $color-white;
         white-space: nowrap;
         overflow: visible;
+      }
+
+      &.header {
+        margin: 0;
+        background: none;
+
+        td {
+          background: none;
+          color: $color-brand-secondary;
+        }
+
+        .rank {
+          border-right: none;
+        }
+      }
+
+      &:last-child {
+        border: none;
       }
     }
   }
 
   .rank {
-    padding-right: 1em;
-    margin-right: 1em;
+    padding-right: $half-spacing;
+    margin-right: $half-spacing;
     border-right: 1px solid darkseagreen;
     font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   }
@@ -53,7 +72,8 @@
 
   .total {
     position: absolute;
-    right: 1em;
+    top: $base-spacing;
+    right: $base-spacing;
 
     &:after {
       content: attr(data-total);
