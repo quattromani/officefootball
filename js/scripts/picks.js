@@ -112,12 +112,6 @@ function getData(week) {
         var minutes = timestamp.getMinutes().pad(2);
         var time = +hours+ ':' +minutes;
 
-        // if a game has started, disable it's selection and do not make it required
-        var now = new Date();
-        if (timestamp < now) {
-          $('input').removeAttr('required').attr('disabled', true);
-        }
-
         // variabilize the teams
         var away = data[week].game_days[i].matches[m].away.nick;
         var home = data[week].game_days[i].matches[m].home.nick;
@@ -169,6 +163,14 @@ function getData(week) {
             <div class="full location">
             <strong> '+day_of_game+' '+time+' MST on '+station+'</strong> <span class="mobile-hidden"> - </span> <br class="rwd-break">'+location+'
             </div></li>').appendTo('.matches');
+        }
+
+        // if a game has started, disable it's selection and do not make it required
+        var now = new Date();
+        if (now > timestamp) {
+          $('input').removeAttr('required').attr('disabled', true);
+          console.log(now);
+          console.log(timestamp);
         }
       }
     }
