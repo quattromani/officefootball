@@ -14,21 +14,21 @@
     $('.scores').append('
       <table border="0" cellspacing="0" cellpadding="0">
         <tr>
-          <td data-team="'+visitor+'">
+          <td class="scores-team" data-team="'+visitor+'">
             <table>
               <tr>
-                <td colspan="1.5"><img src="/images/logos/'+visitor+'.png" alt="'+visitor+'" /></td>
-                <td colspan="2">'+visitor+'</td>
-                <td colspan="1" class="score">'+visitorScore+'</td>
+                <td><img src="/images/logos/'+visitor+'.png" alt="'+visitor+'"></td>
+                <td>'+visitor+'</td>
+                <td class="score">'+visitorScore+'</td>
               </tr>
             </table>
           </td>
           <td data-team="'+home+'">
             <table>
               <tr>
-                <td colspan="1.5" class="score">'+homeScore+'</td>
-                <td colspan="2">'+home+'</td>
-                <td colspan="1"><img src="/images/logos/'+home+'.png" alt="'+home+'" /></td>
+                <td class="score">'+homeScore+'</td>
+                <td>'+home+'</td>
+                <td><img src="/images/logos/'+home+'.png" alt="'+home+'"></td>
               </tr>
             </table>
           </td>

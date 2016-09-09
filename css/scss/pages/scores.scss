@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 .scoreboard {
+  .scores {
+    > table {
+      margin-bottom: $fourth-spacing;
+    }
+  }
+
   table {
     display: table;
     width: 100%;
@@ -42,15 +48,25 @@
       text-transform: uppercase;
       vertical-align: middle;
 
+      &.scores-team {
+        width: 50%;
+      }
+
       img {
         @include padding($half-spacing);
+        width: 70px;
 
         @include media($mobile) {
           @include padding($half-spacing $fourth-spacing);
+          width: auto;
+          max-width: 50px;
+          height: auto;
+          max-height: 50px;
         }
       }
 
       .score {
+        @include padding(0 $half-spacing);
         @include font-size(40);
 
         @include media($mobile) {
