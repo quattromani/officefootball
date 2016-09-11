@@ -1,31 +1,31 @@
 [
   {
     "player": "Max Quattromani",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Nancy Putnam",
-    "total": 6
+    "total": 8
   },
   {
     "player": "Michelle Tuttle",
-    "total": 7
+    "total": 9
   },
   {
     "player": "Patti Quattromani",
-    "total": 7
+    "total": 9
   },
   {
     "player": "Tim Murray",
-    "total": 4
-  },
-  {
-    "player": "Tyler Garnett",
     "total": 5
   },
   {
+    "player": "Tyler Garnett",
+    "total": 6
+  },
+  {
     "player": "Paula Ott",
-    "total": 7
+    "total": 9
   },
   {
     "player": "Jill Russell",
@@ -33,63 +33,63 @@
   },
   {
     "player": "Bill Ott",
-    "total": 5
-  },
-  {
-    "player": "Scott Harshman",
-    "total": 3
-  },
-  {
-    "player": "Fat Tom",
     "total": 7
   },
   {
-    "player": "Jeremy Weams",
+    "player": "Scott Harshman",
     "total": 5
+  },
+  {
+    "player": "Fat Tom",
+    "total": 8
+  },
+  {
+    "player": "Jeremy Weams",
+    "total": 6
   },
   {
     "player": "Charlie Dickenson",
-    "total": 5
+    "total": 7
   },
   {
     "player": "Bill Beresford",
-    "total": 5
+    "total": 6
   },
   {
     "player": "Brittany Regan ",
-    "total": 6
+    "total": 7
   },
   {
     "player": "Armando Ibarra",
-    "total": 4
-  },
-  {
-    "player": "Marco Gutierrez",
-    "total": 6
-  },
-  {
-    "player": "Michael Lopez",
-    "total": 6
-  },
-  {
-    "player": "Alyssa Reichard",
-    "total": 6
-  },
-  {
-    "player": "Rachel Kincaid",
-    "total": 6
-  },
-  {
-    "player": "Henry Russell",
-    "total": 4
-  },
-  {
-    "player": "Jordan Quattromani",
     "total": 5
   },
   {
-    "player": "Heather Wackermann",
+    "player": "Marco Gutierrez",
+    "total": 7
+  },
+  {
+    "player": "Michael Lopez",
+    "total": 7
+  },
+  {
+    "player": "Alyssa Reichard",
+    "total": 8
+  },
+  {
+    "player": "Rachel Kincaid",
+    "total": 7
+  },
+  {
+    "player": "Henry Russell",
     "total": 6
+  },
+  {
+    "player": "Jordan Quattromani",
+    "total": 6
+  },
+  {
+    "player": "Heather Wackermann",
+    "total": 7
   },
   {
     "player": "Lauren Livingstone",
@@ -97,18 +97,18 @@
   },
   {
     "player": "Diana Gruneisen",
-    "total": 7
+    "total": 8
   },
   {
     "player": "George Tsoupakis",
-    "total": 6
+    "total": 7
   },
   {
     "player": "Jen Flores",
-    "total": 6
+    "total": 8
   },
   {
     "player": "Norah Lile",
-    "total": 6
+    "total": 4
   }
 ]
