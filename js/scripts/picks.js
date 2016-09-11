@@ -169,8 +169,6 @@ function getData(week) {
         var now = new Date();
         if (now > timestamp) {
           $('input[type=radio]').removeAttr('required').attr('disabled', true);
-          console.log(now);
-          console.log(timestamp);
         }
       }
     }
