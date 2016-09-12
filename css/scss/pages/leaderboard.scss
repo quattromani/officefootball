@@ -29,6 +29,10 @@
       margin-bottom: $fourth-spacing;
       background-color: lighten($color-primary-green, 10%);
 
+      th {
+        color: $color-white;
+      }
+
       td {
         display: inline-block;
         width: 100%;
