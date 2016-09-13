@@ -138,12 +138,14 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/css/scss/pages/leaderboard.scss",
+		"/Users/Q/Sites/officefootball/leaderboard/index.html",
+		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/weather/index.html",
 		"/Users/Q/Sites/officefootball/json/weather2016.json",
 		"/Users/Q/Sites/officefootball/js/scripts/weather.js",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
-		"/Users/Q/Sites/officefootball/css/scss/pages/leaderboard.scss",
 		"/Users/Q/Sites/officefootball/css/scss/elements/_tables.scss",
 		"/Users/Q/Sites/officefootball/js/scripts/leaderboard.js",
 		"/Users/Q/Sites/officefootball/_config.yml",
@@ -205,7 +207,6 @@
 		"/Users/Q/Sites/officefootball/css/scss/mixins/_push-pull.scss",
 		"/Users/Q/Sites/officefootball/css/scss/base/_links.scss",
 		"/Users/Q/Sites/officefootball/css/scss/_pages.scss",
-		"/Users/Q/Sites/officefootball/leaderboard/index.html",
 		"/Users/Q/Sites/officefootball/css/scss/vars/_button-vars.scss",
 		"/Users/Q/Sites/officefootball/css/scss/modules/footer.scss",
 		"/Users/Q/Sites/officefootball/css/scss/vars/_footer-vars.scss",
@@ -264,8 +265,7 @@
 		"/Users/Q/Sites/officefootball/css/scss/partials/pool.scss",
 		"/Users/Q/Sites/officefootball/css/main.css",
 		"/Users/Q/Sites/officefootball/js/updates.js",
-		"/Users/Q/Sites/officefootball/json/nfl2014.json",
-		"/Users/Q/Sites/officefootball/json/nfl2014.min.json"
+		"/Users/Q/Sites/officefootball/json/nfl2014.json"
 	],
 	"find":
 	{
@@ -289,6 +289,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"th",
 			"SF:",
 			"WAS:",
 			"ARI:",
@@ -415,8 +416,7 @@
 			"hidde",
 			"center",
 			"teams",
-			"half",
-			"+home_id+"
+			"half"
 		],
 		"highlight": true,
 		"in_selection": false,
