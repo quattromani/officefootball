@@ -22,7 +22,53 @@
     margin: 0;
   }
 
-  #leaderboard {
+  .leaderboard-quicklinks {
+    display: table;
+    width: 100%;
+
+    ul {
+      display: table-row;
+    }
+
+    li {
+      @include border-radius(0);
+      display: table-cell;
+      border-left: 1px solid $color-grey;
+
+      &:first-child {
+        @include border-radius($base-border-radius 0 0 $base-border-radius);
+        border-left: none;
+      }
+
+      &:last-child {
+        @include border-radius(0 $base-border-radius $base-border-radius 0);
+      }
+
+      a {
+        width: 100%;
+        text-decoration: none;
+      }
+
+      @include media($mobile) {
+        @include border-radius;
+        display: block;
+        margin-bottom: $half-spacing;
+        border-left: none;
+
+        &:first-child {
+          @include border-radius;
+        }
+
+        &:last-child {
+          @include border-radius;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  #season-leaderboard,
+  #weekly-leaderboard {
     tr {
       display: block;
       position: relative;

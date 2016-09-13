@@ -86,19 +86,55 @@
 <br>
 <span class="season-pot">Season Pot: </span>
 
+<!-- <hr>
+
+<nav class="leaderboard-quicklinks">
+  <ul>
+    <li>
+      <a class="btn" href="#weekly-leaders">See Weekly Leaders</a>
+    </li>
+    <li>
+      <a class="btn" href="#season-leaders">See Season Leaders</a>
+    </li>
+  </ul>
+</nav> -->
+
 <hr>
 
-<h4 class="season-total">Season Totals</h4>
+<div class="tab-frame">
+  <input type="radio" checked name="tab" id="tab1">
+  <label for="tab1">See Weekly Leaders</label>
 
-<table id="leaderboard">
-  <tr>
-    <th>
-      <span class="rank">#</span>
-      <span class="player">Player</span>
-      <span class="total">WINS</span>
-    </th>
-  </tr>
-</table>
+  <input type="radio" name="tab" id="tab2">
+  <label for="tab2">See Season Leaders</label>
+
+  <div class="tab">
+    <h4 id="weekly-leaders" class="weekly-total"></h4>
+
+    <table id="weekly-leaderboard">
+      <tr>
+        <th>
+          <span class="rank">#</span>
+          <span class="player">Player</span>
+          <span class="total">WINS</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+  <div class="tab">
+    <h4 id="season-leaders" class="season-total">Season Leaders</h4>
+
+    <table id="season-leaderboard">
+      <tr>
+        <th>
+          <span class="rank">#</span>
+          <span class="player">Player</span>
+          <span class="total">WINS</span>
+        </th>
+      </tr>
+    </table>
+  </div>
+</div>
 
 <hr>
 
