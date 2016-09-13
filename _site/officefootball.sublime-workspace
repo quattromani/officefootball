@@ -138,8 +138,12 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/officefootball/json/leaderboard.json",
+		"/Users/Q/Sites/officefootball/js/scripts/tabs.js",
+		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/css/scss/pages/leaderboard.scss",
+		"/Users/Q/Sites/officefootball/css/scss/components/_tabs.scss",
+		"/Users/Q/Sites/officefootball/css/scss/components/_pills.scss",
+		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/leaderboard/index.html",
 		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/weather/index.html",
@@ -261,11 +265,7 @@
 		"/Users/Q/Sites/officefootball/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_helpers.scss",
-		"/Users/Q/Sites/officefootball/css/scss/partials/helpers.scss",
-		"/Users/Q/Sites/officefootball/css/scss/partials/pool.scss",
-		"/Users/Q/Sites/officefootball/css/main.css",
-		"/Users/Q/Sites/officefootball/js/updates.js",
-		"/Users/Q/Sites/officefootball/json/nfl2014.json"
+		"/Users/Q/Sites/officefootball/css/scss/partials/helpers.scss"
 	],
 	"find":
 	{
@@ -289,6 +289,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
+			"$heading-font",
+			"$site-background",
+			"$border-radius",
+			"itemprop=\"url\" ",
+			"\"total\": ",
+			"\"total\": 12",
+			"$text",
+			"$spacing",
 			"th",
 			"SF:",
 			"WAS:",
@@ -407,16 +416,7 @@
 			"version: ",
 			"\"abbr\": \"stl\",",
 			"\"id\": \"14\",\n            \"abbr\": \"stl\",\n            \"slug\": \"st.-louis-rams\",\n            \"name\": \"St. Louis\",\n            \"nick\": \"Rams\"",
-			"stl",
-			"coli",
-			"rams",
-			"texans",
-			"14 Sep",
-			"11 Sep",
-			"hidde",
-			"center",
-			"teams",
-			"half"
+			"stl"
 		],
 		"highlight": true,
 		"in_selection": false,
