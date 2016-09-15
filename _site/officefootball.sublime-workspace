@@ -138,6 +138,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/tabs.js",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/css/scss/pages/leaderboard.scss",
@@ -202,7 +203,6 @@
 		"/Users/Q/Sites/officefootball/json/standings2016.json",
 		"/Users/Q/Sites/officefootball/json/records.json",
 		"/Users/Q/Sites/officefootball/css/scss/pages/pool.scss",
-		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/getJson.php",
 		"/Users/Q/Sites/officefootball/css/scss/_elements.scss",
 		"/Users/Q/Sites/officefootball/css/scss/mixins/_alignment.scss",
