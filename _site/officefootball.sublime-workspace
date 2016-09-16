@@ -138,6 +138,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/css/scss/modules/nav.scss",
+		"/Users/Q/Sites/officefootball/_data/changelog.yml",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/tabs.js",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
@@ -161,7 +163,6 @@
 		"/Users/Q/Sites/officefootball/css/scss/pages/scores.scss",
 		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
 		"/Users/Q/Sites/officefootball/css/scss/vars/_link-vars.scss",
-		"/Users/Q/Sites/officefootball/css/scss/modules/nav.scss",
 		"/Users/Q/Sites/officefootball/css/scss/elements/_buttons.scss",
 		"/Users/Q/Sites/officefootball/scores/index.html",
 		"/Users/Q/Sites/officefootball/images/logos/SF.png",
@@ -261,7 +262,6 @@
 		"/Users/Q/Sites/officefootball/js/production.js",
 		"/Users/Q/Sites/officefootball/css/main.css.map",
 		"/Users/Q/Sites/officefootball/js/form.js",
-		"/Users/Q/Sites/officefootball/_data/changelog.yml",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_helpers.scss",
