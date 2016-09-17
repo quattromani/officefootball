@@ -350,7 +350,7 @@
         {
           "id": "17",
           "timestamp": "Thu, 15 Sep 2016 20:25:00 -0400",
-          "stadium": "Ralph Wilson Stadium",
+          "stadium": "New Era Field",
           "tv": "CBS",
           "away": {
             "id": "20",
@@ -2928,7 +2928,7 @@
         {
           "id": "12.2",
           "timestamp": "Sun, 09 Nov 2016 13:00:00 -0500",
-          "stadium": "Ralph Wilson Stadium",
+          "stadium": "New Era Field",
           "tv": "CBS",
           "away": {
             "id": "12",
@@ -3630,7 +3630,7 @@
         {
           "id": "20.2",
           "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
-          "stadium": "Ralph Wilson Stadium",
+          "stadium": "New Era Field",
           "tv": "CBS",
           "away": {
             "id": "20",
@@ -3911,7 +3911,7 @@
         {
           "id": "5.2",
           "timestamp": "Sun, 30 Nov 2016 13:00:00 -0500",
-          "stadium": "Ralph Wilson Stadium",
+          "stadium": "New Era Field",
           "tv": "CBS",
           "away": {
             "id": "5",
@@ -4633,7 +4633,7 @@
         {
           "id": "9.2",
           "timestamp": "Sun, 14 Dec 2016 13:00:00 -0500",
-          "stadium": "Ralph Wilson Stadium",
+          "stadium": "New Era Field",
           "tv": "CBS",
           "away": {
             "id": "9",
