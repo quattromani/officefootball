@@ -138,6 +138,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/js/scripts/weather.js",
+		"/Users/Q/Sites/officefootball/json/weather.json",
 		"/Users/Q/Sites/officefootball/css/scss/modules/nav.scss",
 		"/Users/Q/Sites/officefootball/_data/changelog.yml",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
@@ -151,7 +153,6 @@
 		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/weather/index.html",
 		"/Users/Q/Sites/officefootball/json/weather2016.json",
-		"/Users/Q/Sites/officefootball/js/scripts/weather.js",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
 		"/Users/Q/Sites/officefootball/css/scss/elements/_tables.scss",
 		"/Users/Q/Sites/officefootball/js/scripts/leaderboard.js",
@@ -264,12 +265,11 @@
 		"/Users/Q/Sites/officefootball/js/form.js",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/officefootball/css/scss/globals/_mixins.scss",
-		"/Users/Q/Sites/officefootball/css/scss/globals/_helpers.scss",
-		"/Users/Q/Sites/officefootball/css/scss/partials/helpers.scss"
+		"/Users/Q/Sites/officefootball/css/scss/globals/_helpers.scss"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -289,6 +289,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"26 Oct",
+			"new era",
+			"ralph wilson",
+			"Ralph Wilson Stadium",
 			"divisor",
 			"gamestot",
 			"total",
@@ -412,11 +416,7 @@
 			"\"checked\"",
 			"#email",
 			"row",
-			"hover",
-			"size",
-			"90",
-			"></",
-			"version: "
+			"hover"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -453,7 +453,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 40.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -468,11 +468,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -493,7 +500,7 @@
 	"pinned_build_system": "",
 	"replace":
 	{
-		"height": 60.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":

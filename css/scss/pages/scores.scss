@@ -3,7 +3,24 @@
 .scoreboard {
   .scores {
     > table {
+      position: relative;
       margin-bottom: $fourth-spacing;
+
+      &.final {
+        @include grayscale;
+
+        &:after {
+          @include center(both);
+          @include font-size(25);
+          content: 'F';
+          color: $color-white;
+          font-weight: 700;
+
+          @include media($mobile) {
+            @include font-size(15);
+          }
+        }
+      }
     }
   }
 
@@ -48,7 +65,8 @@
       text-transform: uppercase;
       vertical-align: middle;
 
-      &.scores-team {
+      &.visitor-team,
+      &.home-team {
         width: 50%;
       }
 
