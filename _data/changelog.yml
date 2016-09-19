@@ -37,3 +37,7 @@
 - version: 1.1.3
   description: "added 'no-cache' to force updates"
   requestor: mquattromani
+
+- version: 1.1.4
+  description: "added quarters to scores page"
+  requestor: mquattromani

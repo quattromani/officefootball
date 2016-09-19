@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"visit",
+				"visitorScore"
+			],
+			[
+				"visi",
+				"visitorScore"
+			],
+			[
 				"A",
 				"Authority"
 			],
@@ -468,18 +476,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
