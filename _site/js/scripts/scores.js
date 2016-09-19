@@ -5,19 +5,15 @@
     var homeScore = data.gms[i].hs;
     var visitor = data.gms[i].v;
     var visitorScore = data.gms[i].vs;
-    var final = data.gms[i].q;
+    var quarter = data.gms[i].q;
 
     var result = Math.max(homeScore,visitorScore);
     if(result >= 0) {
       $(result).parent().addClass('yourClass');
     };
 
-    if (final == 'F') {
-      $('table').addClass('final');
-    }
-
     $('.scores').append('
-      <table border="0" cellspacing="0" cellpadding="0">
+      <table border="0" cellspacing="0" cellpadding="0" data-quarter="'+quarter+'">
         <tr>
           <td class="visitor-team" data-team="'+visitor+'">
             <table>

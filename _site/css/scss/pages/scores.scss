@@ -6,19 +6,15 @@
       position: relative;
       margin-bottom: $fourth-spacing;
 
-      &.final {
-        @include grayscale;
+      &:after {
+        @include center(both);
+        @include font-size(25);
+        content: attr(data-quarter);
+        color: $color-white;
+        font-weight: 700;
 
-        &:after {
-          @include center(both);
-          @include font-size(25);
-          content: 'F';
-          color: $color-white;
-          font-weight: 700;
-
-          @include media($mobile) {
-            @include font-size(15);
-          }
+        @include media($mobile) {
+          @include font-size(15);
         }
       }
     }
