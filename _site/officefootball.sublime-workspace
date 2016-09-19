@@ -146,10 +146,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/_config.yml",
+		"/Users/Q/Sites/officefootball/_data/changelog.yml",
 		"/Users/Q/Sites/officefootball/js/scripts/weather.js",
 		"/Users/Q/Sites/officefootball/json/weather.json",
 		"/Users/Q/Sites/officefootball/css/scss/modules/nav.scss",
-		"/Users/Q/Sites/officefootball/_data/changelog.yml",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/tabs.js",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
@@ -164,7 +165,6 @@
 		"/Users/Q/Sites/officefootball/_includes/head.html",
 		"/Users/Q/Sites/officefootball/css/scss/elements/_tables.scss",
 		"/Users/Q/Sites/officefootball/js/scripts/leaderboard.js",
-		"/Users/Q/Sites/officefootball/_config.yml",
 		"/Users/Q/Sites/officefootball/js/scripts/players.js",
 		"/Users/Q/Sites/officefootball/js/scripts/form.js",
 		"/Users/Q/Sites/officefootball/js/scripts/updates.js",
