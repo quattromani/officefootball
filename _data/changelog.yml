@@ -41,3 +41,7 @@
 - version: 1.1.4
   description: "added quarters to scores page"
   requestor: mquattromani
+
+- version: 1.1.5
+  description: "season leaderboard reflects record"
+  requestor: mquattromani

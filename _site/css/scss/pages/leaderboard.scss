@@ -127,7 +127,7 @@
     right: $base-spacing;
 
     &:after {
-      content: attr(data-total);
+      content: attr(data-record);
       font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     }
 

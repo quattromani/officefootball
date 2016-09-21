@@ -63,7 +63,7 @@ if (week1 > today) {
 var plus_one = 1;
 var week_number = week + plus_one;
 
-var gamesTotal = 207;
+var gamesTotal = 32;
 
 getData(week);
 

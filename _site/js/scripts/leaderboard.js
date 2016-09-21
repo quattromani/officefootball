@@ -14,6 +14,8 @@ $.ajax({
     for (i = 0; i < data.length; i++) {
 
       var gamesWon = data[i].total;
+      var gamesLost = (gamesTotal - gamesWon);
+      console.log(gamesLost);
 
       if (rankGames != gamesWon) {
         var rank = counter;
@@ -30,7 +32,7 @@ $.ajax({
       var winPct = (gamesWon * divisor).toFixed(2) + "%";
 
       tr = $('<tr/>');
-      tr.append('<td style="width: ' + winPct +'"><span class="rank">' + rank + '</span><span class="player">' + data[i].player + '</span><span class="total right" data-total="' + data[i].total + '" data-pct="' + tdWidth + '"></span></td>');
+      tr.append('<td style="width: ' + winPct +'"><span class="rank">' + rank + '</span><span class="player">' + data[i].player + '</span><span class="total right" data-record="' + gamesWon + ' - ' + gamesLost + '" data-pct="' + tdWidth + '"></span></td>');
       $('#season-leaderboard').append(tr);
 
       counter++;
