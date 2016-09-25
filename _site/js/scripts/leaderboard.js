@@ -73,7 +73,7 @@ $.ajax({
       var winPct = (gamesWon * divisor).toFixed(2) + "%";
 
       tr = $('<tr/>');
-      tr.append('<td style="width: ' + winPct +'"><span class="rank">' + rank + '</span><span class="player">' + data[i].player + '</span><span class="total right" data-total="' + data[i].total + '" data-pct="' + tdWidth + '"></span></td>');
+      tr.append('<td style="width: ' + winPct +'"><span class="rank">' + rank + '</span><span class="player">' + data[i].player + '</span><span class="total right" data-record="' + data[i].total + '" data-pct="' + tdWidth + '"></span></td>');
       $('#weekly-leaderboard').append(tr);
 
       counter++;
