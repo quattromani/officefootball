@@ -188,8 +188,9 @@ function getData(week) {
 //       var wins = data[i].wins;
 //       var ties = data[i].ties;
 //       var losses = data[i].losses;
+//       var team = data[i].team;
 
-//       var teamRecord = +away_id+(wins+ '-' +ties+ '-' +losses);
+//       var teamRecord = +team+(wins+ '-' +ties+ '-' +losses);
 //       $('<div class="row marginless"><div class="half records">'+teamRecord+'</div></div>').appendTo('.standings');
 //     }
 //   }

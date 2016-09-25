@@ -1,162 +1,161 @@
 [{
   "team": "Patriots",
-  "wins": 0,
+  "wins": 3,
   "ties": 0,
   "losses": 0
 }, {
   "team": "Bills",
   "wins": 0,
   "ties": 0,
-  "losses": 0
+  "losses": 2
 }, {
   "team": "Dolphins",
   "wins": 0,
   "ties": 0,
-  "losses": 0
+  "losses": 2
 }, {
   "team": "Jets",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Bengals",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Ravens",
-  "wins": 0,
+  "wins": 2,
   "ties": 0,
   "losses": 0
 }, {
   "team": "Browns",
   "wins": 0,
   "ties": 0,
-  "losses": 0
+  "losses": 2
 }, {
   "team": "Steelers",
-  "wins": 0,
-
+  "wins": 2,
   "ties": 0,
   "losses": 0
 }, {
   "team": "Colts",
   "wins": 0,
-  "ties": 0,
+  "ties": 2,
   "losses": 0
 }, {
   "team": "Texans",
-  "wins": 0,
+  "wins": 2,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Titans",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Jaguars",
   "wins": 0,
   "ties": 0,
-  "losses": 0
+  "losses": 2
 }, {
   "team": "Chargers",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Broncos",
-  "wins": 0,
+  "wins": 2,
   "ties": 0,
   "losses": 0
 }, {
   "team": "Chiefs",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Raiders",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Eagles",
-  "wins": 0,
+  "wins": 2,
   "ties": 0,
   "losses": 0
 }, {
   "team": "Cowboys",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Giants",
-  "wins": 0,
+  "wins": 2,
   "ties": 0,
   "losses": 0
 }, {
   "team": "Redskins",
   "wins": 0,
   "ties": 0,
-  "losses": 0
+  "losses": 2
 }, {
   "team": "Lions",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Packers",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Bears",
   "wins": 0,
   "ties": 0,
-  "losses": 0
+  "losses": 2
 }, {
   "team": "Vikings",
-  "wins": 0,
+  "wins": 2,
   "ties": 0,
   "losses": 0
 }, {
   "team": "Panthers",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Saints",
   "wins": 0,
   "ties": 0,
-  "losses": 0
+  "losses": 2
 }, {
   "team": "Falcons",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Buccaneers",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Cardinals",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "49ers",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Seahawks",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }, {
   "team": "Rams",
-  "wins": 0,
+  "wins": 1,
   "ties": 0,
-  "losses": 0
+  "losses": 1
 }]

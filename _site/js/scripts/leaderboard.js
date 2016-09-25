@@ -15,7 +15,6 @@ $.ajax({
 
       var gamesWon = data[i].total;
       var gamesLost = (gamesTotal - gamesWon);
-      console.log(gamesLost);
 
       if (rankGames != gamesWon) {
         var rank = counter;
