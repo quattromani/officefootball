@@ -146,6 +146,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/css/main.css",
+		"/Users/Q/Sites/officefootball/picks/index.html",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
@@ -271,9 +273,7 @@
 		"/Users/Q/Sites/officefootball/scripts/production.min.js",
 		"/Users/Q/Sites/officefootball/js/production.js",
 		"/Users/Q/Sites/officefootball/css/main.css.map",
-		"/Users/Q/Sites/officefootball/js/form.js",
-		"/Users/Q/Sites/officefootball/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/officefootball/css/scss/globals/_mixins.scss"
+		"/Users/Q/Sites/officefootball/js/form.js"
 	],
 	"find":
 	{
@@ -297,6 +297,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Dolphins",
+			"$teams",
+			"this will be statistics on how this game was picked - coming soon",
+			"span class=\"pct right\" data-how-picked-pct=\"\"></span>",
+			"standin",
+			"<i class=\"fa fa-bar-chart\" aria-hidden=\"true\"></i>",
+			"\"total\": 0",
 			"console",
 			"26 Oct",
 			"new era",
@@ -417,14 +424,7 @@
 			"        \"id\": \"14\",\n        \"abbr\": \"la\",\n        \"slug\": \"st.-louis-rams\",\n        \"name\": \"St. Louis\",\n        \"nick\": \"Rams\"",
 			"rams",
 			"\"abbr\": \"lastl\",",
-			"\"abbr\": \"stl\",",
-			"\"abbr\": \"lar\",",
-			"Sun, 21 Sep",
-			"Sun, 21",
-			"2016-09-18",
-			"\"checked\"",
-			"#email",
-			"row"
+			"\"abbr\": \"stl\","
 		],
 		"highlight": true,
 		"in_selection": false,

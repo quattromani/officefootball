@@ -120,8 +120,24 @@ function getData(week) {
         var labelID;
 
         $('label').click(function() {
-         labelID = $(this).attr('for');
-       });
+          labelID = $(this).attr('for');
+        });
+
+
+
+        $(function() {
+          var loc = document.getElementsByClassName("location");
+          var i;
+
+          for (i = 0; i < loc.length; i++) {
+            loc[i].onclick = function(){
+              this.classList.toggle("active");
+              this.nextElementSibling.classList.toggle("show");
+            }
+          }
+        });
+
+
 
         // if Monday add game total inputs
         if (last_game == true) {
@@ -130,20 +146,39 @@ function getData(week) {
             <div class="half away">
             <input type="radio" class="radio" id="'+away_id+'" name="Game'+game_id+'" value="'+away+'" required>
             <label for="'+away_id+'"><img src="/images/logos/'+away+'.png" style="float: right;" alt="'+away+' logo" />'+away+'</label>
-            <span class="standings"></span>
             </div>
             <div class="half home">
             <input type="radio" class="radio" id="'+home_id+'" name="Game'+game_id+'" value="'+home+'" required>
             <label for="'+home_id+'"><img src="/images/logos/'+home+'.png" style="float: left;" alt="'+home+' logo" />'+home+'</label>
-            <span class="standings"></span>
             </div>
             </div>
             <div class="full location mon">
+            <i class="fa fa-bar-chart" aria-hidden="true"></i>
             <strong> '+day_of_game+' '+time+' MST on '+station+'</strong> <span class="mobile-hidden"> - </span> <br class="rwd-break">'+location+'
+            </div>
+            <div class="full statistics">
+              <div class="half away-stats '+away_id+'">
+                <span class="progress" data-how-picked="">of</span>
+                <span class="pct" data-how-picked-pct="">27%</span>
+              </div>
+              <div class="half home-stats '+home_id+'">
+                <span class="progress left" data-how-picked="">of</span>
+                <span class="pct right" data-how-picked-pct="">27%</span>
+              </div>
             </div>
             <div class="full">
             <label for="'+game_id+'" class="total_score">Game Total:</label>
             <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" class="total_score" id="'+game_id+'" name="Score'+game_id+'" placeholder="0" required>
+            </div>
+            <div class="full statistics">
+              <div class="half away-stats '+away_id+'">
+                <span class="progress" data-how-picked="">of</span>
+                <span class="pct" data-how-picked-pct="">27%</span>
+              </div>
+              <div class="half home-stats '+home_id+'">
+                <span class="progress left" data-how-picked="">of</span>
+                <span class="pct right" data-how-picked-pct="">27%</span>
+              </div>
             </div>
             </li>').appendTo('.matches');
           } else { // or don't
@@ -157,12 +192,23 @@ function getData(week) {
             <div class="half home">
             <input type="radio" class="radio" id="'+home_id+'" name="Game'+game_id+'" value="'+home+'" required>
             <label for="'+home_id+'"><img src="/images/logos/'+home+'.png" style="float: left;" alt="'+home+' logo" />'+home+'</label>
-            <span class="standings"></span>
             </div>
             </div>
             <div class="full location">
+            <i class="fa fa-bar-chart" aria-hidden="true"></i>
             <strong> '+day_of_game+' '+time+' MST on '+station+'</strong> <span class="mobile-hidden"> - </span> <br class="rwd-break">'+location+'
-            </div></li>').appendTo('.matches');
+            </div>
+            <div class="full statistics">
+              <div class="half away-stats '+away_id+'">
+                <span class="progress left" data-how-picked="">of</span>
+                <span class="pct right" data-how-picked-pct="">27%</span>
+              </div>
+              <div class="half home-stats '+home_id+'">
+                <span class="progress left" data-how-picked="">of</span>
+                <span class="pct right" data-how-picked-pct="">27%</span>
+              </div>
+            </div>
+            </li>').appendTo('.matches');
         }
 
         // if a game has started, disable it's selection and do not make it required
@@ -174,7 +220,9 @@ function getData(week) {
     }
   }
 });
-}
+        }
+
+
 
 
 

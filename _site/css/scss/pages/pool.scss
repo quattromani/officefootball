@@ -212,6 +212,49 @@
         border-bottom: 1px solid $base-border-color;
       }
     }
+
+    .fa-bar-chart {
+      float: right;
+      line-height: inherit;
+    }
+
+    .statistics {
+      position: relative;
+      display: none;
+      width: 100%;
+      border-top: 1px solid $base-border-color;
+
+      &.show {
+        display: table;
+      }
+    }
+
+    .progress,
+    .pct {
+      @include padding($half-spacing);
+    }
+
+    .away-stats {
+      position: absolute;
+      display: inline-block;
+      left: 0;
+    }
+
+    .home-stats {
+      position: absolute;
+      display: inline-block;
+      right: 0;
+    }
+  }
+
+  @each $team, $color-value in $teams {
+    .#{$team} {
+      .pct {
+        background-color: $color-value;
+        color: $color-white;
+        font-weight: 700;
+      }
+    }
   }
 }
 
