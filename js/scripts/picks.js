@@ -158,11 +158,11 @@ function getData(week) {
             </div>
             <div class="full statistics">
               <div class="half away-stats '+away_id+'">
-                <span class="progress" data-how-picked="">of</span>
+                <span class="progress" data-how-picked="">stats are coming</span>
                 <span class="pct" data-how-picked-pct="">27%</span>
               </div>
               <div class="half home-stats '+home_id+'">
-                <span class="progress left" data-how-picked="">of</span>
+                <span class="progress left" data-how-picked="">stats are coming</span>
                 <span class="pct right" data-how-picked-pct="">27%</span>
               </div>
             </div>
@@ -172,11 +172,11 @@ function getData(week) {
             </div>
             <div class="full statistics">
               <div class="half away-stats '+away_id+'">
-                <span class="progress" data-how-picked="">of</span>
+                <span class="progress" data-how-picked="">stats are coming</span>
                 <span class="pct" data-how-picked-pct="">27%</span>
               </div>
               <div class="half home-stats '+home_id+'">
-                <span class="progress left" data-how-picked="">of</span>
+                <span class="progress left" data-how-picked="">stats are coming</span>
                 <span class="pct right" data-how-picked-pct="">27%</span>
               </div>
             </div>
@@ -200,11 +200,11 @@ function getData(week) {
             </div>
             <div class="full statistics">
               <div class="half away-stats '+away_id+'">
-                <span class="progress left" data-how-picked="">of</span>
+                <span class="progress left" data-how-picked="">stats are coming</span>
                 <span class="pct right" data-how-picked-pct="">27%</span>
               </div>
               <div class="half home-stats '+home_id+'">
-                <span class="progress left" data-how-picked="">of</span>
+                <span class="progress left" data-how-picked="">stats are coming</span>
                 <span class="pct right" data-how-picked-pct="">27%</span>
               </div>
             </div>
