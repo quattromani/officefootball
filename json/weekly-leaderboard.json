@@ -1,23 +1,23 @@
 [
   {
     "player": "George Tsoupakis",
-    "total": 8
+    "total": 9
   },
   {
     "player": "Marco Gutierrez",
-    "total": 9
+    "total": 10
   },
   {
     "player": "Marie Meyer",
-    "total": 9
+    "total": 10
   },
   {
     "player": "Michael Lopez",
-    "total": 9
+    "total": 10
   },
   {
     "player": "Scott Harshman",
-    "total": 6
+    "total": 7
   },
   {
     "player": "Patti Quattromani",
@@ -25,7 +25,7 @@
   },
   {
     "player": "Tim Murray",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Jordan Quattromani",
@@ -37,35 +37,35 @@
   },
   {
     "player": "Max Quattromani",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Jen Flores",
-    "total": 6
+    "total": 7
   },
   {
     "player": "Lauren Livingstone",
-    "total": 8
+    "total": 9
   },
   {
     "player": "Bill Ott",
-    "total": 7
-  },
-  {
-    "player": "Michelle Tuttle",
-    "total": 7
-  },
-  {
-    "player": "Diana Gruneisen",
-    "total": 6
-  },
-  {
-    "player": "Jill Russell",
     "total": 8
   },
   {
-    "player": "Bill Beresford",
+    "player": "Michelle Tuttle",
+    "total": 8
+  },
+  {
+    "player": "Diana Gruneisen",
+    "total": 7
+  },
+  {
+    "player": "Jill Russell",
     "total": 9
+  },
+  {
+    "player": "Bill Beresford",
+    "total": 10
   },
   {
     "player": "Tom Stafford",
@@ -73,11 +73,11 @@
   },
   {
     "player": "Michelle Lehn",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Charlie Dickenson",
-    "total": 8
+    "total": 9
   },
   {
     "player": "Marvin Alas",
@@ -85,11 +85,11 @@
   },
   {
     "player": "James Masen",
-    "total": 10
+    "total": 11
   },
   {
     "player": "Rachel Sena",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Henry 'Taye Diggs' Russell",
@@ -101,7 +101,7 @@
   },
   {
     "player": "Heather Wackerman",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Paula Ott",
@@ -109,6 +109,6 @@
   },
   {
     "player": "Kayla Riedel",
-    "total": 9
+    "total": 10
   }
 ]
