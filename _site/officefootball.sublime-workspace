@@ -297,6 +297,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"\">of</span>",
 			"Dolphins",
 			"$teams",
 			"this will be statistics on how this game was picked - coming soon",
@@ -423,8 +424,7 @@
 			"\"abbr\": \"lar\",",
 			"        \"id\": \"14\",\n        \"abbr\": \"la\",\n        \"slug\": \"st.-louis-rams\",\n        \"name\": \"St. Louis\",\n        \"nick\": \"Rams\"",
 			"rams",
-			"\"abbr\": \"lastl\",",
-			"\"abbr\": \"stl\","
+			"\"abbr\": \"lastl\","
 		],
 		"highlight": true,
 		"in_selection": false,
