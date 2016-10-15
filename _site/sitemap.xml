@@ -7,7 +7,7 @@
     </url>
     
     <url>
-        <loc>/leaderboard/</loc>
+        <loc>/thanks/</loc>
     </url>
     
     <url>
@@ -23,15 +23,15 @@
     </url>
     
     <url>
-        <loc>/thanks/</loc>
-    </url>
-    
-    <url>
-        <loc>/thanks_again/</loc>
+        <loc>/team-gavin/</loc>
     </url>
     
     <url>
         <loc>/smack-talk/</loc>
+    </url>
+    
+    <url>
+        <loc>/thanks_again/</loc>
     </url>
     
     <url>
@@ -40,6 +40,10 @@
     
     <url>
         <loc>/teams/</loc>
+    </url>
+    
+    <url>
+        <loc>/leaderboard/</loc>
     </url>
     
 </urlset>
