@@ -146,6 +146,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/json/teams.json",
+		"/Users/Q/Sites/officefootball/json/nfl2016.json",
+		"/Users/Q/Sites/officefootball/team-gavin/index.html",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/scripts/form.js",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
@@ -165,7 +168,6 @@
 		"/Users/Q/Sites/officefootball/css/scss/components/_pills.scss",
 		"/Users/Q/Sites/officefootball/json/leaderboard.json",
 		"/Users/Q/Sites/officefootball/leaderboard/index.html",
-		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/weather/index.html",
 		"/Users/Q/Sites/officefootball/json/weather2016.json",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
@@ -271,9 +273,7 @@
 		"/Users/Q/Sites/officefootball/js/production.min.js",
 		"/Users/Q/Sites/officefootball/js/main.js",
 		"/Users/Q/Sites/officefootball/scripts/production.min.js",
-		"/Users/Q/Sites/officefootball/js/production.js",
-		"/Users/Q/Sites/officefootball/css/main.css.map",
-		"/Users/Q/Sites/officefootball/js/form.js"
+		"/Users/Q/Sites/officefootball/js/production.js"
 	],
 	"find":
 	{
@@ -297,6 +297,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sun, 02 Nov",
 			"0  },",
 			"\"total\":",
 			"\"\">of</span>",
@@ -423,8 +424,7 @@
 			" !default",
 			"../../../../../universal_base/",
 			"\"id\": \"14\",",
-			"\"abbr\": \"lar\",",
-			"        \"id\": \"14\",\n        \"abbr\": \"la\",\n        \"slug\": \"st.-louis-rams\",\n        \"name\": \"St. Louis\",\n        \"nick\": \"Rams\""
+			"\"abbr\": \"lar\","
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -476,11 +476,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
