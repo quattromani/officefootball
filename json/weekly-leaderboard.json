@@ -1,75 +1,75 @@
 [
   {
     "player": "Max Quattromani",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Jen Flores",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Marvin Alas",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Jill Russell",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Jordan Quattromani",
-    "total": 5
+    "total": 6
   },
   {
     "player": "Lauren Livingstone",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Tyler Garnett",
-    "total": 6
+    "total": 7
   },
   {
     "player": "Armando Ibarra",
-    "total": 7
+    "total": 8
   },
   {
     "player": "Diana Gruneisen",
-    "total": 7
+    "total": 8
   },
   {
     "player": "George Tsoupakis",
-    "total": 8
-  },
-  {
-    "player": "James Masen",
-    "total": 6
-  },
-  {
-    "player": "Patti Quattromani",
     "total": 9
   },
   {
-    "player": "Bill Beresford",
-    "total": 6
-  },
-  {
-    "player": "Scott Harshman",
-    "total": 8
-  },
-  {
-    "player": "Michelle Tuttle",
+    "player": "James Masen",
     "total": 7
   },
   {
-    "player": "Tim Murray",
+    "player": "Patti Quattromani",
     "total": 10
   },
   {
-    "player": "Marie Meyer",
+    "player": "Bill Beresford",
     "total": 7
   },
   {
+    "player": "Scott Harshman",
+    "total": 9
+  },
+  {
+    "player": "Michelle Tuttle",
+    "total": 8
+  },
+  {
+    "player": "Tim Murray",
+    "total": 11
+  },
+  {
+    "player": "Marie Meyer",
+    "total": 8
+  },
+  {
     "player": "Mike Lopez",
-    "total": 5
+    "total": 6
   },
   {
     "player": "Bill Ott",
@@ -77,7 +77,7 @@
   },
   {
     "player": "Rachel Kincaid",
-    "total":5
+    "total": 6
   },
   {
     "player": "Paula Ott",
@@ -85,11 +85,11 @@
   },
   {
     "player": "Rachel Sena",
-    "total": 8
+    "total": 9
   },
   {
     "player": "Charlie Dickenson",
-    "total": 6
+    "total": 7
   },
   {
     "player": "Heather Wackermann",
@@ -97,14 +97,14 @@
   },
   {
     "player": "Jeremy Weams",
-    "total": 6
-  },
-  {
-    "player": "Kayla Riedel",
     "total": 7
   },
   {
+    "player": "Kayla Riedel",
+    "total": 8
+  },
+  {
     "player": "Tom Stafford",
-    "total": 9
+    "total": 10
   }
 ]
