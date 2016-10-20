@@ -146,14 +146,15 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
+		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
+		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
+		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/json/teams.json",
 		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/team-gavin/index.html",
-		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/scripts/form.js",
-		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/how-to-play/index.html",
-		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
 		"/Users/Q/Sites/officefootball/css/main.css",
 		"/Users/Q/Sites/officefootball/picks/index.html",
 		"/Users/Q/Sites/officefootball/js/scripts/scores.js",
@@ -272,8 +273,7 @@
 		"/Users/Q/Sites/officefootball/js/picks.js",
 		"/Users/Q/Sites/officefootball/js/production.min.js",
 		"/Users/Q/Sites/officefootball/js/main.js",
-		"/Users/Q/Sites/officefootball/scripts/production.min.js",
-		"/Users/Q/Sites/officefootball/js/production.js"
+		"/Users/Q/Sites/officefootball/scripts/production.min.js"
 	],
 	"find":
 	{
