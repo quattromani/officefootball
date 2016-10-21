@@ -297,6 +297,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0  },",
+			"\"total\":",
 			"Sun, 02 Nov",
 			"0  },",
 			"\"total\":",
@@ -422,9 +424,7 @@
 			"$padding",
 			"bp(bp-small)",
 			" !default",
-			"../../../../../universal_base/",
-			"\"id\": \"14\",",
-			"\"abbr\": \"lar\","
+			"../../../../../universal_base/"
 		],
 		"highlight": true,
 		"in_selection": false,
