@@ -1,110 +1,94 @@
 [
   {
-    "player": "Max Quattromani",
-    "total": 7
-  },
-  {
-    "player": "Jen Flores",
-    "total": 7
-  },
-  {
-    "player": "Marvin Alas",
-    "total": 7
-  },
-  {
-    "player": "Jill Russell",
-    "total": 7
-  },
-  {
-    "player": "Jordan Quattromani",
-    "total": 5
-  },
-  {
-    "player": "Lauren Livingstone",
-    "total": 7
-  },
-  {
-    "player": "Tyler Garnett",
-    "total": 6
-  },
-  {
-    "player": "Armando Ibarra",
-    "total": 7
-  },
-  {
-    "player": "Diana Gruneisen",
-    "total": 7
-  },
-  {
-    "player": "George Tsoupakis",
-    "total": 8
-  },
-  {
-    "player": "James Masen",
-    "total": 6
-  },
-  {
-    "player": "Patti Quattromani",
-    "total": 9
-  },
-  {
-    "player": "Bill Beresford",
-    "total": 6
-  },
-  {
-    "player": "Scott Harshman",
-    "total": 8
+    "player": "Tim Murray",
+    "total": 0
   },
   {
     "player": "Michelle Tuttle",
-    "total": 7
+    "total": 0
   },
   {
-    "player": "Tim Murray",
-    "total": 10
-  },
-  {
-    "player": "Marie Meyer",
-    "total": 7
-  },
-  {
-    "player": "Mike Lopez",
-    "total": 5
+    "player": "Bill Beresford",
+    "total": 0
   },
   {
     "player": "Bill Ott",
-    "total": 9
+    "total": 0
   },
   {
-    "player": "Rachel Kincaid",
-    "total":5
+    "player": "Tyler Garnett ",
+    "total": 0
   },
   {
-    "player": "Paula Ott",
-    "total": 7
+    "player": "Marie Meyer",
+    "total": 0
   },
   {
-    "player": "Rachel Sena",
-    "total": 8
+    "player": "Lauren Livingstone",
+    "total": 0
+  },
+  {
+    "player": "Armando Ibarra",
+    "total": 0
+  },
+  {
+    "player": "James Masen",
+    "total": 0
+  },
+  {
+    "player": "Jill Russell",
+    "total": 0
+  },
+  {
+    "player": "Michelle Lehn",
+    "total": 0
   },
   {
     "player": "Charlie Dickenson",
-    "total": 6
+    "total": 0
+  },
+  {
+    "player": "Patti Quattromani",
+    "total": 0
+  },
+  {
+    "player": "Max Quattromani",
+    "total": 0
+  },
+  {
+    "player": "Paula Ott",
+    "total": 0
+  },
+  {
+    "player": "Marvin Alas",
+    "total": 0
+  },
+  {
+    "player": "Paul Lucero",
+    "total": 0
+  },
+  {
+    "player": "George Tsoupakis",
+    "total": 0
+  },
+  {
+    "player": "Paul Lucero, Part Deux",
+    "total": 0
   },
   {
     "player": "Heather Wackermann",
-    "total": 7
-  },
-  {
-    "player": "Jeremy Weams",
-    "total": 6
+    "total": 0
   },
   {
     "player": "Kayla Riedel",
-    "total": 7
+    "total": 0
   },
   {
-    "player": "Tom Stafford",
-    "total": 9
+    "player": "Jordan Quattromani",
+    "total": 0
+  },
+  {
+    "player": "Rachel Sena",
+    "total": 0
   }
 ]

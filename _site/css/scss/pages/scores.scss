@@ -47,6 +47,7 @@
 
       tr {
         @include padding($half-spacing);
+        height: 81px; // magic number
       }
     }
 
