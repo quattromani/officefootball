@@ -146,8 +146,9 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/officefootball/css/scss/pages/scores.scss",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
+		"/Users/Q/Sites/officefootball/_includes/head.html",
+		"/Users/Q/Sites/officefootball/css/scss/pages/scores.scss",
 		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
@@ -172,7 +173,6 @@
 		"/Users/Q/Sites/officefootball/leaderboard/index.html",
 		"/Users/Q/Sites/officefootball/weather/index.html",
 		"/Users/Q/Sites/officefootball/json/weather2016.json",
-		"/Users/Q/Sites/officefootball/_includes/head.html",
 		"/Users/Q/Sites/officefootball/css/scss/elements/_tables.scss",
 		"/Users/Q/Sites/officefootball/js/scripts/leaderboard.js",
 		"/Users/Q/Sites/officefootball/js/scripts/players.js",
@@ -297,6 +297,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"marvin",
+			"\",\n",
+			"Sun, 16 Nov",
 			"09 Nov 2016",
 			"week:\" 10",
 			"0  },",
@@ -421,10 +424,7 @@
 			"half",
 			"class=\"stored\"",
 			"scripts",
-			"$border",
-			"$margin",
-			"$padding",
-			"bp(bp-small)"
+			"$border"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -476,11 +476,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

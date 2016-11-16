@@ -146,9 +146,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
 		"/Users/Q/Sites/officefootball/css/scss/pages/scores.scss",
-		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
@@ -297,6 +297,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"marvin",
 			"\",\n",
 			"Sun, 16 Nov",
 			"09 Nov 2016",
@@ -423,8 +424,7 @@
 			"half",
 			"class=\"stored\"",
 			"scripts",
-			"$border",
-			"$margin"
+			"$border"
 		],
 		"highlight": true,
 		"in_selection": false,
