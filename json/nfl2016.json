@@ -3460,57 +3460,77 @@
   "week": 12,
   "game_days": [
     {
-      "date": "2016-11-20",
+      "date": "2016-11-24",
       "matches": [
         {
-          "id": "12.13",
-          "timestamp": "Thu, 20 Nov 2016 20:25:00 -0500",
-          "stadium": "O.co Coliseum",
+          "id": "162",
+          "timestamp": "Thu, 24 Nov 2016 12:30:00 -0500",
+          "stadium": "Ford Field",
           "tv": "CBS",
           "away": {
-            "id": "12",
-            "abbr": "kc",
-            "slug": "kansas-city-chiefs",
-            "name": "Kansas City",
-            "nick": "Chiefs"
+            "id": "16",
+            "abbr": "min",
+            "slug": "minnesota-vikings",
+            "name": "Minnesota",
+            "nick": "Vikings"
           },
           "home": {
-            "id": "13",
-            "abbr": "oak",
-            "slug": "oakland-raiders",
-            "name": "Oakland",
-            "nick": "Raiders"
+            "id": "8",
+            "abbr": "det",
+            "slug": "detroit-lions",
+            "name": "Detroit",
+            "nick": "Lions"
+          }
+        },
+        {
+          "id": "163",
+          "timestamp": "Sun, 24 Nov 2016 16:30:00 -0500",
+          "stadium": "AT&T Stadium",
+          "tv": "FOX",
+          "away": {
+            "id": "28",
+            "abbr": "wsh",
+            "slug": "washington-redskins",
+            "name": "Washington",
+            "nick": "Redskins"
+          },
+          "home": {
+            "id": "6",
+            "abbr": "dal",
+            "slug": "dallas-cowboys",
+            "name": "Dallas",
+            "nick": "Cowboys"
+          }
+        },
+        {
+          "id": "164",
+          "timestamp": "Sun, 24 Nov 2016 20:30:00 -0500",
+          "stadium": "Lucas Oil Stadium",
+          "tv": "NBC",
+          "away": {
+            "id": "23",
+            "abbr": "pit",
+            "slug": "pittsburgh-steelers",
+            "name": "Pittsburgh",
+            "nick": "Steelers"
+          },
+          "home": {
+            "id": "11",
+            "abbr": "ind",
+            "slug": "indianapolis-colts",
+            "name": "Indianapolis",
+            "nick": "Colts"
           }
         }
       ]
     },
     {
-      "date": "2016-11-23",
+      "date": "2016-11-27",
       "matches": [
         {
-          "id": "5.1",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
-          "stadium": "Georgia Dome",
-          "tv": "CBS",
-          "away": {
-            "id": "5",
-            "abbr": "cle",
-            "slug": "cleveland-browns",
-            "name": "Cleveland",
-            "nick": "Browns"
-          },
-          "home": {
-            "id": "1",
-            "abbr": "atl",
-            "slug": "atlanta-falcons",
-            "name": "Atlanta",
-            "nick": "Falcons"
-          }
-        },
-        {
-          "id": "10.21",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
-          "stadium": "Lincoln Financial Field",
+          "id": "165",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
+          "stadium": "Soldier Field",
           "tv": "CBS",
           "away": {
             "id": "10",
@@ -3520,36 +3540,16 @@
             "nick": "Titans"
           },
           "home": {
-            "id": "21",
-            "abbr": "phi",
-            "slug": "philadelphia-eagles",
-            "name": "Philadelphia",
-            "nick": "Eagles"
+            "id": "3",
+            "abbr": "chi",
+            "slug": "chicago-bears",
+            "name": "Chicago",
+            "nick": "Bears"
           }
         },
         {
-          "id": "8.17",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
-          "stadium": "Gillette Stadium",
-          "tv": "CBS",
-          "away": {
-            "id": "8",
-            "abbr": "det",
-            "slug": "detroit-lions",
-            "name": "Detroit",
-            "nick": "Lions"
-          },
-          "home": {
-            "id": "17",
-            "abbr": "ne",
-            "slug": "new-england-patriots",
-            "name": "New England",
-            "nick": "Patriots"
-          }
-        },
-        {
-          "id": "9.16",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "id": "166",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
           "stadium": "Mall of America Field",
           "tv": "CBS",
           "away": {
@@ -3568,29 +3568,9 @@
           }
         },
         {
-          "id": "30.11",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
+          "id": "167",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
           "stadium": "Lucas Oil Stadium",
-          "tv": "CBS",
-          "away": {
-            "id": "30",
-            "abbr": "jax",
-            "slug": "jacksonville-jaguars",
-            "name": "Jacksonville",
-            "nick": "Jaguars"
-          },
-          "home": {
-            "id": "11",
-            "abbr": "ind",
-            "slug": "indianapolis-colts",
-            "name": "Indianapolis",
-            "nick": "Colts"
-          }
-        },
-        {
-          "id": "4.34",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
-          "stadium": "Reliant Stadium",
           "tv": "CBS",
           "away": {
             "id": "4",
@@ -3600,58 +3580,18 @@
             "nick": "Bengals"
           },
           "home": {
-            "id": "34",
-            "abbr": "hou",
-            "slug": "houston-texans",
-            "name": "Houston",
-            "nick": "Texans"
+            "id": "31",
+            "abbr": "bal",
+            "slug": "baltimore-ravens",
+            "name": "Baltimore",
+            "nick": "Ravens"
           }
         },
         {
-          "id": "20.2",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
-          "stadium": "New Era Field",
-          "tv": "CBS",
-          "away": {
-            "id": "20",
-            "abbr": "nyj",
-            "slug": "new-york-jets",
-            "name": "Jets",
-            "nick": "Jets"
-          },
-          "home": {
-            "id": "2",
-            "abbr": "buf",
-            "slug": "buffalo-bills",
-            "name": "Buffalo",
-            "nick": "Bills"
-          }
-        },
-        {
-          "id": "27.3",
-          "timestamp": "Sun, 23 Nov 2016 13:00:00 -0500",
-          "stadium": "Soldier Field",
-          "tv": "CBS",
-          "away": {
-            "id": "27",
-            "abbr": "tb",
-            "slug": "tampa-bay-buccaneers",
-            "name": "Tampa Bay",
-            "nick": "Buccaneers"
-          },
-          "home": {
-            "id": "3",
-            "abbr": "chi",
-            "slug": "chicago-bears",
-            "name": "Chicago",
-            "nick": "Bears"
-          }
-        },
-        {
-          "id": "22.26",
-          "timestamp": "Sun, 23 Nov 2016 16:05:00 -0500",
-          "stadium": "CenturyLink Field",
-          "tv": "CBS",
+          "id": "168",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
+          "stadium": "Mercedes-Benz Stadium",
+          "tv": "FOX",
           "away": {
             "id": "22",
             "abbr": "ari",
@@ -3660,18 +3600,39 @@
             "nick": "Cardinals"
           },
           "home": {
-            "id": "26",
-            "abbr": "sea",
-            "slug": "seattle-seahawks",
-            "name": "Seattle",
-            "nick": "Seahawks"
+            "id": "1",
+            "abbr": "atl",
+            "slug": "atlanta-falcons",
+            "name": "Atlanta",
+            "nick": "Falcons"
           }
         },
         {
-          "id": "14.24",
-          "timestamp": "Sun, 23 Nov 2016 16:05:00 -0500",
-          "stadium": "Qualcomm Stadium",
-          "tv": "CBS",
+          "id": "169",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
+          "stadium": "FirstEnergy Stadium",
+          "tv": "FOX",
+          "away": {
+            "id": "19",
+            "abbr": "nyg",
+            "slug": "new-york-giants",
+            "name": "NY Giants",
+            "nick": "Giants"
+
+          },
+          "home": {
+            "id": "5",
+            "abbr": "cle",
+            "slug": "cleveland-browns",
+            "name": "Cleveland",
+            "nick": "Browns"
+          }
+        },
+        {
+          "id": "170",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
+          "stadium": "Mercedes-Benz Superdome",
+          "tv": "FOX",
           "away": {
             "id": "14",
             "abbr": "la",
@@ -3680,24 +3641,104 @@
             "nick": "Rams"
           },
           "home": {
-            "id": "24",
-            "abbr": "sd",
-            "slug": "san-diego-chargers",
-            "name": "San Diego",
-            "nick": "Chargers"
+            "id": "18",
+            "abbr": "no",
+            "slug": "new-orleans-saints",
+            "name": "New Orleans",
+            "nick": "Saints"
           }
         },
         {
-          "id": "15.7",
-          "timestamp": "Sun, 23 Nov 2016 16:25:00 -0500",
-          "stadium": "Sports Authority Field at Mile High",
+          "id": "171",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
+          "stadium": "CenturyLink Field",
           "tv": "CBS",
           "away": {
+            "id": "25",
+            "abbr": "sf",
+            "slug": "san-francisco-49ers",
+            "name": "San Francisco",
+            "nick": "49ers"
+          },
+          "home": {
             "id": "15",
             "abbr": "mia",
             "slug": "miami-dolphins",
             "name": "Miami",
             "nick": "Dolphins"
+          }
+        },
+        {
+          "id": "172",
+          "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
+          "stadium": "NRG Stadium",
+          "tv": "CBS",
+          "away": {
+            "id": "24",
+            "abbr": "sd",
+            "slug": "san-diego-chargers",
+            "name": "San Diego",
+            "nick": "Chargers"
+          },
+          "home": {
+            "id": "32",
+            "abbr": "hou",
+            "slug": "houston-texans",
+            "name": "Houston",
+            "nick": "Texans"
+          }
+        },
+        {
+          "id": "173",
+          "timestamp": "Sun, 27 Nov 2016 16:05:00 -0500",
+          "stadium": "Raymond James Stadium",
+          "tv": "FOX",
+          "away": {
+            "id": "26",
+            "abbr": "sea",
+            "slug": "seattle-seahawks",
+            "name": "Seattle",
+            "nick": "Seahawks"
+          },
+          "home": {
+            "id": "27",
+            "abbr": "tb",
+            "slug": "tampa-bay-buccaneers",
+            "name": "Tampa Bay",
+            "nick": "Buccaneers"
+          }
+        },
+        {
+          "id": "174",
+          "timestamp": "Sun, 27 Nov 2016 16:25:00 -0500",
+          "stadium": "Oakland Alameda Coliseum",
+          "tv": "CBS",
+          "away": {
+            "id": "29",
+            "abbr": "car",
+            "slug": "carolina-panthers",
+            "name": "Carolina",
+            "nick": "Panthers"
+          },
+          "home": {
+            "id": "13",
+            "abbr": "oak",
+            "slug": "oakland-raiders",
+            "name": "Oakland",
+            "nick": "Raiders"
+          }
+        },
+        {
+          "id": "175",
+          "timestamp": "Sun, 27 Nov 2016 16:25:00 -0500",
+          "stadium": "Mile High Stadium",
+          "tv": "CBS",
+          "away": {
+            "id": "12",
+            "abbr": "kc",
+            "slug": "kansas-city-chiefs",
+            "name": "Kansas City",
+            "nick": "Chiefs"
           },
           "home": {
             "id": "7",
@@ -3708,69 +3749,49 @@
           }
         },
         {
-          "id": "28.25",
-          "timestamp": "Sun, 23 Nov 2016 16:25:00 -0500",
-          "stadium": "Levi's Stadium",
-          "tv": "CBS",
-          "away": {
-            "id": "28",
-            "abbr": "wsh",
-            "slug": "washington-redskins",
-            "name": "Washington",
-            "nick": "Redskins"
-          },
-          "home": {
-            "id": "25",
-            "abbr": "sf",
-            "slug": "san-francisco-49ers",
-            "name": "San Francisco",
-            "nick": "49ers"
-          }
-        },
-        {
-          "id": "6.19",
-          "timestamp": "Sun, 23 Nov 2016 20:30:00 -0500",
+          "id": "176",
+          "timestamp": "Sun, 27 Nov 2016 20:30:00 -0500",
           "stadium": "MetLife Stadium",
-          "tv": "CBS",
+          "tv": "NBC",
           "away": {
-            "id": "6",
-            "abbr": "dal",
-            "slug": "dallas-cowboys",
-            "name": "Dallas",
-            "nick": "Cowboys"
+            "id": "17",
+            "abbr": "ne",
+            "slug": "new-england-patriots",
+            "name": "New England",
+            "nick": "Patriots"
           },
           "home": {
-            "id": "19",
-            "abbr": "nyg",
-            "slug": "new-york-giants",
-            "name": "Giants",
-            "nick": "Giants"
+            "id": "20",
+            "abbr": "nyj",
+            "slug": "new-york-jets",
+            "name": "NY Jets",
+            "nick": "Jets"
           }
         }
       ]
 },
 {
-  "date": "2016-11-24",
+  "date": "2016-11-28",
   "matches": [
     {
-      "id": "33.18",
+      "id": "177",
       "last": true,
-      "timestamp": "Mon, 24 Nov 2016 20:30:00 -0500",
-      "stadium": "Mercedes-Benz Superdome",
-      "tv": "CBS",
+      "timestamp": "Mon, 28 Nov 2016 20:30:00 -0500",
+      "stadium": "Lincoln Financial Field",
+      "tv": "ESPN",
       "away": {
-        "id": "33",
-        "abbr": "bal",
-        "slug": "baltimore-ravens",
-        "name": "Baltimore",
-        "nick": "Ravens"
+        "id": "9",
+        "abbr": "gb",
+        "slug": "green-bay-packers",
+        "name": "Green Bay",
+        "nick": "Packers"
       },
       "home": {
-        "id": "18",
-        "abbr": "no",
-        "slug": "new-orleans-saints",
-        "name": "New Orleans",
-        "nick": "Saints"
+        "id": "21",
+        "abbr": "phi",
+        "slug": "philadelphia-eagles",
+        "name": "Philadelphia",
+        "nick": "Eagles"
       }
     }
   ]

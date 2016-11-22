@@ -297,6 +297,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"23 No",
+			"23 Nov ",
 			"marvin",
 			"\",\n",
 			"Sun, 16 Nov",
@@ -422,9 +424,7 @@
 			"form",
 			"labe",
 			"half",
-			"class=\"stored\"",
-			"scripts",
-			"$border"
+			"class=\"stored\""
 		],
 		"highlight": true,
 		"in_selection": false,
