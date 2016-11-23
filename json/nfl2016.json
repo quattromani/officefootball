@@ -3550,21 +3550,21 @@
         {
           "id": "166",
           "timestamp": "Sun, 27 Nov 2016 13:00:00 -0500",
-          "stadium": "Mall of America Field",
+          "stadium": "New Era Field",
           "tv": "CBS",
           "away": {
-            "id": "9",
-            "abbr": "gb",
-            "slug": "green-bay-packers",
-            "name": "Green Bay",
-            "nick": "Packers"
+            "id": "30",
+            "abbr": "jax",
+            "slug": "jacksonville-jaguars",
+            "name": "Jacksonville",
+            "nick": "Jaguars"
           },
           "home": {
-            "id": "16",
-            "abbr": "min",
-            "slug": "minnesota-vikings",
-            "name": "Minnesota",
-            "nick": "Vikings"
+            "id": "2",
+            "abbr": "buf",
+            "slug": "buffalo-bills",
+            "name": "Buffalo",
+            "nick": "Bills"
           }
         },
         {
