@@ -1,7 +1,7 @@
 [
   {
     "player": "Max Quattromani",
-    "total": 100
+    "total": 112
   },
   {
     "player": "Nancy Putnam",
@@ -9,23 +9,23 @@
   },
   {
     "player": "Michelle Tuttle",
-    "total": 98
+    "total": 109
   },
   {
     "player": "Patti Quattromani",
-    "total": 97
+    "total": 109
   },
   {
     "player": "Tim Murray",
-    "total": 98
+    "total": 110
   },
   {
     "player": "Tyler Garnett",
-    "total": 95
+    "total": 108
   },
   {
     "player": "Paula Ott",
-    "total": 10
+    "total": 102
   },
   {
     "player": "Jill Russell",
@@ -33,7 +33,7 @@
   },
   {
     "player": "Bill Ott",
-    "total": 86
+    "total": 95
   },
   {
     "player": "Scott Harshman",
@@ -49,11 +49,11 @@
   },
   {
     "player": "Charlie Dickenson",
-    "total": 90
+    "total": 102
   },
   {
     "player": "Bill Beresford",
-    "total": 102
+    "total": 115
   },
   {
     "player": "Brittany Regan",
@@ -61,7 +61,7 @@
   },
   {
     "player": "Armando Ibarra",
-    "total": 84
+    "total": 94
   },
   {
     "player": "Marco Gutierrez",
@@ -85,15 +85,15 @@
   },
   {
     "player": "Jordan Quattromani",
-    "total": 92
-  },
-  {
-    "player": "Heather Wackermann",
     "total": 101
   },
   {
+    "player": "Heather Wackermann",
+    "total": 112
+  },
+  {
     "player": "Lauren Livingstone",
-    "total": 92
+    "total": 105
   },
   {
     "player": "Diana Gruneisen",
@@ -101,7 +101,7 @@
   },
   {
     "player": "George Tsoupakis",
-    "total": 97
+    "total": 110
   },
   {
     "player": "Jen Flores",
@@ -121,26 +121,26 @@
   },
   {
     "player": "Marvin Alas",
-    "total": 78
+    "total": 88
   },
   {
     "player": "Rachel Sena",
-    "total": 79
+    "total": 91
   },
   {
     "player": "Michelle Lehn",
-    "total": 52
+    "total": 64
   },
   {
     "player": "Kayla Riedel",
-    "total": 80
+    "total": 89
   },
   {
     "player": "Marie Meyer",
-    "total": 81
+    "total": 93
   },
   {
     "player": "James Masen",
-    "total": 76
+    "total": 88
   }
 ]
