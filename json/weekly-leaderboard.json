@@ -1,55 +1,55 @@
 [
   {
     "player": "Tim Murray",
-    "total": 12
-  },
-  {
-    "player": "Michelle Tuttle",
-    "total": 11
-  },
-  {
-    "player": "Bill Beresford",
-    "total": 13
-  },
-  {
-    "player": "Bill Ott",
-    "total": 9
-  },
-  {
-    "player": "Tyler Garnett",
-    "total": 13
-  },
-    {
-    "player": "Michelle Lehn",
-    "total": 12
-  },
-  {
-    "player": "Marie Meyer",
-    "total": 12
-  },
-  {
-    "player": "Lauren Livingstone",
-    "total": 13
-  },
-  {
-    "player": "Armando Ibarra",
     "total": 10
   },
   {
+    "player": "Michelle Tuttle",
+    "total": 10
+  },
+  {
+    "player": "Bill Beresford",
+    "total": 8
+  },
+  {
+    "player": "Bill Ott",
+    "total": 7
+  },
+  {
+    "player": "Tyler Garnett",
+    "total": 8
+  },
+    {
+    "player": "Michelle Lehn",
+    "total": 10
+  },
+  {
+    "player": "Marie Meyer",
+    "total": 6
+  },
+  {
+    "player": "Lauren Livingstone",
+    "total": 10
+  },
+  {
+    "player": "Armando Ibarra",
+    "total": 8
+  },
+  {
     "player": "James Masen",
-    "total": 12
+    "total": 10
   },
   {
     "player": "Charlie Dickenson",
-    "total": 12
+    "total": 7
   },
   {
     "player": "Patti Quattromani",
-    "total": 12
+    "total": 11
   },
   {
     "player": "Max Quattromani",
-    "total": 12
+    "total": 9
   },
   {
     "player": "Paula Ott",
@@ -57,11 +57,11 @@
   },
   {
     "player": "Marvin Alas",
-    "total": 10
+    "total": 6
   },
   {
     "player": "George Tsoupakis",
-    "total": 13
+    "total": 12
   },
   {
     "player": "Heather Wackermann",
@@ -69,14 +69,22 @@
   },
   {
     "player": "Kayla Riedel",
-    "total": 9
+    "total": 11
   },
   {
     "player": "Jordan Quattromani",
-    "total": 12
+    "total": 9
   },
   {
     "player": "Rachel Sena",
-    "total": 12
+    "total": 10
+  },
+  {
+    "player": "Blase Lai Hipp",
+    "total": 10
+  },
+  {
+    "player": "Jill Russell",
+    "total": 10
   }
 ]
