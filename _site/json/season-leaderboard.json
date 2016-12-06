@@ -1,7 +1,7 @@
 [
   {
     "player": "Max Quattromani",
-    "total": 112
+    "total": 122
   },
   {
     "player": "Nancy Putnam",
@@ -9,31 +9,31 @@
   },
   {
     "player": "Michelle Tuttle",
-    "total": 109
+    "total": 120
   },
   {
     "player": "Patti Quattromani",
-    "total": 109
+    "total": 121
   },
   {
     "player": "Tim Murray",
-    "total": 110
+    "total": 120
   },
   {
     "player": "Tyler Garnett",
-    "total": 108
+    "total": 117
   },
   {
     "player": "Paula Ott",
-    "total": 102
+    "total": 112
   },
   {
     "player": "Jill Russell",
-    "total": 87
+    "total": 97
   },
   {
     "player": "Bill Ott",
-    "total": 95
+    "total": 103
   },
   {
     "player": "Scott Harshman",
@@ -49,11 +49,11 @@
   },
   {
     "player": "Charlie Dickenson",
-    "total": 102
+    "total": 109
   },
   {
     "player": "Bill Beresford",
-    "total": 115
+    "total": 124
   },
   {
     "player": "Brittany Regan",
@@ -85,15 +85,15 @@
   },
   {
     "player": "Jordan Quattromani",
-    "total": 101
+    "total": 111
   },
   {
     "player": "Heather Wackermann",
-    "total": 112
+    "total": 123
   },
   {
     "player": "Lauren Livingstone",
-    "total": 105
+    "total": 116
   },
   {
     "player": "Diana Gruneisen",
@@ -101,7 +101,7 @@
   },
   {
     "player": "George Tsoupakis",
-    "total": 110
+    "total": 122
   },
   {
     "player": "Jen Flores",
@@ -121,26 +121,30 @@
   },
   {
     "player": "Marvin Alas",
-    "total": 88
+    "total": 94
   },
   {
     "player": "Rachel Sena",
-    "total": 91
+    "total": 102
   },
   {
     "player": "Michelle Lehn",
-    "total": 64
+    "total": 74
   },
   {
     "player": "Kayla Riedel",
-    "total": 89
+    "total": 101
   },
   {
     "player": "Marie Meyer",
-    "total": 93
+    "total": 100
   },
   {
     "player": "James Masen",
-    "total": 88
+    "total": 98
+  },
+  {
+    "player": "Blase Lai Hipp",
+    "total": 20
   }
 ]

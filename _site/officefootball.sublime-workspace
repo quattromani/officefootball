@@ -146,14 +146,14 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
-		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
+		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
+		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
+		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
 		"/Users/Q/Sites/officefootball/css/scss/pages/scores.scss",
 		"/Users/Q/Sites/officefootball/json/teams.json",
-		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/team-gavin/index.html",
 		"/Users/Q/Sites/officefootball/js/scripts/form.js",
 		"/Users/Q/Sites/officefootball/how-to-play/index.html",
@@ -297,6 +297,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sun, 07 Dec",
+			"Thu, 04 Dec",
 			"30 Nov",
 			"23 No",
 			"23 Nov ",
@@ -422,9 +424,7 @@
 			"\",\n",
 			"28 Sep",
 			"td",
-			"form",
-			"labe",
-			"half"
+			"form"
 		],
 		"highlight": true,
 		"in_selection": false,
