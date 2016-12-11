@@ -4,7 +4,7 @@ header {
   border-bottom: 1px solid $header-border-color;
   background-color: $header-bg;
 
-  .logo {
+  [itemprop="logo"] {
     margin-bottom: $half-spacing;
   }
 }
