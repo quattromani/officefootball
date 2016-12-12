@@ -1,11 +1,7 @@
 [
   {
     "player": "Tim Murray",
-    "total": 10
-  },
-  {
-    "player": "Michelle Tuttle",
-    "total": 11
+    "total": 9
   },
   {
     "player": "Bill Beresford",
@@ -13,43 +9,43 @@
   },
   {
     "player": "Bill Ott",
-    "total": 8
-  },
-  {
-    "player": "Tyler Garnett",
-    "total": 9
-  },
-    {
-    "player": "Michelle Lehn",
-    "total": 10
-  },
-  {
-    "player": "Marie Meyer",
-    "total": 7
-  },
-  {
-    "player": "Lauren Livingstone",
     "total": 11
   },
   {
-    "player": "Armando Ibarra",
-    "total": 9
+    "player": "Tyler Garnett",
+    "total": 7
   },
-  {
-    "player": "James Masen",
-    "total": 10
-  },
-  {
-    "player": "Charlie Dickenson",
+    {
+    "player": "Michelle Lehn",
     "total": 7
   },
   {
+    "player": "Marie Meyer",
+    "total": 11
+  },
+  {
+    "player": "Lauren Livingstone",
+    "total": 8
+  },
+  {
+    "player": "Armando Ibarra",
+    "total": 8
+  },
+  {
+    "player": "James Masen",
+    "total": 8
+  },
+  {
+    "player": "Charlie Dickenson",
+    "total": 8
+  },
+  {
     "player": "Patti Quattromani",
-    "total": 12
+    "total": 10
   },
   {
     "player": "Max Quattromani",
-    "total": 10
+    "total": 12
   },
   {
     "player": "Paula Ott",
@@ -57,34 +53,46 @@
   },
   {
     "player": "Marvin Alas",
-    "total": 6
+    "total": 11
   },
   {
     "player": "George Tsoupakis",
-    "total": 12
+    "total": 8
   },
   {
     "player": "Heather Wackermann",
-    "total": 11
+    "total": 10
   },
   {
     "player": "Kayla Riedel",
-    "total": 12
+    "total": 5
   },
   {
     "player": "Jordan Quattromani",
-    "total": 10
+    "total": 7
   },
   {
     "player": "Rachel Sena",
-    "total": 11
+    "total": 8
   },
   {
     "player": "Blase Lai Hipp",
-    "total": 11
+    "total": 10
+  },
+    {
+    "player": "Blase Lai Hipp 2",
+    "total": 9
   },
   {
     "player": "Jill Russell",
-    "total": 10
+    "total": 8
+  },
+  {
+    "player": "Jaime Rodriguez",
+    "total": 8
+  },
+  {
+    "player": "Michelle Tuttle",
+    "total": 8
   }
 ]
