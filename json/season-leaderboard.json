@@ -1,7 +1,7 @@
 [
   {
     "player": "Max Quattromani",
-    "total": 122
+    "total": 135
   },
   {
     "player": "Nancy Putnam",
@@ -9,31 +9,31 @@
   },
   {
     "player": "Michelle Tuttle",
-    "total": 120
+    "total": 129
   },
   {
     "player": "Patti Quattromani",
-    "total": 121
+    "total": 132
   },
   {
     "player": "Tim Murray",
-    "total": 120
+    "total": 129
   },
   {
     "player": "Tyler Garnett",
-    "total": 117
+    "total": 125
   },
   {
     "player": "Paula Ott",
-    "total": 112
+    "total": 123
   },
   {
     "player": "Jill Russell",
-    "total": 97
+    "total": 106
   },
   {
     "player": "Bill Ott",
-    "total": 103
+    "total": 125
   },
   {
     "player": "Scott Harshman",
@@ -49,11 +49,11 @@
   },
   {
     "player": "Charlie Dickenson",
-    "total": 109
+    "total": 118
   },
   {
     "player": "Bill Beresford",
-    "total": 124
+    "total": 134
   },
   {
     "player": "Brittany Regan",
@@ -61,7 +61,7 @@
   },
   {
     "player": "Armando Ibarra",
-    "total": 94
+    "total": 103
   },
   {
     "player": "Marco Gutierrez",
@@ -85,15 +85,15 @@
   },
   {
     "player": "Jordan Quattromani",
-    "total": 111
+    "total": 119
   },
   {
     "player": "Heather Wackermann",
-    "total": 123
+    "total": 134
   },
   {
     "player": "Lauren Livingstone",
-    "total": 116
+    "total": 125
   },
   {
     "player": "Diana Gruneisen",
@@ -101,7 +101,7 @@
   },
   {
     "player": "George Tsoupakis",
-    "total": 122
+    "total": 131
   },
   {
     "player": "Jen Flores",
@@ -121,7 +121,7 @@
   },
   {
     "player": "Marvin Alas",
-    "total": 94
+    "total": 106
   },
   {
     "player": "Rachel Sena",
@@ -129,22 +129,26 @@
   },
   {
     "player": "Michelle Lehn",
-    "total": 74
+    "total": 82
   },
   {
     "player": "Kayla Riedel",
-    "total": 101
+    "total": 107
   },
   {
     "player": "Marie Meyer",
-    "total": 100
+    "total": 112
   },
   {
     "player": "James Masen",
-    "total": 98
+    "total": 107
   },
   {
     "player": "Blase Lai Hipp",
-    "total": 20
+    "total": 31
+  },
+  {
+    "player": "Blase Lai Hipp 2",
+    "total": 10
   }
 ]
