@@ -3,47 +3,47 @@
     
     
     <url>
-        <loc>/404.html</loc>
+        <loc>http://localhost:4000/404.html</loc>
     </url>
     
     <url>
-        <loc>/thanks/</loc>
+        <loc>http://localhost:4000/team-gavin/</loc>
     </url>
     
     <url>
-        <loc>/</loc>
+        <loc>http://localhost:4000/scores/</loc>
     </url>
     
     <url>
-        <loc>/how-to-play/</loc>
+        <loc>http://localhost:4000/sitemap/</loc>
     </url>
     
     <url>
-        <loc>/scores/</loc>
+        <loc>http://localhost:4000/smack-talk/</loc>
     </url>
     
     <url>
-        <loc>/team-gavin/</loc>
+        <loc>http://localhost:4000/leaderboard/</loc>
     </url>
     
     <url>
-        <loc>/smack-talk/</loc>
+        <loc>http://localhost:4000/</loc>
     </url>
     
     <url>
-        <loc>/thanks_again/</loc>
+        <loc>http://localhost:4000/thanks/</loc>
     </url>
     
     <url>
-        <loc>/sitemap/</loc>
+        <loc>http://localhost:4000/thanks_again/</loc>
     </url>
     
     <url>
-        <loc>/teams/</loc>
+        <loc>http://localhost:4000/how-to-play/</loc>
     </url>
     
     <url>
-        <loc>/leaderboard/</loc>
+        <loc>http://localhost:4000/teams/</loc>
     </url>
     
 </urlset>

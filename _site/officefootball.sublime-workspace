@@ -297,6 +297,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sun, 14 Dec",
+			", 14 Dec",
 			"Sun, 07 Dec",
 			"Thu, 04 Dec",
 			"30 Nov",
@@ -422,9 +424,7 @@
 			"></",
 			"Phoenix Stadium\"",
 			"\",\n",
-			"28 Sep",
-			"td",
-			"form"
+			"28 Sep"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -476,11 +476,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

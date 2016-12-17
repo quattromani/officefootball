@@ -4493,7 +4493,7 @@
       "matches": [
         {
           "id": "210",
-          "timestamp": "Thu, 17 Dec 2016 20:25:00 -0500",
+          "timestamp": "Sat, 17 Dec 2016 20:25:00 -0500",
           "stadium": "MetLife Stadium",
           "tv": "NFL",
           "away": {
@@ -4784,7 +4784,7 @@
     {
       "id": "224",
       "last": true,
-      "timestamp": "Mon, 15 Dec 2016 20:30:00 -0500",
+      "timestamp": "Mon, 19 Dec 2016 20:30:00 -0500",
       "stadium": "FedExField",
       "tv": "ESPN",
       "away": {
