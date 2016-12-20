@@ -146,11 +146,11 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/officefootball/js/scripts/nav.js",
 		"/Users/Q/Sites/officefootball/json/nfl2016.json",
-		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
-		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
+		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
+		"/Users/Q/Sites/officefootball/js/scripts/nav.js",
+		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
 		"/Users/Q/Sites/officefootball/css/scss/pages/scores.scss",
