@@ -14,8 +14,8 @@ var week13 = new Date('11/29/2016');
 var week14 = new Date('12/6/2016');
 var week15 = new Date('12/13/2016');
 var week16 = new Date('12/20/2016');
-var week17 = new Date('12/27/2017');
-var week18 = new Date('1/3/2017');
+var week17 = new Date('12/27/2016');
+var week18 = new Date('12/31/2017');
 
 var today = new Date();
 if (week1 > today) {
