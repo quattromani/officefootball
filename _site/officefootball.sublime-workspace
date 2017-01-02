@@ -297,6 +297,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"01 Jan 2017",
+			"Sun, 28 Dec 2016",
 			"ott",
 			"Sun, 14 Dec",
 			", 14 Dec",
@@ -422,9 +424,7 @@
 			"id",
 			"data[week]",
 			"var ",
-			"></",
-			"Phoenix Stadium\"",
-			"\",\n"
+			"></"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -476,11 +476,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
