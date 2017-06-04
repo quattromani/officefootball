@@ -19,7 +19,7 @@ $(document).on('submit', '#weekly', function () {
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycby7D7lSIU3gBfX7m7jgRC5HcGj402jOHbDosFYUamBRWEX-PZE9/exec",
+        url: "https://script.google.com/a/macros/maxquattromani.com/s/AKfycby7D7lSIU3gBfX7m7jgRC5HcGj402jOHbDosFYUamBRWEX-PZE9/exec",
         type: "post",
         data: serializedData
     });
