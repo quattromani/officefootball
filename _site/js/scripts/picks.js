@@ -1,20 +1,20 @@
 var week1 = new Date();
-var week2 = new Date('9/13/2016');
-var week3 = new Date('9/20/2016');
-var week4 = new Date('9/27/2016');
-var week5 = new Date('10/4/2016');
-var week6 = new Date('10/11/2016');
-var week7 = new Date('10/18/2016');
-var week8 = new Date('10/25/2016');
-var week9 = new Date('11/1/2016');
-var week10 = new Date('11/08/2016');
-var week11 = new Date('11/15/2016');
-var week12 = new Date('11/22/2016');
-var week13 = new Date('11/29/2016');
-var week14 = new Date('12/6/2016');
-var week15 = new Date('12/13/2016');
-var week16 = new Date('12/20/2016');
-var week17 = new Date('12/27/2016');
+var week2 = new Date('9/07/2017');
+var week3 = new Date('9/14/2017');
+var week4 = new Date('9/21/2017');
+var week5 = new Date('9/28/2017');
+var week6 = new Date('10/05/2017');
+var week7 = new Date('10/12/2017');
+var week8 = new Date('10/19/2017');
+var week9 = new Date('10/26/2017');
+var week10 = new Date('11/02/2017');
+var week11 = new Date('11/09/2017');
+var week12 = new Date('11/16/2017');
+var week13 = new Date('11/23/2017');
+var week14 = new Date('11/30/2017');
+var week15 = new Date('12/07/2017');
+var week16 = new Date('12/14/2017');
+var week17 = new Date('12/23/2017');
 var week18 = new Date('12/31/2017');
 
 var today = new Date();
@@ -77,7 +77,7 @@ function getData(week) {
   $('.week-nav').html('');
   $.ajax({
     dataType: 'json',
-    url: '/json/nfl2016.json',
+    url: '/json/nfl2017.json',
     success: function(data) {
     // Label the week
     $('<span class="text-center week-nav"><span class="pag prev" data-week="'+parseFloat(week - 1)+'"></span> Week '+parseFloat(week + 1)+' <span class="pag next" data-week="'+parseFloat(week + 1)+'"></span> </span>').appendTo('#weekly h1');
@@ -97,7 +97,7 @@ function getData(week) {
         var game_date = data[week].game_days[i].date;
         var game_id = data[week].game_days[i].matches[m].id;
         var last_game = data[week].game_days[i].matches[m].last;
-        var location = data[week].game_days[i].matches[m].stadium;
+        var location = data[week].game_days[i].matches[m].home.stadium;
         var station = data[week].game_days[i].matches[m].tv;
         var away_id = data[week].game_days[i].matches[m].away.nick;
         var home_id = data[week].game_days[i].matches[m].home.nick;

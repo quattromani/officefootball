@@ -2,227 +2,222 @@
 "abbr": "atl",
 "slug": "atlanta-falcons",
 "name": "Atlanta",
-"nick": "Falcons"
+"nick": "Falcons",
+"stadium": "Mercedes-Benz Stadium"
 
 "id": "2",
 "abbr": "buf",
 "slug": "buffalo-bills",
 "name": "Buffalo",
-"nick": "Bills"
+"nick": "Bills",
+"stadium": "New Era Field"
 
 "id": "3",
 "abbr": "chi",
 "slug": "chicago-bears",
 "name": "Chicago",
-"nick": "Bears"
+"nick": "Bears",
+"stadium": "Soldier Field"
 
 "id": "4",
 "abbr": "cin",
 "slug": "cincinnati-bengals",
 "name": "Cincinnati",
-"nick": "Bengals"
+"nick": "Bengals",
+"stadium": "Paul Brown Stadium"
 
 "id": "5",
 "abbr": "cle",
 "slug": "cleveland-browns",
 "name": "Cleveland",
-"nick": "Browns"
+"nick": "Browns",
+"stadium": "FirstEnergy Stadium"
 
 "id": "6",
 "abbr": "dal",
 "slug": "dallas-cowboys",
 "name": "Dallas",
-"nick": "Cowboys"
+"nick": "Cowboys",
+"stadium": "AT&T Stadium"
 
 "id": "7",
 "abbr": "den",
 "slug": "denver-broncos",
 "name": "Denver",
-"nick": "Broncos"
+"nick": "Broncos",
+"stadium": "Sports Authority Field at Mile High"
 
 "id": "8",
 "abbr": "det",
 "slug": "detroit-lions",
 "name": "Detroit",
-"nick": "Lions"
+"nick": "Lions",
+"stadium": "Ford Field"
 
 "id": "9",
 "abbr": "gb",
 "slug": "green-bay-packers",
 "name": "Green Bay",
-"nick": "Packers"
+"nick": "Packers",
+"stadium": "Lambeau Field"
 
 "id": "10",
 "abbr": "ten",
 "slug": "tennessee-titans",
 "name": "Tennessee",
-"nick": "Titans"
+"nick": "Titans",
+"stadium": "Nissan Stadium"
 
 "id": "11",
 "abbr": "ind",
 "slug": "indianapolis-colts",
 "name": "Indianapolis",
-"nick": "Colts"
+"nick": "Colts",
+"stadium": "Lucas Oil Stadium"
 
 "id": "12",
 "abbr": "kc",
 "slug": "kansas-city-chiefs",
 "name": "Kansas City",
-"nick": "Chiefs"
+"nick": "Chiefs",
+"stadium": "Arrowhead Stadium"
 
 "id": "13",
 "abbr": "oak",
 "slug": "oakland-raiders",
 "name": "Oakland",
-"nick": "Raiders"
+"nick": "Raiders",
+"stadium": "Oakland–Alameda County Coliseum"
 
 "id": "14",
 "abbr": "la",
 "slug": "la-rams",
 "name": "LA Rams",
-"nick": "Rams"
+"nick": "Rams",
+"stadium": "Los Angeles Memorial Coliseum"
 
 "id": "15",
 "abbr": "mia",
 "slug": "miami-dolphins",
 "name": "Miami",
-"nick": "Dolphins"
+"nick": "Dolphins",
+"stadium": "Hard Rock Stadium"
 
 "id": "16",
 "abbr": "min",
 "slug": "minnesota-vikings",
 "name": "Minnesota",
-"nick": "Vikings"
+"nick": "Vikings",
+"stadium": "U.S. Bank Stadium"
 
 "id": "17",
 "abbr": "ne",
 "slug": "new-england-patriots",
 "name": "New England",
-"nick": "Patriots"
+"nick": "Patriots",
+"stadium": "Gillette Stadium"
 
 "id": "18",
 "abbr": "no",
 "slug": "new-orleans-saints",
 "name": "New Orleans",
-"nick": "Saints"
+"nick": "Saints",
+"stadium": "Mercedes-Benz Superdome"
 
 "id": "19",
 "abbr": "nyg",
 "slug": "new-york-giants",
 "name": "NY Giants",
-"nick": "Giants"
+"nick": "Giants",
+"stadium": "MetLife Stadium"
 
 "id": "20",
 "abbr": "nyj",
 "slug": "new-york-jets",
 "name": "NY Jets",
-"nick": "Jets"
+"nick": "Jets",
+"stadium": "MetLife Stadium"
 
 "id": "21",
 "abbr": "phi",
 "slug": "philadelphia-eagles",
 "name": "Philadelphia",
-"nick": "Eagles"
+"nick": "Eagles",
+"stadium": "Lincoln Financial Field"
 
 "id": "22",
 "abbr": "ari",
 "slug": "arizona-cardinals",
 "name": "Arizona",
-"nick": "Cardinals"
+"nick": "Cardinals",
+"stadium": "University of Phoenix Stadium"
 
 "id": "23",
 "abbr": "pit",
 "slug": "pittsburgh-steelers",
 "name": "Pittsburgh",
-"nick": "Steelers"
+"nick": "Steelers",
+"stadium": "Heinz Field"
 
 "id": "24",
 "abbr": "sd",
-"slug": "san-diego-chargers",
-"name": "San Diego",
-"nick": "Chargers"
+"slug": "los-angles-chargers",
+"name": "Los Angeles Chargers",
+"nick": "Chargers",
+"stadium": "StubHub Center"
 
 "id": "25",
 "abbr": "sf",
 "slug": "san-francisco-49ers",
 "name": "San Francisco",
-"nick": "49ers"
+"nick": "49ers",
+"stadium": "Levi's Stadium"
 
 "id": "26",
 "abbr": "sea",
 "slug": "seattle-seahawks",
 "name": "Seattle",
-"nick": "Seahawks"
+"nick": "Seahawks",
+"stadium": "CenturyLink Field"
 
 "id": "27",
 "abbr": "tb",
 "slug": "tampa-bay-buccaneers",
 "name": "Tampa Bay",
-"nick": "Buccaneers"
+"nick": "Buccaneers",
+"stadium": "Raymond James Stadium"
 
 "id": "28",
 "abbr": "wsh",
 "slug": "washington-redskins",
 "name": "Washington",
-"nick": "Redskins"
+"nick": "Redskins",
+"stadium": "FedExField"
 
 "id": "29",
 "abbr": "car",
 "slug": "carolina-panthers",
 "name": "Carolina",
-"nick": "Panthers"
+"nick": "Panthers",
+"stadium": "Bank of America Stadium"
 
 "id": "30",
 "abbr": "jax",
 "slug": "jacksonville-jaguars",
 "name": "Jacksonville",
-"nick": "Jaguars"
+"nick": "Jaguars",
+"stadium": "EverBank Field"
 
 "id": "31",
 "abbr": "bal",
 "slug": "baltimore-ravens",
 "name": "Baltimore",
-"nick": "Ravens"
+"nick": "Ravens",
+"stadium": "M&T Bank Stadium"
 
 "id": "32",
 "abbr": "hou",
 "slug": "houston-texans",
 "name": "Houston",
-"nick": "Texans"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"nick": "Texans",
+"stadium": "NRG Stadium"

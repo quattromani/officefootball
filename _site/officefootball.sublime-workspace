@@ -147,9 +147,9 @@
 	"file_history":
 	[
 		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
-		"/Users/Q/Sites/officefootball/json/nfl2016.json",
-		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
+		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
+		"/Users/Q/Sites/officefootball/json/nfl2016.json",
 		"/Users/Q/Sites/officefootball/js/scripts/nav.js",
 		"/Users/Q/Sites/officefootball/json/weekly-leaderboard.json",
 		"/Users/Q/Sites/officefootball/_includes/head.html",
@@ -476,18 +476,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
