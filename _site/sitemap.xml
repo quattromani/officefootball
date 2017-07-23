@@ -7,7 +7,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/team-gavin/</loc>
+        <loc>http://localhost:4000/leaderboard/</loc>
     </url>
     
     <url>
@@ -23,11 +23,11 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/leaderboard/</loc>
+        <loc>http://localhost:4000/team-gavin/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/</loc>
+        <loc>http://localhost:4000/teams/</loc>
     </url>
     
     <url>
@@ -39,11 +39,11 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/how-to-play/</loc>
+        <loc>http://localhost:4000/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/teams/</loc>
+        <loc>http://localhost:4000/how-to-play/</loc>
     </url>
     
 </urlset>

@@ -153,33 +153,14 @@ function getData(week) {
             </div>
             </div>
             <div class="full location mon">
-            <i class="fa fa-bar-chart" aria-hidden="true"></i>
             <strong> '+day_of_game+' '+time+' MST on '+station+'</strong> <span class="mobile-hidden"> - </span> <br class="rwd-break">'+location+'
             </div>
-            <div class="full statistics">
-              <div class="half away-stats '+away_id+'">
-                <span class="progress" data-how-picked="">stats are coming</span>
-                <span class="pct" data-how-picked-pct="">27%</span>
-              </div>
-              <div class="half home-stats '+home_id+'">
-                <span class="progress left" data-how-picked="">stats are coming</span>
-                <span class="pct right" data-how-picked-pct="">27%</span>
-              </div>
-            </div>
+
             <div class="full">
             <label for="'+game_id+'" class="total_score">Game Total:</label>
             <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" class="total_score" id="'+game_id+'" name="Score'+game_id+'" placeholder="0" required>
             </div>
-            <div class="full statistics">
-              <div class="half away-stats '+away_id+'">
-                <span class="progress" data-how-picked="">stats are coming</span>
-                <span class="pct" data-how-picked-pct="">27%</span>
-              </div>
-              <div class="half home-stats '+home_id+'">
-                <span class="progress left" data-how-picked="">stats are coming</span>
-                <span class="pct right" data-how-picked-pct="">27%</span>
-              </div>
-            </div>
+
             </li>').appendTo('.matches');
           } else { // or don't
           $('<li>
@@ -195,18 +176,7 @@ function getData(week) {
             </div>
             </div>
             <div class="full location">
-            <i class="fa fa-bar-chart" aria-hidden="true"></i>
             <strong> '+day_of_game+' '+time+' MST on '+station+'</strong> <span class="mobile-hidden"> - </span> <br class="rwd-break">'+location+'
-            </div>
-            <div class="full statistics">
-              <div class="half away-stats '+away_id+'">
-                <span class="progress left" data-how-picked="">stats are coming</span>
-                <span class="pct right" data-how-picked-pct="">27%</span>
-              </div>
-              <div class="half home-stats '+home_id+'">
-                <span class="progress left" data-how-picked="">stats are coming</span>
-                <span class="pct right" data-how-picked-pct="">27%</span>
-              </div>
             </div>
             </li>').appendTo('.matches');
         }
