@@ -1,5 +1,5 @@
 var week1 = new Date();
-var week2 = new Date('9/07/2017');
+var week2 = new Date('7/07/2017');
 var week3 = new Date('9/14/2017');
 var week4 = new Date('9/21/2017');
 var week5 = new Date('9/28/2017');
