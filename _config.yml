@@ -11,3 +11,6 @@ google_analytics_id: UA-50387096-9
 jquery_version: 1.12.4
 
 exclude: ['node_modules', 'scss']
+
+# formspree
+formspree-verify: xyydnbax

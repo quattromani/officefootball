@@ -146,6 +146,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/lifebinder/app/signup/signup.html",
 		"/Users/Q/Sites/officefootball/json/season-leaderboard.json",
 		"/Users/Q/Sites/officefootball/js/scripts/teams.js",
 		"/Users/Q/Sites/officefootball/js/scripts/picks.js",
@@ -272,8 +273,7 @@
 		"/Users/Q/Sites/officefootball/css/scss/_components.scss",
 		"/Users/Q/Sites/officefootball/css/scss/_features.scss",
 		"/Users/Q/Sites/officefootball/js/picks.js",
-		"/Users/Q/Sites/officefootball/js/production.min.js",
-		"/Users/Q/Sites/officefootball/js/main.js"
+		"/Users/Q/Sites/officefootball/js/production.min.js"
 	],
 	"find":
 	{
@@ -281,9 +281,11 @@
 	},
 	"find_in_files":
 	{
-		"height": 126.0,
+		"height": 170.0,
 		"where_history":
 		[
+			"/Users/Q/Sites/officefootball/",
+			"/Users/Q/Sites/officefootball/statistics",
 			"<project>",
 			"/Users/Q/Sites",
 			"/Users/Q/Sites/maxquattromani",
@@ -297,6 +299,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bar",
+			"statist",
 			"Sun, 25 Sep",
 			"Sun, 18 Sep 2017",
 			"Thu, 15 Sep",
@@ -422,9 +426,7 @@
 			"$border-radius",
 			"itemprop=\"url\" ",
 			"\"total\": ",
-			"\"total\": 12",
-			"$text",
-			"$spacing"
+			"\"total\": 12"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -476,25 +478,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
 			1.0
 		],
 		"rows":
