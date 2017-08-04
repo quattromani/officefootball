@@ -299,6 +299,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$width",
 			"bar",
 			"statist",
 			"Sun, 25 Sep",
@@ -425,8 +426,7 @@
 			"$site-background",
 			"$border-radius",
 			"itemprop=\"url\" ",
-			"\"total\": ",
-			"\"total\": 12"
+			"\"total\": "
 		],
 		"highlight": true,
 		"in_selection": false,
