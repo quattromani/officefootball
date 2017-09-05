@@ -30,7 +30,10 @@
   <meta name="robots" content="{{ page.index }}INDEX,{{ page.follow }}FOLLOW">
   <meta name="viewport" content="width=device-width, minimal-ui">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" >
+  <style>
+  {% include css/main.css %}
+  </style>
+
   <script src="https://use.fontawesome.com/9b6cea433b.js"></script>
 
   {% include schema_org.html %}

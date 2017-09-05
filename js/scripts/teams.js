@@ -9,18 +9,14 @@
   var entry = data.feed.entry;
 
   // count the players
-  var playerCount = entry.length;
-  $('.player-count').append("<span>"+playerCount+"</span>");
+  if(entry != null && entry.length < 1) {
+    var playerCount = entry.length;
+    $('.player-count').append("<span>"+playerCount+"</span>");
 
-  // calculate the pot
-  var weeklyPot = ((playerCount * 5) * .9).toFixed(2);
-  var seasonPot = '210.50';
-  $('.weekly-pot').append("<span> $"+weeklyPot+"</span>");
-  $('.season-pot').append("<span> $"+seasonPot+"</span>");
-
-  // Pick trends
-
-
+    // calculate the pot
+    var weeklyPot = ((playerCount * 5) * .9).toFixed(2);
+    var seasonPot = '';
+    $('.weekly-pot').append("<span> $"+weeklyPot+"</span>");
+    $('.season-pot').append("<span> $"+seasonPot+"</span>");
+  }
 });
-
-
